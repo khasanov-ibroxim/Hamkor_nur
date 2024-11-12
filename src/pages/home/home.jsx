@@ -238,17 +238,7 @@ const Home = () => {
                 <span className="home_section7_opacity"></span>
             </section>
 
-            <section className="home_section8 container overflow-hidden">
-                <div className="row d-flex justify-content-between">
-                    <div className="col-lg-8 home_section8_text" data-aos="fade-right">
-                        <h2>Found Something Interesting?</h2>
-                        <p>WE CAN MAKE ANYTHING YOU CAN IMAGINE!</p>
-                    </div>
-                    <div className="col-lg-4 home_section8_button" data-aos="fade-left">
-                        <a href="#">Contact Us</a>
-                    </div>
-                </div>
-            </section>
+
         </>
 
     );

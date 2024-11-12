@@ -37,8 +37,8 @@ const Navbar = () => {
                     <ul>
                         <li className={isActive(HOME)}><Link to={HOME}>Home</Link></li>
                         <li className={isActive(ABOUT)}><Link to={ABOUT}>About us</Link></li>
-                        <li className={isActive(CONTACT)}><Link to={CONTACT}>Contact</Link></li>
                         <li className={isActive(PRODUCTS)}><Link to={PRODUCTS}>Products</Link></li>
+                        <li className={isActive(CONTACT)}><Link to={CONTACT}>Contact</Link></li>
                     </ul>
                 </div>
                 <div className="navburger" onClick={toggleMenu}>
