@@ -1,20 +1,20 @@
 import React from 'react';
 import "./home.css";
-import home_s3_1 from "../../assets/imgs/home/home_s3_1.png"
-import home_s3_2 from "../../assets/imgs/home/home_s3_2.png"
-import home_s3_3 from "../../assets/imgs/home/home_s3_3.png"
-import home_s3_4 from "../../assets/imgs/home/home_s3_4.png"
-import home_s3_5 from "../../assets/imgs/home/home_s3_5.png"
-import home_s3_6 from "../../assets/imgs/home/home_s3_6.png"
+import home_s3_1 from "../../assets/home/home_s3_1.webp"
+import home_s3_2 from "../../assets/home/home_s3_2.webp"
+import home_s3_3 from "../../assets/home/home_s3_3.webp"
+import home_s3_4 from "../../assets/home/home_s3_4.webp"
+import home_s3_5 from "../../assets/home/home_s3_5.webp"
+import home_s3_6 from "../../assets/home/home_s3_6.webp"
 
-import home_s4_1 from "../../assets/imgs/home/home_s4_1.png"
-import home_s4_2 from "../../assets/imgs/home/home_s4_2.png"
-import home_s4_3 from "../../assets/imgs/home/home_s4_3.png"
-import home_s4_4 from "../../assets/imgs/home/home_s4_4.png"
-import home_s4_5 from "../../assets/imgs/home/home_s4_5.png"
-import home_s4_6 from "../../assets/imgs/home/home_s4_6.png"
+import home_s4_1 from "../../assets/home/home_s4_1.webp"
+import home_s4_2 from "../../assets/home/home_s4_2.webp"
+import home_s4_3 from "../../assets/home/home_s4_3.webp"
+import home_s4_4 from "../../assets/home/home_s4_4.webp"
+import home_s4_5 from "../../assets/home/home_s4_5.webp"
+import home_s4_6 from "../../assets/home/home_s4_6.webp"
 
-import home_s5 from "../../assets/imgs/home/home_s5.png"
+import home_s5 from "../../assets/home/home_s5.webp"
 
 
 const Home = () => {

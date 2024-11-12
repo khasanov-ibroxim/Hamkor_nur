@@ -1,7 +1,7 @@
 import React, {useCallback, useEffect, useRef, useState} from 'react';
 import "./about.css"
-import about_s2_1 from "../../assets/imgs/about/about_s2_1.png"
-import about_s2_2 from "../../assets/imgs/about/about_s2_2.png"
+import about_s2_1 from "../../assets/about/about_s2_1.webp"
+import about_s2_2 from "../../assets/about/about_s2_2.webp"
 
 const About = () => {
     const [count1, setCount1] = useState(0);

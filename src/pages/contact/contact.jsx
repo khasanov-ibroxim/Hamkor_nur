@@ -1,6 +1,6 @@
 import React from 'react';
 import './contact.css'
-import contact_form from '../../assets/imgs/contact/contact_form.png';
+import contact_form from '../../assets/contact/contact_form.webp';
 
 const Contact = () => {
     return (

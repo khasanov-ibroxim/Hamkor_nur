@@ -1,16 +1,16 @@
 import React from 'react';
 import "./products.css"
 
-import product_s2_1 from "../../assets/imgs/products/product_s2_1.png"
-import product_s2_2 from "../../assets/imgs/products/product_s2_2.png"
-import product_s2_3 from "../../assets/imgs/products/product_s2_3.png"
-import product_s2_4 from "../../assets/imgs/products/product_s2_4.png"
-import product_s2_5 from "../../assets/imgs/products/product_s2_5.png"
-import product_s2_6 from "../../assets/imgs/products/product_s2_6.png"
-import product_s2_7 from "../../assets/imgs/products/product_s2_7.png"
-import product_s2_8 from "../../assets/imgs/products/product_s2_8.png"
-import product_s2_9 from "../../assets/imgs/products/product_s2_9.png"
-import product_s2_10 from "../../assets/imgs/products/product_s2_10.png"
+import product_s2_1 from "../../assets/products/product_s2_1.webp"
+import product_s2_2 from "../../assets/products/product_s2_2.webp"
+import product_s2_3 from "../../assets/products/product_s2_3.webp"
+import product_s2_4 from "../../assets/products/product_s2_4.webp"
+import product_s2_5 from "../../assets/products/product_s2_5.webp"
+import product_s2_6 from "../../assets/products/product_s2_6.webp"
+import product_s2_7 from "../../assets/products/product_s2_7.webp"
+import product_s2_8 from "../../assets/products/product_s2_8.webp"
+import product_s2_9 from "../../assets/products/product_s2_9.webp"
+import product_s2_10 from "../../assets/products/product_s2_10.webp"
 
 
 const Products = () => {
