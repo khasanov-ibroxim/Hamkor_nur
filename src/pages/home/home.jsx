@@ -23,11 +23,9 @@ const Home = () => {
             <div className="Home">
                 <span className={"opacity_container"}></span>
                 <div className="home_box container">
-                    <h1 data-aos="fade-up">Craft Something Beautiful</h1>
-                    <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
-                        mattis.
-                        Maecenas eu lacus suscipit, sollicitudin lacus sed, eleifend est.</p>
-                    <button data-aos="fade-up">Request a product</button>
+                    <h1 data-aos="fade-up">HAMKOR NUR SAVDO</h1>
+                    <p data-aos="fade-up">Мастера кожевенного ремесла: от сырья до совершенства</p>
+                    <button data-aos="fade-up">Свяжитесь с нами</button>
                 </div>
 
             </div>
@@ -35,45 +33,48 @@ const Home = () => {
                 <section className="home_section2">
                     <div className="row justify-content-between ">
                         <div className="col-lg-6 home_section2_left" data-aos="fade-up">
-                            <h3><span></span> Let's Introduce</h3>
-                            <h2>Innovative design is our passion</h2>
+                            <h3><span></span> Кожевенное производство</h3>
+                            <h2>СИЛА, ЭЛЕГАНТНОСТЬ И СТИЛЬ - ВСЁ НАЧИНАЕТСЯ С КОЖИ</h2>
                             <a href="#">Custom Now</a>
                         </div>
                         <div className="col-lg-6 home_section2_right" data-aos="fade-up">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                est laborum.</p>
-
-                            <p>
-                                Quisque sollicitudin ante ac ex mattis gravida. Cras feugiat commodo feugiat. Phasellus
-                                gravida enim non purus posuere, nec varius ex gravida.
-                            </p>
+                            <p>Кожевенное производство — это процесс обработки сырой кожи животных для получения
+                                долговечных и функциональных материалов, которые затем используются для изготовления
+                                различных изделий, от одежды и обуви до мебели и автомобильных сидений. </p>
+                            <p>Это достаточно
+                                древнее ремесло, которое на протяжении веков развивалось и модернизировалось, благодаря
+                                чему на сегодняшний день существует множество технологий и методов обработки кожи</p>
                         </div>
                     </div>
                 </section>
             </div>
             <section className="home_section3">
                 <div className="container">
-                    <div className="row justify-content-around  align-items-center">
+                    <div className="row  justify-content-around align-items-center">
                         <div className="col-lg-3">
                             <div className="home_section3_item" data-aos="fade-up">
                                 <div className="home_section3_item_img">
                                     <img src={home_s3_1} alt=""/>
                                 </div>
-                                <h2>home decor</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipiscing elit Ut elit tellus luctus
-                                    nec.</p>
+                                <div className="home_section3_item_text">
+                                    <h2>ДОБЫЧА И ПОДГОТОВКА СЫРЬЯ</h2>
+                                    <p>Мы используем — шкуры крупного рогатого скота. Сначала шкура подвергается очистке
+                                        и
+                                        удалению ненужных тканей и загрязнений, что является первым шагом в получении
+                                        качественного материала для дальнейшей обработки.</p>
+                                </div>
+
                             </div>
                             <div className="home_section3_item" data-aos="fade-up">
                                 <div className="home_section3_item_img">
                                     <img src={home_s3_2} alt=""/>
                                 </div>
-                                <h2>sculpturing</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipiscing elit Ut elit tellus luctus
-                                    nec.</p>
+                                <div className="home_section3_item_text">
+                                    <h2>КРАСКА</h2>
+                                    <p>Для улучшения внешнего вида и долговечности кожи используются различные
+                                        технологии
+                                        окрашивания. В зависимости от пожелания клиента.</p>
+                                </div>
                             </div>
                         </div>
                         <div className="col-lg-3">
@@ -81,17 +82,30 @@ const Home = () => {
                                 <div className="home_section3_item_img">
                                     <img src={home_s3_3} alt=""/>
                                 </div>
-                                <h2>Jewellery</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipiscing elit Ut elit tellus luctus
-                                    nec.</p>
+                                <div className="home_section3_item_text">
+                                    <h2>ДУБЛЕНИЕ</h2>
+                                    <p>На этом этапе кожа обрабатывается с помощью различных химических веществ или
+                                        растительных экстрактов, чтобы сделать её устойчивой к воздействию влаги,
+                                        плесени и
+                                        других факторов. </p>
+                                </div>
+
                             </div>
                             <div className="home_section3_item" data-aos="fade-up">
                                 <div className="home_section3_item_img">
                                     <img src={home_s3_4} alt=""/>
                                 </div>
-                                <h2>Ceramics</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipiscing elit Ut elit tellus luctus
-                                    nec.</p>
+                                <div className="home_section3_item_text">
+                                    <h2>ОБРАБОТКА И ОТДЕЛКА</h2>
+                                    <p>На этом этапе кожа проходит финишную обработку, которая может включать различные
+                                        виды
+                                        отделки в зависимости от назначения и желаемых характеристик конечного продукта.
+                                        Это
+                                        может быть тиснение, нанесение лакового покрытия, создание текстурных эффектов
+                                        или
+                                        добавление защитных слоёв.</p>
+                                </div>
+
                             </div>
                         </div>
                         <div className="col-lg-3">
@@ -99,17 +113,29 @@ const Home = () => {
                                 <div className="home_section3_item_img">
                                     <img src={home_s3_5} alt=""/>
                                 </div>
-                                <h2>leather craft</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipiscing elit Ut elit tellus luctus
-                                    nec.</p>
+                                <div className="home_section3_item_text">
+                                    <h2>МЕХАНИЧЕСКАЯ ОБРАБОТКА</h2>
+                                    <p>После дубления кожа подвергается механической обработке, включая растяжку,
+                                        выравнивание и прессование. Эти процедуры помогают улучшить текстуру кожи,
+                                        придавая
+                                        ей необходимую мягкость, эластичность и прочность.</p>
+                                </div>
+
                             </div>
                             <div className="home_section3_item" data-aos="fade-up">
                                 <div className="home_section3_item_img">
                                     <img src={home_s3_6} alt=""/>
                                 </div>
-                                <h2>Fashion</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipiscing elit Ut elit tellus luctus
-                                    nec.</p>
+                                <div className="home_section3_item_text">
+                                    <h2>КОНТРОЛЬ КАЧЕСТВА</h2>
+                                    <p>Важной частью кожевенного производства является строгий контроль на каждом этапе.
+                                        Мы
+                                        внимательно следим за качеством сырья, точностью выполнения всех технологических
+                                        операций и окончательной отделкой продукции, чтобы каждый клиент получил
+                                        идеальный
+                                        продукт.</p>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -119,7 +145,7 @@ const Home = () => {
             <div className="container d-flex justify-content-center align-items-center">
                 <section className={"home_section4"}>
                     <div className="home_section4_title" data-aos="fade-up">
-                        <h1>Why Choose us</h1>
+                        <h1>ПОЧЕМУ МЫ - ВАШ ЛУЧШИЙ ВЫБОР?</h1>
                         <span></span>
                     </div>
                     <div className="row">
@@ -128,17 +154,18 @@ const Home = () => {
                                 <div className="home_section4_item_img">
                                     <img src={home_s4_1} alt=""/>
                                 </div>
-                                <h3>CREATIVE SOLUTION</h3>
-                                <p>Lorem ipsum dolor sit amet
-                                    consectetur, adipiscing elit Ut elit tellus luctus.</p>
+                                <h3>Высокое качество кожи</h3>
+                                <p>Кожа, которую мы производим, отличается долговечностью, эластичностью и
+                                    износостойкостью.</p>
                             </div>
                             <div className="home_section4_item" data-aos="fade-up">
                                 <div className="home_section4_item_img">
                                     <img src={home_s4_2} alt=""/>
                                 </div>
-                                <h3>FUNCTIONAL DESIGN</h3>
-                                <p>Lorem ipsum dolor sit amet
-                                    consectetur, adipiscing elit Ut elit tellus luctus.</p>
+                                <h3>Широкий ассортимент</h3>
+                                <p>Мы производим продукцию для самых разных сфер: от роскошных кожаных аксессуаров до
+                                    промышленного применения. Наш ассортимент включает как классические, так и
+                                    эксклюзивные решения.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
@@ -146,17 +173,18 @@ const Home = () => {
                                 <div className="home_section4_item_img">
                                     <img src={home_s4_3} alt=""/>
                                 </div>
-                                <h3>SUPERIOR QUALITY</h3>
-                                <p>Lorem ipsum dolor sit amet
-                                    consectetur, adipiscing elit Ut elit tellus luctus.</p>
+                                <h3>Индивидуальный подход к каждому клиенту</h3>
+                                <p>Мы ценим уникальность каждого заказа. Наши специалисты готовы разработать решения,
+                                    идеально соответствующие вашим потребностям, будь то особый цвет, текстура или
+                                    функциональные характеристики.</p>
                             </div>
                             <div className="home_section4_item" data-aos="fade-up">
                                 <div className="home_section4_item_img">
                                     <img src={home_s4_4} alt=""/>
                                 </div>
-                                <h3>WORLDWIDE DELIVERY</h3>
-                                <p>Lorem ipsum dolor sit amet
-                                    consectetur, adipiscing elit Ut elit tellus luctus.</p>
+                                <h3>Экологичность и безопасность</h3>
+                                <p>Все наши изделия соответствуют международным стандартам безопасности и охраны
+                                    окружающей среды.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
@@ -164,17 +192,19 @@ const Home = () => {
                                 <div className="home_section4_item_img">
                                     <img src={home_s4_5} alt=""/>
                                 </div>
-                                <h3>SPEED PRODUCTION</h3>
-                                <p>Lorem ipsum dolor sit amet
-                                    consectetur, adipiscing elit Ut elit tellus luctus.</p>
+                                <h3>Опыт и профессионализм</h3>
+                                <p>Более 18 лет на рынке кожевенного производства. За это время мы накопили опыт,
+                                    который позволяет нам не только удовлетворять, но и предвосхищать потребности наших
+                                    клиентов.</p>
                             </div>
                             <div className="home_section4_item" data-aos="fade-up">
                                 <div className="home_section4_item_img">
                                     <img src={home_s4_6} alt=""/>
                                 </div>
-                                <h3>PREMIUM PACKAGING</h3>
-                                <p>Lorem ipsum dolor sit amet
-                                    consectetur, adipiscing elit Ut elit tellus luctus.</p>
+                                <h3>Безупречная репутация</h3>
+                                <p>Наши клиенты доверяют нам, потому что мы гарантируем качество на каждом этапе — от
+                                    разработки до поставки готовой продукции. Мы гордимся своей репутацией надежного
+                                    партнера.</p>
                             </div>
                         </div>
                     </div>
@@ -189,19 +219,19 @@ const Home = () => {
                     <div className="col-lg-6" data-aos="fade-left">
                         <div className="home_section5_text">
                             <div className="home_section5_text_title">
-                                <h1>Let's talk Our History</h1>
+                                <h1>О НАШЕЙ КОМПАНИИ</h1>
                                 <span></span>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Lectus arcu ben dum at varius. Ut porttitor leo a
-                                diam. Pe na tibus et magnis dis. Ut enim ad minim veniam, quis no strud ex ercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo con sequat. Duis aute irure dolor in
-                                reprehenderit.
+                            <p>Компания «Hamkor Nur Savdo» была основана в 2007 году и с тех пор зарекомендовала себя
+                                как надежный производитель и поставщик высококачественной кожи. Деятельность предприятия
+                                заключается в переработке крупного рогатого скота. Мы не только удовлетворяем
+                                потребности внутреннего рынка, но и активно экспортируем нашу продукцию в Китай, Турцию,
+                                Россию и Италию.
                             </p>
                             <p>
-                                Excepteur sint occaecat cupidatat non proident. Elementum nisi quis eleifend quam
-                                adipiscing vitae proin sagittis. Viverra mauris in aliquam sem fringilla ut morbi
-                                tincidunt augue eget dolor.
+                                В 2012 году, став участником Ангренской экономической зоны, мы открыли
+                                новый производственный завод в Охангароне, что позволило значительно расширить
+                                производственные мощности.
                             </p>
                             <a href="#">Reade More</a>
                         </div>
@@ -217,14 +247,16 @@ const Home = () => {
                         </div>
                         <div className="col-lg-4" data-aos="fade-up">
                             <div className="home_section6_text">
-                                <div className="home_section5_text_title justify-content-center align-items-center text-center">
-                                    <h1>Recycle Rubbish becoming crafts</h1>
+                                <div
+                                    className="home_section5_text_title justify-content-center align-items-center text-center">
+                                    <h1>ИННОВАЦИОННЫЕ ПОДХОДЫ В КОЖАНОЙ ОБРАБОТКЕ</h1>
                                     <span></span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Lectus arcu ben dum at varius. Ut
-                                    porttitor leo a diam. Pe na tibus et magnis dis. Ut enim ad minim veniam, quis no
-                                    strud ex ercitation ullamco laboris nisi ut aliquip ex ea commodo con sequat. </p>
+                                <p>В нашем производстве мы активно внедряем передовые технологии и инновационные методы
+                                    обработки кожи, что позволяет нам добиваться непревзойденного качества и уникальных
+                                    характеристик материалов. Мы постоянно изучаем новые способы улучшения текстуры,
+                                    прочности и долговечности кожи, а также оптимизируем производственные процессы для
+                                    снижения экологического воздействия. </p>
                             </div>
                         </div>
                         <div className="col-lg-4" data-aos="fade-left">

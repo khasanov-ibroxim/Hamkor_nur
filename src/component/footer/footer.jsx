@@ -12,11 +12,11 @@ const Footer = () => {
                 <section className="home_section8 container overflow-hidden">
                     <div className="row d-flex justify-content-between">
                         <div className="col-lg-8 home_section8_text" data-aos="fade-right">
-                            <h2>Found Something Interesting?</h2>
-                            <p>WE CAN MAKE ANYTHING YOU CAN IMAGINE!</p>
+                            <h2>КАК ВЫБРАТЬ ПРАВИЛЬНУЮ КОЖУ ДЛЯ КОНКРЕТНОГО ИЗДЕЛИЯ?</h2>
+                            <p>Мы готовы предложить вам решения.</p>
                         </div>
                         <div className="col-lg-4 home_section8_button" data-aos="fade-left">
-                            <a href="#">Contact Us</a>
+                            <a href="#">КОНТАКТЫ</a>
                         </div>
                     </div>
                 </section>
@@ -27,17 +27,15 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-lg-4">
                             <div className="footer_item">
-                                <h3>ABOUT US</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt
-                                    ut labore et dolore magna aliqua. Minim veniam, quis nostrud exercitation ullamco
-                                    laboris nisi ut aliquip ex ea commodo consequat.
+                                <h3>СВЯЖИСЬ С НАМИ</h3>
+                                <p>Наша компания находится в самом удобном месте, а благодаря нашим интернет-ресурсам
+                                    ваш заказ будет принят мгновенно!
                                 </p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className="footer_item">
-                                <h3>Connect With Us</h3>
+                                <h3>ИНТЕРНЕТ РЕСУРСЫ</h3>
                                 <div className="footer_item_social">
                                     <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
                                     <a href="#"><i className="fa-brands fa-instagram"></i></a>
@@ -48,11 +46,11 @@ const Footer = () => {
                         </div>
                         <div className="col-lg-4">
                             <div className="footer_item">
-                                <h3>Subscribe</h3>
-                                <p>Sign up, you’ll love hearing from us. We promise!</p>
+                                <h3>НАША ПОЧТА</h3>
+                                <p>Мы всегда на связи — пишите нам!</p>
                                 <div className="footer_item_send">
-                                    <input type="text" placeholder={"email@mail.com"}/>
-                                    <button>SEND</button>
+                                    <input type="text" placeholder={"email-hamkornur@gmail/com"}/>
+                                    <button>отправить</button>
                                 </div>
                             </div>
                         </div>
