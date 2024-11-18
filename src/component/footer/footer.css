@@ -62,6 +62,7 @@ footer .row{
     margin-bottom: 10px;
 }
 .footer_item_send a{
+    text-align: center;
     padding: 5px 10px;
     border-radius: 25px;
     text-transform: uppercase;
