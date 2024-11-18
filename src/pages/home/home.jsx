@@ -15,11 +15,20 @@ import home_s4_5 from "../../assets/home/home_s4_5.webp"
 import home_s4_6 from "../../assets/home/home_s4_6.webp"
 
 import home_s5 from "../../assets/home/home_s5.webp"
+import {Helmet} from "react-helmet-async";
 
 
 const Home = () => {
     return (
         <>
+            <Helmet>
+                {/* Sahifa sarlavhasi */}
+                <title>HAMKOR NUR SAVDO - Мастера кожевенного ремесла</title>
+                {/* Umumiy meta teglar */}
+                <meta name="description" content="HAMKOR NUR SAVDO — мастера кожевенного ремесла: от сырья до совершенства. Высокое качество, широкий ассортимент, экологичность и индивидуальный подход." />
+                <meta name="keywords" content="кожа, кожевенное производство, Hamkor Nur Savdo, обработка кожи, дубление, краска, контроль качества" />
+                <meta name="author" content="HAMKOR NUR SAVDO" />
+            </Helmet>
             <div className="Home">
                 <span className={"opacity_container"}></span>
                 <div className="home_box container">

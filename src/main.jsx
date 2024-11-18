@@ -1,12 +1,17 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import {StrictMode} from 'react'
+import {createRoot} from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import 'bootstrap/dist/js/bootstrap.bundle.js'
+import {HelmetProvider} from "react-helmet-async";
+const helmetContext = {};
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
+    <StrictMode>
+        <HelmetProvider context={helmetContext}>
+            <App/>
+        </HelmetProvider>
+
+    </StrictMode>,
 )

@@ -2,6 +2,7 @@ import React, {useCallback, useEffect, useRef, useState} from 'react';
 import "./about.css"
 import about_s2_1 from "../../assets/about/about_s2_1.webp"
 import about_s2_2 from "../../assets/about/about_s2_2.webp"
+import {Helmet} from "react-helmet-async";
 
 const About = () => {
     const [count1, setCount1] = useState(0);
@@ -92,6 +93,19 @@ const About = () => {
     }, [isVisible, startCounting]);
     return (
         <>
+            <Helmet>
+                <title>О Нас - Hamkor Nur Savdo</title>
+                <meta name="description"
+                      content="Мы гордимся тем, что сочетаем традиционные методы обработки кожи с инновационными технологиями для создания продукции высочайшего качества."/>
+                <meta name="keywords"
+                      content="кожа, кожевенное производство, Hamkor Nur Savdo, обработка кожи, дубление, краска, контроль качества"/>
+                <meta name="author" content="HAMKOR NUR SAVDO"/>
+                <meta property="og:title" content="О Нас - Hamkor Nur Savdo"/>
+                <meta property="og:description"
+                      content="Мы гордимся тем, что сочетаем традиционные методы обработки кожи с инновационными технологиями для создания продукции высочайшего качества."/>
+                <meta property="og:image" content={about_s2_1}/>
+                <meta property="og:url" content="https://yourwebsite.com/about"/>
+            </Helmet>
             <section className="about_header">
                 <span className="opacity_about"></span>
                 <div className="about_header_text">
