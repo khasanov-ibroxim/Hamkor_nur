@@ -61,17 +61,18 @@ footer .row{
     border: 1px solid rgba(131, 140, 147, 0.32);
     margin-bottom: 10px;
 }
-.footer_item_send button{
+.footer_item_send a{
     padding: 5px 10px;
     border-radius: 25px;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 15px;
-    color: #fff;
+    color: #fff !important;
     background: #F59C8A;
     font-family: var(--montserrat) sans-serif;
     border: none;
     outline: none;
+    text-decoration: none;
 }
 @media screen and (max-width: 1140px){
     .footer_box{

@@ -78,7 +78,7 @@
 }
 
 .home_section2_left h2 {
-    font-size: 36px;
+    font-size: 28px;
     font-family: var(--montserrat), serif;
     color: #393B3f;
     font-weight: 700;
@@ -345,7 +345,7 @@
 
 .home_section6_text .home_section5_text_title h1 {
     width: 100%;
-    font-size: 32px;
+    font-size: 16px;
     margin-top: 20px;
 }
 
@@ -488,5 +488,8 @@
 
     .home_section5_text {
         height: 100%;
+    }
+    .home_section8_text h2{
+        font-size: 16px;
     }
 }

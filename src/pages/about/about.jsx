@@ -74,7 +74,7 @@ const About = () => {
                     observer.disconnect(); // Stop observing once the section is visible
                 }
             },
-            { threshold: 0.1 }
+            {threshold: 0.1}
         );
 
         if (sectionRef.current) {
@@ -95,43 +95,42 @@ const About = () => {
             <section className="about_header">
                 <span className="opacity_about"></span>
                 <div className="about_header_text">
-                    <h1>About us</h1>
+                    <h1>О НАС</h1>
                 </div>
             </section>
 
             <section className={"about_s1 container "}>
-                <div className="row ">
+                <div className="row justify-content-around">
                     <div className="col-lg-5">
                         <div className="about_s1_title">
-                            <h2>We make what we love</h2>
+                            <h2>КАЧЕСТВО, ПРОВЕРЕННОЕ ВРЕМЕНЕМ</h2>
                             <span></span>
                         </div>
                         <div className="about_s1_text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            <p>Мы гордимся тем, что сочетание традиционных методов обработки кожи с инновационными
+                                технологиями позволяет нам создавать продукцию высочайшего качества, которая прослужит
+                                вам долгие годы.
                             </p>
                         </div>
                     </div>
                     <div className="col-lg-3">
                         <div className="about_s1_title">
-                            <h2>new ideas</h2>
+                            <h2>МАСТЕРА СВОЕГО ДЕЛА</h2>
                             <span></span>
                         </div>
                         <div className="about_s1_text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua.</p>
+                            <p>Наши изделия — это не просто кожа, это результат многолетнего мастерства и внимания к
+                                каждой детали, что делает их уникальными и неповторимыми.</p>
                         </div>
                     </div>
                     <div className="col-lg-3">
                         <div className="about_s1_title">
-                            <h2>new spirit</h2>
+                            <h2>ЭКОЛОГИЧНОСТЬ И ОТВЕТСТВЕННОСТЬ</h2>
                             <span></span>
                         </div>
                         <div className="about_s1_text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua.
-                            </p>
+                            <p>Мы стремимся к экологичности и ответственному подходу на каждом этапе производства,
+                                обеспечивая безупречное качество и минимальное воздействие на окружающую среду</p>
                         </div>
                     </div>
                 </div>
@@ -146,21 +145,22 @@ const About = () => {
                     <div className="col-lg-6" data-aos="fade-left">
                         <div className="about_s2_text">
                             <div className="about_s2_text_title">
-                                <p>New Division</p>
+                                <p>специалисты</p>
 
                             </div>
-                            <h1>The crafting furniture house Decoration</h1>
-                            <a href="#">View More</a>
+                            <h1>В нашем кожевенном производстве работает команда высококвалифицированных специалистов,
+                                которые обладают многолетним опытом и настоящей страстью к своему делу. </h1>
+
                         </div>
                     </div>
 
                     <div className="col-lg-6" data-aos="fade-right">
                         <div className="about_s2_text">
                             <div className="about_s2_text_title">
-                                <p>New Division</p>
+                                <p>специалисты</p>
                             </div>
-                            <h1>recycle rubbish crafting Fashion Apparel</h1>
-                            <a href="#">View More</a>
+                            <h1>СОВРЕМЕННОЕ ОБОРУДОВАНИЕ ДЛЯ БЕЗУПРЕЧНОГО КАЧЕСТВА</h1>
+
                         </div>
 
                     </div>
@@ -173,21 +173,16 @@ const About = () => {
                 <section className="about_s3">
                     <div className="row justify-content-between ">
                         <div className="col-lg-6 about_s3_left" data-aos="fade-up">
-                            <h3><span></span> About Workshop</h3>
-                            <h2>Let's be creative together</h2>
+                            <h3><span></span> Наша работа</h3>
+                            <h2>ПРЕВРАЩЕНИЕ КОЖИ В ИСКУССТВО</h2>
                         </div>
                         <div className="col-lg-6 about_s3_right" data-aos="fade-up">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                est laborum.</p>
+                            <p> В нашем кожевенном производстве каждый процесс — это искусство, в котором сочетаются
+                                традиции ремесленного мастерства и новейшие технологии. Мы тщательно подбираем сырьё и с
+                                максимальным вниманием подходим к каждому этапу обработки кожи. От дубления до финишной
+                                отделки — каждый этап нашей работы направлен на создание продукции, которая сочетает в
+                                себе эстетическую красоту и исключительную прочность.</p>
 
-                            <p>
-                                Quisque sollicitudin ante ac ex mattis gravida. Cras feugiat commodo feugiat. Phasellus
-                                gravida enim non purus posuere, nec varius ex gravida.
-                            </p>
                         </div>
                     </div>
                 </section>
@@ -196,22 +191,22 @@ const About = () => {
             <section className='number' ref={sectionRef}>
                 <span className="number_opacity"></span>
                 <div className="number_box ">
-                    <div className="row " data-aos="fade-right" style={{width:"100%"}}>
+                    <div className="row " data-aos="fade-right" style={{width: "100%"}}>
                         <div className="col-lg-3">
                             <p className='count'>{count1}</p>
-                            <p className="last"> Projects</p>
+                            <p className="last"> Виды кожи</p>
                         </div>
                         <div className="col-lg-3">
                             <p className='count'>{count2}</p>
-                            <p className="last">Divisions</p>
+                            <p className="last">Партнёры</p>
                         </div>
                         <div className="col-lg-3">
                             <p className='count'>{count3}</p>
-                            <p className="last">New Design</p>
+                            <p className="last">Довольные клиенты</p>
                         </div>
                         <div className="col-lg-3">
                             <p className='count'>2</p>
-                            <p className="last">branch store</p>
+                            <p className="last">Филиалы</p>
                         </div>
                     </div>
                 </div>

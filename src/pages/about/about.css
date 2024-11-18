@@ -32,7 +32,8 @@
     margin-top: 50px;
 }
 .about_header_text h1{
-    font-size: 52px;
+    text-align: center;
+    font-size: 29px;
     font-weight: 800;
     color: #FFFFFF;
     font-family: var(--montserrat), sans-serif;
@@ -49,7 +50,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #393B3F;
-    font-size: 24px;
+    font-size: 17px;
     font-weight: 700;
     line-height: 1.5em;
 }
@@ -61,7 +62,7 @@
 .about_s1_text p{
     color: #7F7C7C;
     font-family: var(--note_sans), sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 1.7em;
     font-style: italic;
 
@@ -133,7 +134,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #393B3F;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 700;
 }
 

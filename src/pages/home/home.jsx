@@ -35,7 +35,7 @@ const Home = () => {
                         <div className="col-lg-6 home_section2_left" data-aos="fade-up">
                             <h3><span></span> Кожевенное производство</h3>
                             <h2>СИЛА, ЭЛЕГАНТНОСТЬ И СТИЛЬ - ВСЁ НАЧИНАЕТСЯ С КОЖИ</h2>
-                            <a href="#">Custom Now</a>
+
                         </div>
                         <div className="col-lg-6 home_section2_right" data-aos="fade-up">
                             <p>Кожевенное производство — это процесс обработки сырой кожи животных для получения
@@ -233,7 +233,7 @@ const Home = () => {
                                 новый производственный завод в Охангароне, что позволило значительно расширить
                                 производственные мощности.
                             </p>
-                            <a href="#">Reade More</a>
+
                         </div>
                     </div>
                 </div>

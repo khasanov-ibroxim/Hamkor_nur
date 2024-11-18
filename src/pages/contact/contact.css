@@ -115,9 +115,10 @@
     text-transform: uppercase;
     line-height: 1em;
     letter-spacing: 2px;
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 700;
     color: #393B3F;
+    margin-top: 10px;
 }
 .contact_address p{
     color: #7F7C7C;
@@ -138,15 +139,26 @@
     font-size: 15px;
     font-weight: 300;
 }
-.contact_address .contact_address_address{
+.contact_address .contact_address_address a{
     color: #393B3F;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 1.6em;
+    cursor: pointer;
+    text-decoration: none;
 }
 @media screen and (max-width: 1000px){
     .contact_form form{
         margin-top: 20px;
         margin-left: 0;
+    }
+}
+@media screen and (max-width: 800px){
+    .contact_form_title h1{
+        font-size: 23px;
+        text-align: center;
+    }
+    .contact_form_title p{
+        text-align: center;
     }
 }

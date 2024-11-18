@@ -70,6 +70,7 @@ nav {
 
 .nav_logo h1 {
     color: #F59C8A;
+    font-size: 25px;
 }
 
 .navburger {
@@ -100,11 +101,13 @@ nav {
 
     .nav_menu.open {
         display: block;
-        position: relative;
+        position: absolute;
         width: 100%;
-        right: -25px;
-        top: 0;
+        /*right: -25px;*/
+        left: 0;
+        top: 70px;
         z-index: 999;
+
 
     }
 

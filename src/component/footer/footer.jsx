@@ -49,8 +49,7 @@ const Footer = () => {
                                 <h3>НАША ПОЧТА</h3>
                                 <p>Мы всегда на связи — пишите нам!</p>
                                 <div className="footer_item_send">
-                                    <input type="text" placeholder={"email-hamkornur@gmail/com"}/>
-                                    <button>отправить</button>
+                                    <a href={"mailto:email-hamkornur@gmail.com"}> Отправить сообщение</a>
                                 </div>
                             </div>
                         </div>
