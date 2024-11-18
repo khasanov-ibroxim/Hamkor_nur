@@ -20,7 +20,7 @@ const Products = () => {
             <section className="product_header">
                 <span className="opacity_about"></span>
                 <div className="about_header_text">
-                    <h1>Products</h1>
+                    <h1>ТИПЫ КОЖИ</h1>
                 </div>
             </section>
 
@@ -28,17 +28,26 @@ const Products = () => {
                 <section className="about_s3 product_s1">
                     <div className="row justify-content-between ">
                         <div className="col-lg-6 about_s3_left" data-aos="fade-up">
-                            <h3><span></span> Craft Presentation</h3>
-                            <h2>Our Products Recycle Craft</h2>
+                            <h3><span></span> Превосходство в качестве и эстетике</h3>
+                            <h2>ВЕТ-БЛЮ КРАСТ ФИНИШНАЯ КОЖА</h2>
                         </div>
                         <div className="col-lg-6 about_s3_right" data-aos="fade-up">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                est laborum. Aenean at facilisis diam. Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit.
+                            <p> Это типы кожи или виды кожаной продукции, которые различаются по методам обработки и
+                                свойствам. Все эти термины относятся к разным этапам и разновидностям кожевенного
+                                производства:
+                                <ul>
+                                    <li>Вет-Блю — кожа, полученная от молодых животных, часто используется в
+                                        производстве высококачественных изделий.
+                                    </li>
+                                    <li>Краст — кожа, прошедшая начальную обработку дублением, но ещё не подвергшаяся
+                                        финишной отделки
+                                    </li>
+                                    <li>
+                                        Финишная обработка кожи — это заключительный этап обработки кожи после дубления
+                                        (краст), в ходе которого ей придается окончательный вид, прочность и
+                                        эстетические характеристики.
+                                    </li>
+                                </ul>
                             </p>
                         </div>
                     </div>
@@ -148,7 +157,8 @@ const Products = () => {
             <section className="product_s3 container">
                 <div className="row">
                     <div className="col-lg-6" data-aos="fade-left">
-                        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel"  data-bs-interval="3000">
+                        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel"
+                             data-bs-interval="3000">
                             <div className="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0"
                                         className="active" aria-current="true" aria-label="Slide 1"></button>
