@@ -467,8 +467,13 @@
     .home_box {
         width: 100%;
     }
-
-    .home_box p {
+    .home_section2_left h2 {
+        font-size: 20px;
+    }
+    .home_section2_left h3 {
+        font-size: 14px;
+    }
+        .home_box p {
         /*font-size: 50px;*/
         color: #FFFFFF;
         text-align: center;
