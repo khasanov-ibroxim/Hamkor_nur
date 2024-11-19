@@ -3,6 +3,8 @@ import { Link, useLocation } from "react-router-dom";
 import { ABOUT, CONTACT, HOME, PRODUCTS } from "../../utils/const.jsx";
 import "./navbar.css";
 import {CloseOutlined, MenuOutlined} from "@ant-design/icons";
+import logo from "../../assets/logo.png"
+
 
 const Navbar = () => {
     const location = useLocation();
@@ -31,13 +33,13 @@ const Navbar = () => {
 
             <div className="nav_box container">
                 <div className="nav_logo">
-                    <h1>HAMKOR NUR SAVDO</h1>
+                    <img src={logo} alt=""/>
                 </div>
                 <div className={`nav_menu ${isMenuOpen ? 'open' : ''}`}>
                     <ul>
                         <li className={isActive(HOME)}><Link to={HOME}>Главная</Link></li>
                         <li className={isActive(ABOUT)}><Link to={ABOUT}>О нас</Link></li>
-                        <li className={isActive(PRODUCTS)}><Link to={PRODUCTS}>Продукт</Link></li>
+                        <li className={isActive(PRODUCTS)}><Link to={PRODUCTS}>Продукция</Link></li>
                         <li className={isActive(CONTACT)}><Link to={CONTACT}>Контакт</Link></li>
                     </ul>
                 </div>
