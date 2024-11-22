@@ -1,11 +1,11 @@
 import React from 'react';
 import "./home.css";
 import home_s3_1 from "../../assets/home/home_s3_1.webp"
-import home_s3_2 from "../../assets/home/home_s3_2.webp"
+import home_s3_2 from "../../assets/home/home_s3_1.webp"
 import home_s3_3 from "../../assets/home/home_s3_3.webp"
 import home_s3_4 from "../../assets/home/home_s3_4.webp"
 import home_s3_5 from "../../assets/home/home_s3_5.webp"
-import home_s3_6 from "../../assets/home/home_s3_6.webp"
+import home_s3_6 from "../../assets/img/150A1873.webp"
 
 import home_s4_1 from "../../assets/home/home_s4_1.webp"
 import home_s4_2 from "../../assets/home/home_s4_2.webp"
@@ -14,7 +14,10 @@ import home_s4_4 from "../../assets/home/home_s4_4.webp"
 import home_s4_5 from "../../assets/home/home_s4_5.webp"
 import home_s4_6 from "../../assets/home/home_s4_6.webp"
 
-import home_s5 from "../../assets/home/home_s5.webp"
+import home_s5 from "../../assets/img/150A1873.webp"
+
+import home_s5_1 from "../../assets/img/150A0757.webp"
+import home_s5_2 from "../../assets/img/150A0765.webp"
 
 import {Helmet} from "react-helmet-async";
 
@@ -257,7 +260,7 @@ const Home = () => {
                 <div className="home_section6">
                     <div className="row">
                         <div className="col-lg-4" data-aos="fade-right">
-                            <img src={home_s3_1} alt=""/>
+                            <img src={home_s5_1} alt=""/>
                         </div>
                         <div className="col-lg-4" data-aos="fade-up">
                             <div className="home_section6_text">
@@ -274,7 +277,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="col-lg-4" data-aos="fade-left">
-                            <img src={home_s3_2} alt=""/>
+                            <img src={home_s5_2} alt=""/>
                         </div>
                     </div>
                 </div>

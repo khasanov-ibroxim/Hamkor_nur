@@ -1,5 +1,5 @@
 .Home {
-    background: url("../../assets/home/headerBg.webp") center center no-repeat;
+    background: url("../../assets/img/150A0745.webp") center center no-repeat;
     height: 100vh;
     background-size: cover;
     position: relative;
@@ -358,7 +358,7 @@
 }
 
 .home_section7 {
-    background: url("../../assets/home/home_s7.webp") center center;
+    background: url("../../assets/img/150A1936.webp") center center;
     height: 100vh;
     width: 100%;
     background-size: cover;

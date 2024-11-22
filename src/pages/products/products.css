@@ -1,6 +1,6 @@
 .product_header {
-    background: url("../../assets/products/product_header.webp") center center no-repeat;
-    height: 60vh;
+    background: url("../../assets/img/150A0878.webp") center center no-repeat;
+
     width: 100%;
     background-size: cover;
     position: relative;
@@ -9,6 +9,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    height: 80vh;
+    margin-top: 20px;
 }
 
 .product_s1 {

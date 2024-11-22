@@ -1,7 +1,7 @@
 import React, {useCallback, useEffect, useRef, useState} from 'react';
 import "./about.css"
-import about_s2_1 from "../../assets/about/about_s2_1.webp"
-import about_s2_2 from "../../assets/about/about_s2_2.webp"
+import about_s2_1 from "../../assets/img/150A1986.webp"
+import about_s2_2 from "../../assets/img/150A1934.webp"
 import {Helmet} from "react-helmet-async";
 
 const About = () => {

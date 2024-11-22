@@ -1,6 +1,6 @@
 import React from 'react';
 import './contact.css'
-import contact_form from '../../assets/contact/contact_form.webp';
+import contact_form from '../../assets/img/150A0695.webp';
 import {Helmet} from "react-helmet-async";
 
 const Contact = () => {
@@ -22,7 +22,7 @@ const Contact = () => {
             <section className="contact_form container">
                 <div className="row d-flex justify-content-between">
                     <div className="col-lg-5">
-                        <img src={contact_form} alt=""/>
+                        <img src={contact_form} alt="" style={{objectFit:"cover"}}/>
                     </div>
                     <div className="col-lg-7">
                         <form action="#">
