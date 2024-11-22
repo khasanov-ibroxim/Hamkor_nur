@@ -20,7 +20,7 @@ const Products = () => {
             <section className="product_header">
                 <span className="opacity_about"></span>
                 <div className="about_header_text">
-                    <h1>ТИПЫ КОЖИ</h1>
+                    <h1>ПРОДУКЦИЯ</h1>
                 </div>
             </section>
 

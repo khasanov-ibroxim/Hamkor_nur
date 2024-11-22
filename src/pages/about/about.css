@@ -1,6 +1,6 @@
 .about_header {
     background: url("../../assets/about/about_header.webp") center center no-repeat;
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-size: cover;
     position: relative;
@@ -9,6 +9,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    margin-top: 20px;
 }
 .opacity_about{
     position: absolute;
@@ -62,7 +64,7 @@
 .about_s1_text p{
     color: #7F7C7C;
     font-family: var(--note_sans), sans-serif;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 1.7em;
     font-style: italic;
 

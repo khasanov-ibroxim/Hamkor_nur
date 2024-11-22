@@ -14,7 +14,9 @@
 .product_s1 {
     margin-top: 25px;
 }
-
+.product_s1 p{
+    font-size: 18px !important;
+}
 .product_s2 {
     padding: 0 20px;
     margin-top: 100px;
