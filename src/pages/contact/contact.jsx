@@ -2,6 +2,11 @@ import React from 'react';
 import './contact.css'
 import contact_form from '../../assets/img/150A0695.webp';
 import {Helmet} from "react-helmet-async";
+import {Swiper, SwiperSlide} from "swiper/react";
+import {Autoplay} from "swiper/modules";
+import contact_header_1 from "../../assets/img/150A0784.webp";
+import contact_header_2 from "../../assets/img/150A0785.webp";
+
 
 const Contact = () => {
     return (
@@ -17,12 +22,25 @@ const Contact = () => {
                 <div className="about_header_text">
                     <h1>СВЯЗЬ С НАМИ: ВАШ ПУТЬ К КАЧЕСТВУ</h1>
                 </div>
+                <Swiper
+                    modules={[Autoplay]}
+                    autoplay={{
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    }}
+                    loop={true}
+                    className="mySwiper"
+                >
+                    <SwiperSlide><img src={contact_header_1} alt="" loading={"lazy"}/></SwiperSlide>
+                    <SwiperSlide><img src={contact_header_2} alt="" loading={"lazy"}/></SwiperSlide>
+
+                </Swiper>
             </section>
 
             <section className="contact_form container">
                 <div className="row d-flex justify-content-between">
                     <div className="col-lg-5">
-                        <img src={contact_form} alt="" style={{objectFit:"cover"}}/>
+                        <img src={contact_form} alt="" style={{objectFit:"cover"}} loading={"lazy"}/>
                     </div>
                     <div className="col-lg-7">
                         <form action="#">

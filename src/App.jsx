@@ -5,6 +5,7 @@ import Navbar from "./component/navbar/navbar.jsx";
 import Footer from "./component/footer/footer.jsx";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import "swiper/css";
 const App = () => {
     useEffect(() => {
         AOS.init();

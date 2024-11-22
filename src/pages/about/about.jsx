@@ -1,8 +1,13 @@
 import React, {useCallback, useEffect, useRef, useState} from 'react';
 import "./about.css"
 import about_s2_1 from "../../assets/img/150A1986.webp"
-import about_s2_2 from "../../assets/img/150A1934.webp"
+import about_s2_2 from "../../assets/img/150A1934.png"
 import {Helmet} from "react-helmet-async";
+import {Swiper, SwiperSlide} from "swiper/react";
+import {Autoplay} from "swiper/modules";
+import about_header_1 from "../../assets/img/150A1934.png";
+import about_header_2 from "../../assets/img/150A1957.webp";
+import about_header_3 from "../../assets/img/150A1976.webp";
 
 const About = () => {
     const [count1, setCount1] = useState(0);
@@ -111,6 +116,19 @@ const About = () => {
                 <div className="about_header_text">
                     <h1>О НАС</h1>
                 </div>
+                <Swiper
+                    modules={[Autoplay]}
+                    autoplay={{
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    }}
+                    loop={true}
+                    className="mySwiper"
+                >
+                    <SwiperSlide><img src={about_header_1} alt="" loading={"lazy"}/></SwiperSlide>
+                    <SwiperSlide><img src={about_header_2} alt="" loading={"lazy"}/></SwiperSlide>
+                    <SwiperSlide><img src={about_header_3} alt="" loading={"lazy"}/></SwiperSlide>
+                </Swiper>
             </section>
 
             <section className={"about_s1 container "}>
@@ -150,11 +168,11 @@ const About = () => {
                 </div>
             </section>
 
-            <section className="about_s2 overflow-hidden">
+            <section className="about_s2 overflow-hidden container">
                 <div className="row justify-content-center align-items-center">
 
                     <div className="col-lg-6" data-aos="fade-right">
-                        <img src={about_s2_1} alt=""/>
+                        <img src={about_s2_1} alt="" loading={"lazy"}/>
                     </div>
                     <div className="col-lg-6" data-aos="fade-left">
                         <div className="about_s2_text">
@@ -179,7 +197,7 @@ const About = () => {
 
                     </div>
                     <div className="col-lg-6" data-aos="fade-left">
-                        <img src={about_s2_2} alt=""/>
+                        <img src={about_s2_2} alt="" loading={"lazy"}/>
                     </div>
                 </div>
             </section>

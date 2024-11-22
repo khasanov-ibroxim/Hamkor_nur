@@ -7,19 +7,26 @@ import home_s3_4 from "../../assets/img/150A1786.webp"
 import home_s3_5 from "../../assets/img/150A1942.webp"
 import home_s3_6 from "../../assets/img/150A1873.webp"
 
-import home_s4_1 from "../../assets/home/home_s4_1.webp"
-import home_s4_2 from "../../assets/home/home_s4_2.webp"
-import home_s4_3 from "../../assets/home/home_s4_3.webp"
-import home_s4_4 from "../../assets/home/home_s4_4.webp"
-import home_s4_5 from "../../assets/home/home_s4_5.webp"
-import home_s4_6 from "../../assets/home/home_s4_6.webp"
+import home_s4_1 from "../../assets/icon/koja.png"
+import home_s4_2 from "../../assets/icon/assartiment.png"
+import home_s4_3 from "../../assets/icon/podxod.png"
+import home_s4_4 from "../../assets/icon/eco.png"
+import home_s4_5 from "../../assets/icon/opit.png"
+import home_s4_6 from "../../assets/icon/reputatsiya.png"
 
 import home_s5 from "../../assets/img/150A1873.webp"
 
 import home_s5_1 from "../../assets/img/150A0757.webp"
 import home_s5_2 from "../../assets/img/150A0765.webp"
 
+import home_header_1 from "../../assets/img/150A0745.webp"
+import home_header_2 from "../../assets/img/150A0882.webp"
+import home_header_3 from "../../assets/img/150A0704.webp"
+
+
 import {Helmet} from "react-helmet-async";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
 
 
 const Home = () => {
@@ -42,7 +49,19 @@ const Home = () => {
                     <p data-aos="fade-up">кожевенное производство для ценителей качества</p>
                     <button data-aos="fade-up">Свяжитесь с нами</button>
                 </div>
-
+                <Swiper
+                    modules={[Autoplay]}
+                    autoplay={{
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    }}
+                    loop={true}
+                    className="mySwiper"
+                >
+                    <SwiperSlide><img src={home_header_1} alt="" loading={"lazy"}/></SwiperSlide>
+                    <SwiperSlide><img src={home_header_2} alt="" loading={"lazy"}/></SwiperSlide>
+                    <SwiperSlide><img src={home_header_3} alt="" loading={"lazy"}/></SwiperSlide>
+                </Swiper>
             </div>
             <div className="container">
                 <section className="home_section2">
@@ -53,7 +72,7 @@ const Home = () => {
 
                         </div>
                         <div className="col-lg-6 home_section2_right" data-aos="fade-up">
-                            <p>Компания «Hamkor Nur Savdo» была основана в 2007 году и с тех пор зарекомендовала себя
+                        <p>Компания «Hamkor Nur Savdo» была основана в 2007 году и с тех пор зарекомендовала себя
                                 как надежный производитель и поставщик высококачественной кожи. Деятельность предприятия
                                 заключается в переработке крупного рогатого скота. Мы не только удовлетворяем
                                 потребности внутреннего рынка, но и активно экспортируем нашу продукцию в Китай, Турцию,
@@ -74,7 +93,7 @@ const Home = () => {
                         <div className="col-lg-3">
                             <div className="home_section3_item" data-aos="fade-up">
                                 <div className="home_section3_item_img">
-                                    <img src={home_s3_1} alt=""/>
+                                    <img src={home_s3_1} alt="" loading={"lazy"}/>
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>ДОБЫЧА И ПОДГОТОВКА СЫРЬЯ</h2>
@@ -87,7 +106,7 @@ const Home = () => {
                             </div>
                             <div className="home_section3_item" data-aos="fade-up">
                                 <div className="home_section3_item_img">
-                                    <img src={home_s3_2} alt=""/>
+                                    <img src={home_s3_2} alt="" loading={"lazy"}/>
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>КРАСКА</h2>
@@ -100,7 +119,7 @@ const Home = () => {
                         <div className="col-lg-3">
                             <div className="home_section3_item" data-aos="fade-up">
                                 <div className="home_section3_item_img">
-                                    <img src={home_s3_3} alt=""/>
+                                    <img src={home_s3_3} alt="" loading={"lazy"}/>
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>ДУБЛЕНИЕ</h2>
@@ -113,7 +132,7 @@ const Home = () => {
                             </div>
                             <div className="home_section3_item" data-aos="fade-up">
                                 <div className="home_section3_item_img">
-                                    <img src={home_s3_4} alt=""/>
+                                    <img src={home_s3_4} alt="" style={{objectFit:"cover"}} loading={"lazy"}/>
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>ОБРАБОТКА И ОТДЕЛКА</h2>
@@ -131,7 +150,7 @@ const Home = () => {
                         <div className="col-lg-3">
                             <div className="home_section3_item" data-aos="fade-up">
                                 <div className="home_section3_item_img">
-                                    <img src={home_s3_5} alt=""/>
+                                    <img src={home_s3_5} alt="" loading={"lazy"}/>
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>МЕХАНИЧЕСКАЯ ОБРАБОТКА</h2>
@@ -144,7 +163,7 @@ const Home = () => {
                             </div>
                             <div className="home_section3_item" data-aos="fade-up">
                                 <div className="home_section3_item_img">
-                                    <img src={home_s3_6} alt=""/>
+                                    <img src={home_s3_6} alt="" style={{objectFit:"cover"}} loading={"lazy"}/>
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>КОНТРОЛЬ КАЧЕСТВА</h2>
@@ -172,7 +191,7 @@ const Home = () => {
                         <div className="col-lg-4">
                             <div className="home_section4_item" data-aos="fade-up">
                                 <div className="home_section4_item_img">
-                                    <img src={home_s4_1} alt=""/>
+                                    <img src={home_s4_1} alt="" loading={"lazy"}/>
                                 </div>
                                 <h3>Высокое качество кожи</h3>
                                 <p>Кожа, которую мы производим, отличается долговечностью, эластичностью и
@@ -180,7 +199,7 @@ const Home = () => {
                             </div>
                             <div className="home_section4_item" data-aos="fade-up">
                                 <div className="home_section4_item_img">
-                                    <img src={home_s4_2} alt=""/>
+                                    <img src={home_s4_2} alt="" loading={"lazy"}/>
                                 </div>
                                 <h3>Широкий ассортимент</h3>
                                 <p>Мы производим продукцию для самых разных сфер: от роскошных кожаных аксессуаров до
@@ -191,7 +210,7 @@ const Home = () => {
                         <div className="col-lg-4">
                             <div className="home_section4_item" data-aos="fade-up">
                                 <div className="home_section4_item_img">
-                                    <img src={home_s4_3} alt=""/>
+                                    <img src={home_s4_3} alt="" loading={"lazy"}/>
                                 </div>
                                 <h3>Индивидуальный подход к каждому клиенту</h3>
                                 <p>Мы ценим уникальность каждого заказа. Наши специалисты готовы разработать решения,
@@ -200,7 +219,7 @@ const Home = () => {
                             </div>
                             <div className="home_section4_item" data-aos="fade-up">
                                 <div className="home_section4_item_img">
-                                    <img src={home_s4_4} alt=""/>
+                                    <img src={home_s4_4} alt="" loading={"lazy"}/>
                                 </div>
                                 <h3>Экологичность и безопасность</h3>
                                 <p>Все наши изделия соответствуют международным стандартам безопасности и охраны
@@ -210,7 +229,7 @@ const Home = () => {
                         <div className="col-lg-4">
                             <div className="home_section4_item" data-aos="fade-up">
                                 <div className="home_section4_item_img">
-                                    <img src={home_s4_5} alt=""/>
+                                    <img src={home_s4_5} alt="" loading={"lazy"}/>
                                 </div>
                                 <h3>Опыт и профессионализм</h3>
                                 <p>Более 18 лет на рынке кожевенного производства. За это время мы накопили опыт,
@@ -219,7 +238,7 @@ const Home = () => {
                             </div>
                             <div className="home_section4_item" data-aos="fade-up">
                                 <div className="home_section4_item_img">
-                                    <img src={home_s4_6} alt=""/>
+                                    <img src={home_s4_6} alt="" loading={"lazy"}/>
                                 </div>
                                 <h3>Безупречная репутация</h3>
                                 <p>Наши клиенты доверяют нам, потому что мы гарантируем качество на каждом этапе — от
@@ -234,7 +253,7 @@ const Home = () => {
             <section className="home_section5 overflow-hidden">
                 <div className="row justify-content-center align-items-center">
                     <div className="col-lg-6" data-aos="fade-right">
-                        <img src={home_s5} alt=""/>
+                        <img src={home_s5} alt="" loading={"lazy"}/>
                     </div>
                     <div className="col-lg-6" data-aos="fade-left">
                         <div className="home_section5_text">
@@ -260,7 +279,7 @@ const Home = () => {
                 <div className="home_section6">
                     <div className="row">
                         <div className="col-lg-4" data-aos="fade-right">
-                            <img src={home_s5_1} alt=""/>
+                            <img src={home_s5_1} alt="" loading={"lazy"}/>
                         </div>
                         <div className="col-lg-4" data-aos="fade-up">
                             <div className="home_section6_text">
@@ -277,7 +296,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="col-lg-4" data-aos="fade-left">
-                            <img src={home_s5_2} alt=""/>
+                            <img src={home_s5_2} alt="" loading={"lazy"}/>
                         </div>
                     </div>
                 </div>
