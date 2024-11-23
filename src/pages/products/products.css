@@ -23,6 +23,10 @@
 .product_s2 {
     padding: 0 20px;
     margin-top: 100px;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    flex-direction: column;
 }
 
 .product_s2 img {
@@ -37,6 +41,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+    margin-top: 10px !important;
 }
 
 .product_s2_box_right, .product_s2_box_left {
@@ -215,6 +220,12 @@
 .carousel-indicators .active {
     background-color: white; /* Bu joyda kerakli rangni tanlang */
 }
+@media screen and (max-width: 1024px) {
+    .product_s2 .container{
+        width: 100%;
+        margin: 0;
+    }
+}
 @media screen and (max-width: 750px) {
     .product_s3 .product_s3_text h1 , .product_s3 .product_s3_text p{
         text-align: center;
@@ -267,5 +278,18 @@
     .product_s2_box_right {
         margin-bottom: 10px;
         height: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+   .product_s2 .container {
+         max-width: 100% !important;
+    }
+}
+
+
+@media (min-width: 576px) {
+    .product_s2 .container {
+         max-width: 100% !important;
     }
 }

@@ -54,8 +54,8 @@ const Products = () => {
                 </section>
             </div>
 
-            <section className=" product_s2">
-                <div className="product_s2_box">
+            <section className=" product_s2 ">
+                <div className="product_s2_box container">
                     <div className="product_s2_box_right">
                         <img src={product_s2_1} alt="" loading={"lazy"}/>
                         <span className="product_s2_box_opacity"></span>
@@ -103,7 +103,7 @@ const Products = () => {
                         </div>
                     </div>
                 </div>
-                <div className="product_s2_box">
+                <div className="product_s2_box container">
                     <div className="product_s2_box_left">
                         <div className="product_s2_box_left_top">
                             <div className="product_s2_box_left_item">
