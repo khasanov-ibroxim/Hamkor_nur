@@ -32,9 +32,9 @@ const Navbar = () => {
         <nav>
 
             <div className="nav_box container">
-                <div className="nav_logo">
+                <Link to={HOME} className="nav_logo">
                     <img src={logo} alt=""/>
-                </div>
+                </Link>
                 <div className={`nav_menu ${isMenuOpen ? 'open' : ''}`}>
                     <ul>
                         <li className={isActive(HOME)}><Link to={HOME}>Главная</Link></li>

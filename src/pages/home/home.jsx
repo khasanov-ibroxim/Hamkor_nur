@@ -31,6 +31,7 @@ import { Autoplay } from 'swiper/modules';
 import {Link} from "react-router-dom";
 import {ArrowRightOutlined} from "@ant-design/icons";
 import {Image} from "antd";
+import {PRODUCTION} from "../../utils/const.jsx";
 
 const Home = () => {
     return (
@@ -108,7 +109,7 @@ const Home = () => {
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>ДОБЫЧА И ПОДГОТОВКА СЫРЬЯ</h2>
-                                    <Link to={"#"}>Подробно <ArrowRightOutlined/></Link>
+                                    <Link to={PRODUCTION.replace(":id" , 1)}>Подробно <ArrowRightOutlined/></Link>
                                 </div>
                             </div>
                             <div className="home_section3_item" data-aos="fade-up">
@@ -121,7 +122,7 @@ const Home = () => {
                                 <div className="home_section3_item_text">
                                     <h2>КРАСКА</h2>
 
-                                    <Link to={"#"}>Подробно <ArrowRightOutlined/></Link>
+                                    <Link to={PRODUCTION.replace(":id" , 2)}>Подробно <ArrowRightOutlined/></Link>
                                 </div>
                             </div>
                         </div>
@@ -136,7 +137,7 @@ const Home = () => {
                                 <div className="home_section3_item_text">
                                     <h2>ДУБЛЕНИЕ</h2>
 
-                                    <Link to={"#"}>Подробно <ArrowRightOutlined/></Link>
+                                    <Link to={PRODUCTION.replace(":id" , 3)}>Подробно <ArrowRightOutlined/></Link>
                                 </div>
 
                             </div>
@@ -150,7 +151,7 @@ const Home = () => {
                                 <div className="home_section3_item_text">
                                     <h2>ОБРАБОТКА И ОТДЕЛКА</h2>
 
-                                    <Link to={"#"}>Подробно <ArrowRightOutlined/></Link>
+                                    <Link to={PRODUCTION.replace(":id" , 4)}>Подробно <ArrowRightOutlined/></Link>
                                 </div>
 
                             </div>
@@ -165,7 +166,7 @@ const Home = () => {
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>МЕХАНИЧЕСКАЯ ОБРАБОТКА</h2>
-                                    <Link to={"#"}>Подробно <ArrowRightOutlined/></Link>
+                                    <Link to={PRODUCTION.replace(":id" , 5)}>Подробно <ArrowRightOutlined/></Link>
                                 </div>
 
                             </div>
@@ -178,7 +179,7 @@ const Home = () => {
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>КОНТРОЛЬ КАЧЕСТВА</h2>
-                                    <Link to={"#"}>Подробно <ArrowRightOutlined/></Link>
+                                    <Link to={PRODUCTION.replace(":id" , 6)}>Подробно <ArrowRightOutlined/></Link>
                                 </div>
 
                             </div>
