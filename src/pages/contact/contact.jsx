@@ -1,6 +1,6 @@
 import React from 'react';
 import './contact.css'
-import contact_form from '../../assets/img/150A0695.webp';
+import contact_form from '../../assets/img/150A0694.png';
 import {Helmet} from "react-helmet-async";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Autoplay} from "swiper/modules";
@@ -62,7 +62,7 @@ const Contact = () => {
             <div className="container">
                 <section className={"contact_address row justify-content-between"}>
 
-                    <div className="col-lg-5">
+                    <div className="col-lg-4">
                         <div className="contact_address_first_title">
                             <span></span>
                             <h2>ГДЕ НАС НАЙТИ!</h2>
@@ -73,12 +73,16 @@ const Contact = () => {
                             в этом сами!
                         </p>
                     </div>
-                    <div className="col-lg-5">
+                    <div className="col-lg-4">
                         <h3>АДРЕС</h3>
-                        <h6 className="contact_address_address"><a href="">Ташкентская область, город Ахангаран, участок
-                            В6</a></h6>
-                        <h6 className="contact_address_address"><a href="tel:+998702010023">+998 70 201 00 23</a></h6>
-                        <h6>Индекс: 110300</h6>
+                        <h6 className="contact_address_address"><a href="">Ташкентская область
+                            город Ахангаран, участок В6</a></h6>
+                    </div>
+                    <div className="col-lg-4">
+                        <h3>КОНТАКТЫ</h3>
+                        <h6 className="contact_address_address"><a href=""></a></h6>
+                        <h6 className="contact_address_address"><a href="tel:+998702010023">телефон : +998 70 201 00 23</a></h6>
+                        <h6 className={"contact_address_address"}>Индекс: 110300</h6>
                     </div>
                 </section>
             </div>
