@@ -1,6 +1,6 @@
 import React from 'react';
 import "./home.css";
-import home_s3_1 from "../../assets/img/animal-portrait-close-up.webp"
+import home_s3_1 from "../../assets/sigr.webp"
 import home_s3_2 from "../../assets/img/150A1861.webp"
 import home_s3_3 from "../../assets/home/home_s3_3.webp"
 import home_s3_4 from "../../assets/img/150A1786.webp"
@@ -23,11 +23,13 @@ import home_header_1 from "../../assets/img/150A0745.webp"
 import home_header_2 from "../../assets/img/150A0882.webp"
 import home_header_3 from "../../assets/img/150A0704.webp"
 
+import success from "../../assets/icon/success.png"
 
 import {Helmet} from "react-helmet-async";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
-
+import {Link} from "react-router-dom";
+import {ArrowRightOutlined} from "@ant-design/icons";
 
 const Home = () => {
     return (
@@ -89,11 +91,18 @@ const Home = () => {
             </div>
             <section className="home_section3">
                 <div className="container">
+                    <div className="home_section4_title" style={{marginBottom:"100px"}} data-aos="fade-up">
+                        <h1>ПОЧЕМУ МЫ - ВАШ ЛУЧШИЙ ВЫБОР?</h1>
+                        <span></span>
+                    </div>
                     <div className="row  justify-content-around align-items-center">
-                        <div className="col-lg-3">
+                        <div className="col-lg-4">
                             <div className="home_section3_item" data-aos="fade-up">
+                                <div className="home_section3_item_icon">
+                                    <ArrowRightOutlined/>
+                                </div>
                                 <div className="home_section3_item_img">
-                                    <img src={home_s3_1} alt="" />
+                                    <img src={home_s3_1} alt=""/>
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>ДОБЫЧА И ПОДГОТОВКА СЫРЬЯ</h2>
@@ -101,25 +110,33 @@ const Home = () => {
                                         и
                                         удалению ненужных тканей и загрязнений, что является первым шагом в получении
                                         качественного материала для дальнейшей обработки.</p>
+                                    <Link to={"#"}>Read More <ArrowRightOutlined/></Link>
                                 </div>
 
                             </div>
                             <div className="home_section3_item" data-aos="fade-up">
+                                <div className="home_section3_item_icon">
+                                    <ArrowRightOutlined/>
+                                </div>
                                 <div className="home_section3_item_img">
-                                    <img src={home_s3_2} alt="" />
+                                    <img src={home_s3_2} alt=""/>
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>КРАСКА</h2>
                                     <p>Для улучшения внешнего вида и долговечности кожи используются различные
                                         технологии
                                         окрашивания. В зависимости от пожелания клиента.</p>
+                                    <Link to={"#"}>Read More <ArrowRightOutlined/></Link>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-lg-4">
                             <div className="home_section3_item" data-aos="fade-up">
+                                <div className="home_section3_item_icon">
+                                    <ArrowRightOutlined/>
+                                </div>
                                 <div className="home_section3_item_img">
-                                    <img src={home_s3_3} alt="" />
+                                    <img src={home_s3_3} alt=""/>
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>ДУБЛЕНИЕ</h2>
@@ -127,30 +144,35 @@ const Home = () => {
                                         растительных экстрактов, чтобы сделать её устойчивой к воздействию влаги,
                                         плесени и
                                         других факторов. </p>
+                                    <Link to={"#"}>Read More <ArrowRightOutlined/></Link>
                                 </div>
 
                             </div>
                             <div className="home_section3_item" data-aos="fade-up">
+                                <div className="home_section3_item_icon">
+                                    <ArrowRightOutlined/>
+                                </div>
                                 <div className="home_section3_item_img">
-                                    <img src={home_s3_4} alt="" style={{objectFit:"cover"}} />
+                                    <img src={home_s3_4} alt="" style={{objectFit: "cover"}}/>
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>ОБРАБОТКА И ОТДЕЛКА</h2>
                                     <p>На этом этапе кожа проходит финишную обработку, которая может включать различные
                                         виды
                                         отделки в зависимости от назначения и желаемых характеристик конечного продукта.
-                                        Это
-                                        может быть тиснение, нанесение лакового покрытия, создание текстурных эффектов
-                                        или
-                                        добавление защитных слоёв.</p>
+                                    </p>
+                                    <Link to={"#"}>Read More <ArrowRightOutlined/></Link>
                                 </div>
 
                             </div>
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-lg-4">
                             <div className="home_section3_item" data-aos="fade-up">
+                                <div className="home_section3_item_icon">
+                                    <ArrowRightOutlined/>
+                                </div>
                                 <div className="home_section3_item_img">
-                                    <img src={home_s3_5} alt="" />
+                                    <img src={home_s3_5} alt=""/>
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>МЕХАНИЧЕСКАЯ ОБРАБОТКА</h2>
@@ -158,21 +180,24 @@ const Home = () => {
                                         выравнивание и прессование. Эти процедуры помогают улучшить текстуру кожи,
                                         придавая
                                         ей необходимую мягкость, эластичность и прочность.</p>
+                                    <Link to={"#"}>Read More <ArrowRightOutlined/></Link>
                                 </div>
 
                             </div>
                             <div className="home_section3_item" data-aos="fade-up">
+                                <div className="home_section3_item_icon">
+                                    <ArrowRightOutlined/>
+                                </div>
                                 <div className="home_section3_item_img">
-                                    <img src={home_s3_6} alt="" style={{objectFit:"cover"}} />
+                                    <img src={home_s3_6} alt="" style={{objectFit: "cover"}}/>
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>КОНТРОЛЬ КАЧЕСТВА</h2>
                                     <p>Важной частью кожевенного производства является строгий контроль на каждом этапе.
                                         Мы
                                         внимательно следим за качеством сырья, точностью выполнения всех технологических
-                                        операций и окончательной отделкой продукции, чтобы каждый клиент получил
-                                        идеальный
-                                        продукт.</p>
+                                        операций и окончательной отделкой продукции</p>
+                                    <Link to={"#"}>Read More <ArrowRightOutlined/></Link>
                                 </div>
 
                             </div>
@@ -183,7 +208,7 @@ const Home = () => {
 
             <div className="container d-flex justify-content-center align-items-center">
                 <section className={"home_section4"}>
-                    <div className="home_section4_title" data-aos="fade-up">
+                <div className="home_section4_title" data-aos="fade-up">
                         <h1>ПОЧЕМУ МЫ - ВАШ ЛУЧШИЙ ВЫБОР?</h1>
                         <span></span>
                     </div>
@@ -263,11 +288,11 @@ const Home = () => {
                             </div>
                             <p>
                                 <ul>
-                                    <li>Исключительное качество материалов</li>
-                                    <li>Долговечность</li>
-                                    <li>Индивидуальный подход</li>
-                                    <li>Стабильность</li>
-                                    <li>Ответственность</li>
+                                    <li><img src={success} alt=""/>Исключительное качество материалов</li>
+                                    <li><img src={success} alt=""/>Долговечность</li>
+                                    <li><img src={success} alt=""/>Индивидуальный подход</li>
+                                    <li><img src={success} alt=""/>Стабильность</li>
+                                    <li><img src={success} alt=""/>Ответственность</li>
                                 </ul>
                             </p>
                         </div>
