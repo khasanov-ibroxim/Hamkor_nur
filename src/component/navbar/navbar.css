@@ -54,19 +54,19 @@ nav {
 }
 
 .nav_menu ul li:hover {
-    border-bottom: 3px solid #F59C8A;
+    border-bottom: 3px solid #FAB500;
 }
 
 .nav_menu ul li.active {
-    border-bottom: 3px solid #F59C8A;
+    border-bottom: 3px solid #FAB500;
 }
 
 .nav_menu ul li:hover a {
-    color: #F59C8A;
+    color: #FAB500;
 }
 
 .nav_menu ul li.active a {
-    color: #F59C8A;
+    color: #FAB500;
 }
 
 .nav_menu ul li a {
@@ -81,7 +81,7 @@ nav {
 }
 
 .nav_logo h1 {
-    color: #F59C8A;
+    color: #FAB500;
     font-size: 25px;
 }
 

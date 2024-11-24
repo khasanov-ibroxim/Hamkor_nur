@@ -31,8 +31,8 @@ const Contact = () => {
                     loop={true}
                     className="mySwiper"
                 >
-                    <SwiperSlide><img src={contact_header_1} alt="" loading={"lazy"}/></SwiperSlide>
-                    <SwiperSlide><img src={contact_header_2} alt="" loading={"lazy"}/></SwiperSlide>
+                    <SwiperSlide><img src={contact_header_1} alt="" /></SwiperSlide>
+                    <SwiperSlide><img src={contact_header_2} alt="" /></SwiperSlide>
 
                 </Swiper>
             </section>
@@ -40,7 +40,7 @@ const Contact = () => {
             <section className="contact_form container">
                 <div className="row d-flex justify-content-between">
                     <div className="col-lg-5">
-                        <img src={contact_form} alt="" style={{objectFit:"cover"}} loading={"lazy"}/>
+                        <img src={contact_form} alt="" style={{objectFit:"cover"}} />
                     </div>
                     <div className="col-lg-7">
                         <form action="#">

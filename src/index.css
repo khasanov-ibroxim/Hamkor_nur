@@ -5,11 +5,12 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: "Noto Sans", sans-serif;
-    background: #502b0f !important;
+    background: #202020 !important;
+    color: white ;
 }
 
 *{
-    color: white !important;
+
 }
 :root{
 

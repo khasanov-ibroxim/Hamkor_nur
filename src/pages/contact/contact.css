@@ -27,7 +27,7 @@
     color: #393B3F;
 }
 .contact_form_title p{
-    color: #7F7C7C;
+    color: #fff;
     font-family: var(--note_sans), sans-serif;
     font-size: 15px;
     line-height: 1.7em;
@@ -57,7 +57,7 @@
 }
 .contact_form button{
     color: #fff;
-    background: #F59C8A;
+    background: #FAB500;
     height: 50px;
     width: 100%;
     border-radius: 25px;
@@ -95,7 +95,7 @@
     align-items: center;
 }
 .contact_address_first_title h2{
-    color: #F59C8A;
+    color: #FAB500;
     font-family: var(--montserrat), sans-serif;
     font-weight: 500;
     line-height: 1.5em;
@@ -106,7 +106,7 @@
 .contact_address_first_title span{
     width: 80px;
     height: 5px;
-    background: #F59C8A;
+    background: #FAB500;
     margin-right: 10px;
 }
 
@@ -121,7 +121,7 @@
     margin-top: 10px;
 }
 .contact_address p{
-    color: #7F7C7C;
+    color: #fff;
     font-family: var(--note_sans), sans-serif;
     font-size: 15px;
     line-height: 1.7em;

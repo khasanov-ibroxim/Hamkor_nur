@@ -125,9 +125,9 @@ const About = () => {
                     loop={true}
                     className="mySwiper"
                 >
-                    <SwiperSlide><img src={about_header_1} alt="" loading={"lazy"}/></SwiperSlide>
-                    <SwiperSlide><img src={about_header_2} alt="" loading={"lazy"}/></SwiperSlide>
-                    <SwiperSlide><img src={about_header_3} alt="" loading={"lazy"}/></SwiperSlide>
+                    <SwiperSlide><img src={about_header_1} alt="" /></SwiperSlide>
+                    <SwiperSlide><img src={about_header_2} alt="" /></SwiperSlide>
+                    <SwiperSlide><img src={about_header_3} alt="" /></SwiperSlide>
                 </Swiper>
             </section>
 
@@ -172,7 +172,7 @@ const About = () => {
                 <div className="row justify-content-center align-items-center">
 
                     <div className="col-lg-6" data-aos="fade-right">
-                        <img src={about_s2_1} alt="" loading={"lazy"}/>
+                        <img src={about_s2_1} alt="" />
                     </div>
                     <div className="col-lg-6" data-aos="fade-left">
                         <div className="about_s2_text">
@@ -197,7 +197,7 @@ const About = () => {
 
                     </div>
                     <div className="col-lg-6" data-aos="fade-left">
-                        <img src={about_s2_2} alt="" loading={"lazy"}/>
+                        <img src={about_s2_2} alt="" />
                     </div>
                 </div>
             </section>

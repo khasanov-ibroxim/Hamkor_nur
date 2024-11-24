@@ -46,13 +46,14 @@
 .home_box button {
     width: 200px;
     height: 40px;
-    background: #FFFFFF;
+    background: #FAB500;
     outline: none;
     border: none;
     border-radius: 25px;
     font-weight: 700;
     font-size: 18px;
     transition: 0.5s;
+    color: #FFFFFF;
 }
 
 .home_box button:hover {
@@ -69,7 +70,7 @@
 
 .home_section2_left h3 {
     font-size: 20px;
-    color: #F59C8A;
+    color: #FAB500;
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -82,16 +83,16 @@
 
 .home_section2_left h3 span {
     width: 100px;
-    border: #F59C8A 1px solid;
+    border: #FAB500 1px solid;
     height: 5px;
-    background: #F59C8A;
+    background: #FAB500;
     margin-right: 10px;
 }
 
 .home_section2_left h2 {
     font-size: 28px;
     font-family: var(--montserrat), serif;
-    color: #393B3f;
+    color: #fff;
     font-weight: 700;
     line-height: 1.5em;
     letter-spacing: 2px;
@@ -99,7 +100,7 @@
 
 .home_section2_left a {
     color: #fff;
-    background: #F59C8A;
+    background: #FAB500;
     height: 40px;
     width: 40%;
     border-radius: 25px;
@@ -119,13 +120,12 @@
 }
 
 .home_section2_right p {
-    color: #7F7C7C;
+    color: white;
     font-family: var(--note_sans), sans-serif;
     font-size: 15px;
 }
 
 .home_section3 {
-    background: #FDF8F4;
     padding-top: 100px;
     padding-bottom: 50px;
     display: flex;
@@ -145,7 +145,7 @@
 }
 
 .home_section3_item h2 {
-    color: #2a302f;
+    color: white;
     font-size: 20px;
     font-weight: 700;
     line-height: 1.5em;
@@ -156,7 +156,7 @@
 }
 
 .home_section3_item p {
-    color: #7F7C7C;
+    color: #f2f2f2;
     font-size: 14px;
 }
 .home_section3_item_text{
@@ -194,7 +194,7 @@
     font-family: var(--montserrat), sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #393B3F;
+    color: #fff;
     font-size: 32px;
     font-weight: 700;
     text-align: center;
@@ -202,7 +202,7 @@
 
 .home_section4_title span {
     width: 100px;
-    background: #F59C8A;
+    background: #FAB500;
     height: 2px;
 }
 
@@ -227,7 +227,7 @@
 }
 
 .home_section4_item h3 {
-    color: #393B3F;
+    color: #fff;
     font-size: 14px;
     font-weight: 700;
     line-height: 1.5em;
@@ -237,7 +237,7 @@
 }
 
 .home_section4_item p {
-    color: #7F7C7C;
+    color: #f1f1f1;
     font-family: var(--note_sans);
     font-size: 12px;
     line-height: 1.7em;
@@ -279,7 +279,6 @@
     align-items: flex-start;
     flex-direction: column;
     padding: 50px 100px 50px 100px;;
-    background: #FDF8F4;
 }
 
 .home_section5_text_title {
@@ -292,7 +291,7 @@
 
 .home_section5_text_title span {
     width: 100px;
-    background: #F59C8A;
+    background: #FAB500;
     height: 5px;
 }
 
@@ -300,7 +299,7 @@
     font-family: var(--montserrat), sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #393B3F;
+    color: #fff;
     font-size: 32px;
     font-weight: 700;
 }
@@ -309,7 +308,7 @@
     line-height: 55px;
 }
 .home_section5_text p {
-    color: #7F7C7C;
+    color: #fff;
     font-family: var(--note_sans);
     font-size: 14px;
     line-height: 1.7em;
@@ -318,7 +317,7 @@
 
 .home_section5_text a {
     color: #fff;
-    background: #F59C8A;
+    background: #FAB500;
     height: 40px;
     width: 30%;
     border-radius: 25px;
@@ -365,7 +364,7 @@
 }
 
 .home_section6_text p {
-    color: #7F7C7C;
+    color: #fff;
     font-family: var(--note_sans);
     font-size: 15px;
     line-height: 1.7em;
@@ -400,7 +399,7 @@
     text-align: left;
 }
 .home_section8_text h2 {
-    color: #F59C8A;
+    color: #FAB500;
     font-family: var(--montserrat);
     font-size: 32px;
     font-weight: 700;
@@ -408,7 +407,7 @@
     letter-spacing: 2px;
 }
 .home_section8_text p{
-    color: #393B3F;
+    color: #fff;
     font-family: "Montserrat", Sans-serif;
     font-size: 15px;
     font-weight: 300;
@@ -423,7 +422,7 @@
 }
 .home_section8_button a{
     color: #fff;
-    background: #F59C8A;
+    background: #FAB500;
     height: 40px;
     width: 50%;
     border-radius: 25px;

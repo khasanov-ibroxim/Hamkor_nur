@@ -57,7 +57,7 @@ const Products = () => {
             <section className=" product_s2 ">
                 <div className="product_s2_box container">
                     <div className="product_s2_box_right">
-                        <img src={product_s2_1} alt="" loading={"lazy"}/>
+                        <img src={product_s2_1} alt="" />
                         <span className="product_s2_box_opacity"></span>
                         <div className="product_s2_box_text">
                             <h3>Fashion Clothing</h3>
@@ -67,7 +67,7 @@ const Products = () => {
                     <div className="product_s2_box_left">
                         <div className="product_s2_box_left_top">
                             <div className="product_s2_box_left_item">
-                                <img src={product_s2_2} alt="" loading={"lazy"}/>
+                                <img src={product_s2_2} alt="" />
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
                                     <h3>Jewellery</h3>
@@ -75,7 +75,7 @@ const Products = () => {
                                 </div>
                             </div>
                             <div className="product_s2_box_left_item">
-                                <img src={product_s2_3} alt="" loading={"lazy"}/>
+                                <img src={product_s2_3} alt="" />
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
                                     <h3>Ceramics</h3>
@@ -85,7 +85,7 @@ const Products = () => {
                         </div>
                         <div className="product_s2_box_left_bottom">
                             <div className="product_s2_box_left_item">
-                                <img src={product_s2_4} alt="" loading={"lazy"}/>
+                                <img src={product_s2_4} alt="" />
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
                                     <h3>Furniture</h3>
@@ -93,7 +93,7 @@ const Products = () => {
                                 </div>
                             </div>
                             <div className="product_s2_box_left_item">
-                                <img src={product_s2_5} alt="" loading={"lazy"}/>
+                                <img src={product_s2_5} alt="" />
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
                                     <h3>Home Decor</h3>
@@ -107,7 +107,7 @@ const Products = () => {
                     <div className="product_s2_box_left">
                         <div className="product_s2_box_left_top">
                             <div className="product_s2_box_left_item">
-                                <img src={product_s2_6} alt="" loading={"lazy"}/>
+                                <img src={product_s2_6} alt="" />
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
                                     <h3>Leather Craft</h3>
@@ -115,7 +115,7 @@ const Products = () => {
                                 </div>
                             </div>
                             <div className="product_s2_box_left_item">
-                                <img src={product_s2_7} alt="" loading={"lazy"}/>
+                                <img src={product_s2_7} alt="" />
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
                                     <h3>Woven Craft</h3>
@@ -125,7 +125,7 @@ const Products = () => {
                         </div>
                         <div className="product_s2_box_left_bottom">
                             <div className="product_s2_box_left_item">
-                                <img src={product_s2_8} alt="" loading={"lazy"}/>
+                                <img src={product_s2_8} alt="" />
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
                                     <h3>Sculpturing</h3>
@@ -133,7 +133,7 @@ const Products = () => {
                                 </div>
                             </div>
                             <div className="product_s2_box_left_item">
-                                <img src={product_s2_9} alt="" loading={"lazy"}/>
+                                <img src={product_s2_9} alt="" />
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
                                     <h3>Clay Craft</h3>
@@ -143,7 +143,7 @@ const Products = () => {
                         </div>
                     </div>
                     <div className="product_s2_box_right">
-                        <img src={product_s2_10} alt="" loading={"lazy"}/>
+                        <img src={product_s2_10} alt="" />
                         <span className="product_s2_box_opacity"></span>
                         <div className="product_s2_box_text">
                             <h3>Accesories</h3>
@@ -169,7 +169,7 @@ const Products = () => {
                             </div>
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                    <img className="d-block w-100" src={product_s2_1} alt="First slide" loading={"lazy"}/>
+                                    <img className="d-block w-100" src={product_s2_1} alt="First slide" />
                                     <span className="slide_opacity"></span>
                                     <div className="slide_text">
                                         <h1>Custom Painting</h1>
@@ -177,7 +177,7 @@ const Products = () => {
                                     </div>
                                 </div>
                                 <div className="carousel-item">
-                                    <img className="d-block w-100" src={product_s2_2} alt="Second slide" loading={"lazy"}/>
+                                    <img className="d-block w-100" src={product_s2_2} alt="Second slide" />
                                     <span className="slide_opacity"></span>
                                     <div className="slide_text">
                                         <h1>Custom Painting</h1>
@@ -185,7 +185,7 @@ const Products = () => {
                                     </div>
                                 </div>
                                 <div className="carousel-item">
-                                    <img className="d-block w-100" src={product_s2_3} alt="Third slide" loading={"lazy"}/>
+                                    <img className="d-block w-100" src={product_s2_3} alt="Third slide" />
                                     <span className="slide_opacity"></span>
                                     <div className="slide_text">
                                         <h1>Custom Painting</h1>

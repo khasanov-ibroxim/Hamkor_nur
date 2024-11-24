@@ -65,12 +65,12 @@
 
 .about_s1_title span {
     width: 100px;
-    background: #F59C8A;
+    background: #FAB500;
     height: 5px;
 }
 
 .about_s1_text p {
-    color: #7F7C7C;
+    color: #fff;
     font-family: var(--note_sans), sans-serif;
     font-size: 16px;
     line-height: 1.7em;
@@ -124,12 +124,12 @@
 
 .about_s2_text_title span {
     width: 100px;
-    background: #F59C8A;
+    background: #FAB500;
     height: 5px;
 }
 
 .about_s2_text_title p {
-    color: #7F7C7C;
+    color: #fff;
     font-family: var(--note_sans), sans-serif;
     font-size: 15px;
     line-height: 1.7em;
@@ -150,7 +150,7 @@
 
 .about_s2_text a {
     color: #fff;
-    background: #F59C8A;
+    background: #FAB500;
     height: 40px;
     width: 40%;
     border-radius: 25px;
@@ -169,7 +169,7 @@
 
 .about_s3_left h3 {
     font-size: 13px;
-    color: #F59C8A;
+    color: #FAB500;
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -182,9 +182,9 @@
 
 .about_s3_left h3 span {
     width: 100px;
-    border: #F59C8A 1px solid;
+    border: #FAB500 1px solid;
     height: 5px;
-    background: #F59C8A;
+    background: #FAB500;
     margin-right: 10px;
 }
 
@@ -201,7 +201,7 @@
 
 .about_s3_left a {
     color: #fff;
-    background: #F59C8A;
+    background: #FAB500;
     height: 40px;
     width: 40%;
     border-radius: 25px;
@@ -221,7 +221,7 @@
 }
 
 .about_s3_right p {
-    color: #7F7C7C;
+    color: #fff;
     font-family: var(--note_sans), sans-serif;
     font-size: 15px;
 }
