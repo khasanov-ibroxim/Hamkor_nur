@@ -92,7 +92,7 @@ const Home = () => {
             <section className="home_section3">
                 <div className="container">
                     <div className="home_section4_title" style={{marginBottom:"100px"}} data-aos="fade-up">
-                        <h1>ПОЧЕМУ МЫ - ВАШ ЛУЧШИЙ ВЫБОР?</h1>
+                        <h1>Производство</h1>
                         <span></span>
                     </div>
                     <div className="row  justify-content-around align-items-center">
