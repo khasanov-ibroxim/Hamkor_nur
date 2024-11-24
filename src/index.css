@@ -5,9 +5,14 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: "Noto Sans", sans-serif;
+    background: #502b0f !important;
 }
 
+*{
+    color: white !important;
+}
 :root{
+
     --note_sans: "Noto Sans", sans-serif;
     --montserrat: "Montserrat", sans-serif;
 }
