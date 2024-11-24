@@ -30,6 +30,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import {Link} from "react-router-dom";
 import {ArrowRightOutlined} from "@ant-design/icons";
+import {Image} from "antd";
 
 const Home = () => {
     return (
@@ -74,6 +75,7 @@ const Home = () => {
 
                         </div>
                         <div className="col-lg-6 home_section2_right" data-aos="fade-up">
+                            <h3>о компании</h3>
                         <p>Компания «Hamkor Nur Savdo» была основана в 2007 году и с тех пор зарекомендовала себя
                                 как надежный производитель и поставщик высококачественной кожи. Деятельность предприятия
                                 заключается в переработке крупного рогатого скота. Мы не только удовлетворяем
@@ -102,20 +104,19 @@ const Home = () => {
                                     <ArrowRightOutlined/>
                                 </div>
                                 <div className="home_section3_item_img">
-                                    <img src={home_s3_1} alt=""/>
+                                    <Image src={home_s3_1} alt=""/>
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>ДОБЫЧА И ПОДГОТОВКА СЫРЬЯ</h2>
                                     <Link to={"#"}>Подробно <ArrowRightOutlined/></Link>
                                 </div>
-
                             </div>
                             <div className="home_section3_item" data-aos="fade-up">
                                 <div className="home_section3_item_icon">
                                     <ArrowRightOutlined/>
                                 </div>
                                 <div className="home_section3_item_img">
-                                    <img src={home_s3_2} alt=""/>
+                                    <Image src={home_s3_2} alt=""/>
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>КРАСКА</h2>
@@ -130,7 +131,7 @@ const Home = () => {
                                     <ArrowRightOutlined/>
                                 </div>
                                 <div className="home_section3_item_img">
-                                    <img src={home_s3_3} alt=""/>
+                                    <Image src={home_s3_3} alt=""/>
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>ДУБЛЕНИЕ</h2>
@@ -144,7 +145,7 @@ const Home = () => {
                                     <ArrowRightOutlined/>
                                 </div>
                                 <div className="home_section3_item_img">
-                                    <img src={home_s3_4} alt="" style={{objectFit: "cover"}}/>
+                                    <Image src={home_s3_4} alt="" style={{objectFit: "cover"}}/>
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>ОБРАБОТКА И ОТДЕЛКА</h2>
@@ -160,7 +161,7 @@ const Home = () => {
                                     <ArrowRightOutlined/>
                                 </div>
                                 <div className="home_section3_item_img">
-                                    <img src={home_s3_5} alt=""/>
+                                    <Image src={home_s3_5} alt=""/>
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>МЕХАНИЧЕСКАЯ ОБРАБОТКА</h2>
@@ -173,7 +174,7 @@ const Home = () => {
                                     <ArrowRightOutlined/>
                                 </div>
                                 <div className="home_section3_item_img">
-                                    <img src={home_s3_6} alt="" style={{objectFit: "cover"}}/>
+                                    <Image src={home_s3_6} alt="" style={{objectFit: "cover"}}/>
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>КОНТРОЛЬ КАЧЕСТВА</h2>
