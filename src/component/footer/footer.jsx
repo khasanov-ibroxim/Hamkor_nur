@@ -9,14 +9,16 @@ const Footer = () => {
     return (
         <>
             {currentPath === "/contact" ? "" : (
-                <section className="home_section8 container overflow-hidden">
-                    <div className="row d-flex justify-content-between">
-                        <div className="col-lg-8 home_section8_text" data-aos="fade-right">
-                            <h2>КАК ВЫБРАТЬ ПРАВИЛЬНУЮ КОЖУ ДЛЯ КОНКРЕТНОГО ИЗДЕЛИЯ?</h2>
-                            <p>Мы готовы предложить вам решения.</p>
-                        </div>
-                        <div className="col-lg-4 home_section8_button" data-aos="fade-left">
-                            <a href="#">КОНТАКТЫ</a>
+                <section className="home_section8  overflow-hidden">
+                    <div className="container">
+                        <div className="row d-flex justify-content-between">
+                            <div className="col-lg-8 home_section8_text" data-aos="fade-right">
+                                <h2>КАК ВЫБРАТЬ ПРАВИЛЬНУЮ КОЖУ ДЛЯ КОНКРЕТНОГО ИЗДЕЛИЯ?</h2>
+                                <p>Мы готовы предложить вам решения.</p>
+                            </div>
+                            <div className="col-lg-4 home_section8_button" data-aos="fade-left">
+                                <a href="#">КОНТАКТЫ</a>
+                            </div>
                         </div>
                     </div>
                 </section>

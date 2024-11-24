@@ -46,7 +46,7 @@
 .home_box button {
     width: 200px;
     height: 40px;
-    background: #FAB500;
+    background: #c89501;
     outline: none;
     border: none;
     border-radius: 25px;
@@ -70,7 +70,7 @@
 
 .home_section2_left h3 {
     font-size: 20px;
-    color: #FAB500;
+    color: #c89501;
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -83,9 +83,9 @@
 
 .home_section2_left h3 span {
     width: 100px;
-    border: #FAB500 1px solid;
+    border: #c89501 1px solid;
     height: 5px;
-    background: #FAB500;
+    background: #c89501;
     margin-right: 10px;
 }
 
@@ -100,7 +100,7 @@
 
 .home_section2_left a {
     color: #fff;
-    background: #FAB500;
+    background: #c89501;
     height: 40px;
     width: 40%;
     border-radius: 25px;
@@ -126,6 +126,7 @@
 }
 
 .home_section3 {
+    background: #151515;
     padding-top: 100px;
     padding-bottom: 50px;
     display: flex;
@@ -202,7 +203,7 @@
 
 .home_section4_title span {
     width: 100px;
-    background: #FAB500;
+    background: #c89501;
     height: 2px;
 }
 
@@ -278,7 +279,8 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    padding: 50px 100px 50px 100px;;
+    padding: 50px 100px 50px 100px;
+    background: #151515;
 }
 
 .home_section5_text_title {
@@ -291,7 +293,7 @@
 
 .home_section5_text_title span {
     width: 100px;
-    background: #FAB500;
+    background: #c89501;
     height: 5px;
 }
 
@@ -317,7 +319,7 @@
 
 .home_section5_text a {
     color: #fff;
-    background: #FAB500;
+    background: #c89501;
     height: 40px;
     width: 30%;
     border-radius: 25px;
@@ -391,15 +393,16 @@
 
 
 .home_section8{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #151515;
 }
 
 .home_section8_text{
     text-align: left;
 }
 .home_section8_text h2 {
-    color: #FAB500;
+    color: #c89501;
     font-family: var(--montserrat);
     font-size: 32px;
     font-weight: 700;
@@ -422,7 +425,7 @@
 }
 .home_section8_button a{
     color: #fff;
-    background: #FAB500;
+    background: #c89501;
     height: 40px;
     width: 50%;
     border-radius: 25px;

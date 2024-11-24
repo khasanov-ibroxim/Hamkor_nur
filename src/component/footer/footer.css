@@ -44,7 +44,7 @@ footer .row{
 .footer_item_social a{
     margin-left: 30px;
     font-size: 25px;
-    color: #FAB500;
+    color: #c89501;
 }
 .footer_item_send{
     display: flex;
@@ -69,7 +69,7 @@ footer .row{
     font-weight: bold;
     font-size: 15px;
     color: #fff !important;
-    background: #FAB500;
+    background: #c89501;
     font-family: var(--montserrat) sans-serif;
     border: none;
     outline: none;
