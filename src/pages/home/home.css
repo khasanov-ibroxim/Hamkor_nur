@@ -173,18 +173,23 @@
     padding: 10px 20px;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: column;
     gap: 0;
 }
 
 .home_section3_item_text a {
-    font-size: 25px;
+    font-size: 20px;
     width: max-content;
-    padding: 0 20px;
+
     color: #c89501;
     text-decoration: none;
     border-radius: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .home_section3_item_icon {

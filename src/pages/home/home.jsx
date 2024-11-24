@@ -2,7 +2,7 @@ import React from 'react';
 import "./home.css";
 import home_s3_1 from "../../assets/sigr.webp"
 import home_s3_2 from "../../assets/img/150A1861.webp"
-import home_s3_3 from "../../assets/home/home_s3_3.webp"
+import home_s3_3 from "../../assets/img/150A1789.webp"
 import home_s3_4 from "../../assets/img/150A1786.webp"
 import home_s3_5 from "../../assets/img/150A1942.webp"
 import home_s3_6 from "../../assets/img/150A1873.webp"
