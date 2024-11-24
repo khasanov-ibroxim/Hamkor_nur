@@ -110,7 +110,7 @@ const Home = () => {
                                         и
                                         удалению ненужных тканей и загрязнений, что является первым шагом в получении
                                         качественного материала для дальнейшей обработки.</p>
-                                    <Link to={"#"}>Read More <ArrowRightOutlined/></Link>
+                                    <Link to={"#"}>Подробно <ArrowRightOutlined/></Link>
                                 </div>
 
                             </div>
@@ -126,7 +126,7 @@ const Home = () => {
                                     <p>Для улучшения внешнего вида и долговечности кожи используются различные
                                         технологии
                                         окрашивания. В зависимости от пожелания клиента.</p>
-                                    <Link to={"#"}>Read More <ArrowRightOutlined/></Link>
+                                    <Link to={"#"}>Подробно <ArrowRightOutlined/></Link>
                                 </div>
                             </div>
                         </div>
@@ -144,7 +144,7 @@ const Home = () => {
                                         растительных экстрактов, чтобы сделать её устойчивой к воздействию влаги,
                                         плесени и
                                         других факторов. </p>
-                                    <Link to={"#"}>Read More <ArrowRightOutlined/></Link>
+                                    <Link to={"#"}>Подробно <ArrowRightOutlined/></Link>
                                 </div>
 
                             </div>
@@ -161,7 +161,7 @@ const Home = () => {
                                         виды
                                         отделки в зависимости от назначения и желаемых характеристик конечного продукта.
                                     </p>
-                                    <Link to={"#"}>Read More <ArrowRightOutlined/></Link>
+                                    <Link to={"#"}>Подробно <ArrowRightOutlined/></Link>
                                 </div>
 
                             </div>
@@ -180,7 +180,7 @@ const Home = () => {
                                         выравнивание и прессование. Эти процедуры помогают улучшить текстуру кожи,
                                         придавая
                                         ей необходимую мягкость, эластичность и прочность.</p>
-                                    <Link to={"#"}>Read More <ArrowRightOutlined/></Link>
+                                    <Link to={"#"}>Подробно <ArrowRightOutlined/></Link>
                                 </div>
 
                             </div>
@@ -197,7 +197,7 @@ const Home = () => {
                                         Мы
                                         внимательно следим за качеством сырья, точностью выполнения всех технологических
                                         операций и окончательной отделкой продукции</p>
-                                    <Link to={"#"}>Read More <ArrowRightOutlined/></Link>
+                                    <Link to={"#"}>Подробно <ArrowRightOutlined/></Link>
                                 </div>
 
                             </div>
