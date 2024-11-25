@@ -26,10 +26,10 @@ import home_header_3 from "../../assets/img/150A0704.webp"
 import success from "../../assets/icon/success.png"
 
 import {Helmet} from "react-helmet-async";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper/modules';
+import {Swiper, SwiperSlide} from 'swiper/react';
+import {Autoplay} from 'swiper/modules';
 import {Link} from "react-router-dom";
-import {ArrowRightOutlined} from "@ant-design/icons";
+import {ArrowRightOutlined, EyeOutlined} from "@ant-design/icons";
 import {Image} from "antd";
 import {PRODUCTION} from "../../utils/const.jsx";
 
@@ -62,9 +62,9 @@ const Home = () => {
                     loop={true}
                     className="mySwiper"
                 >
-                    <SwiperSlide><img src={home_header_1} alt="" /></SwiperSlide>
-                    <SwiperSlide><img src={home_header_2} alt="" /></SwiperSlide>
-                    <SwiperSlide><img src={home_header_3} alt="" /></SwiperSlide>
+                    <SwiperSlide><img src={home_header_1} alt=""/></SwiperSlide>
+                    <SwiperSlide><img src={home_header_2} alt=""/></SwiperSlide>
+                    <SwiperSlide><img src={home_header_3} alt=""/></SwiperSlide>
                 </Swiper>
             </div>
             <div className="container">
@@ -77,7 +77,7 @@ const Home = () => {
                         </div>
                         <div className="col-lg-6 home_section2_right" data-aos="fade-up">
                             <h3>о компании</h3>
-                        <p>Компания «Hamkor Nur Savdo» была основана в 2007 году и с тех пор зарекомендовала себя
+                            <p>Компания «Hamkor Nur Savdo» была основана в 2007 году и с тех пор зарекомендовала себя
                                 как надежный производитель и поставщик высококачественной кожи. Деятельность предприятия
                                 заключается в переработке крупного рогатого скота. Мы не только удовлетворяем
                                 потребности внутреннего рынка, но и активно экспортируем нашу продукцию в Китай, Турцию,
@@ -94,7 +94,7 @@ const Home = () => {
             </div>
             <section className="home_section3">
                 <div className="container">
-                    <div className="home_section4_title" style={{marginBottom:"100px"}} data-aos="fade-up">
+                    <div className="home_section4_title" style={{marginBottom: "100px"}} data-aos="fade-up">
                         <h1>Производство</h1>
                         <span></span>
                     </div>
@@ -105,11 +105,15 @@ const Home = () => {
                                     <ArrowRightOutlined/>
                                 </div>
                                 <div className="home_section3_item_img">
-                                    <Image src={home_s3_1} alt=""/>
+                                    <Image src={home_s3_1} alt="ДОБЫЧА И ПОДГОТОВКА СЫРЬЯ"
+                                           preview={{
+                                               mask: <div className={"preview_box"}><EyeOutlined/> <span>Открыть</span>
+                                               </div>
+                                           }}/>
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>ДОБЫЧА И ПОДГОТОВКА СЫРЬЯ</h2>
-                                    <Link to={PRODUCTION.replace(":id" , 1)}>Подробно <ArrowRightOutlined/></Link>
+                                    <Link to={PRODUCTION.replace(":id", 1)}>Подробно <ArrowRightOutlined/></Link>
                                 </div>
                             </div>
                             <div className="home_section3_item" data-aos="fade-up">
@@ -117,12 +121,17 @@ const Home = () => {
                                     <ArrowRightOutlined/>
                                 </div>
                                 <div className="home_section3_item_img">
-                                    <Image src={home_s3_2} alt=""/>
+                                    <Image src={home_s3_2} alt="КРАСКА"
+                                           preview={{
+                                               mask: <div className={"preview_box"}><EyeOutlined/> <span>Открыть</span>
+                                               </div>
+                                           }}
+                                    />
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>КРАСКА</h2>
 
-                                    <Link to={PRODUCTION.replace(":id" , 2)}>Подробно <ArrowRightOutlined/></Link>
+                                    <Link to={PRODUCTION.replace(":id", 2)}>Подробно <ArrowRightOutlined/></Link>
                                 </div>
                             </div>
                         </div>
@@ -132,12 +141,17 @@ const Home = () => {
                                     <ArrowRightOutlined/>
                                 </div>
                                 <div className="home_section3_item_img">
-                                    <Image src={home_s3_3} alt=""/>
+                                    <Image src={home_s3_3} alt="ДУБЛЕНИЕ"
+                                           preview={{
+                                               mask: <div className={"preview_box"}><EyeOutlined/> <span>Открыть</span>
+                                               </div>
+                                           }}
+                                    />
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>ДУБЛЕНИЕ</h2>
 
-                                    <Link to={PRODUCTION.replace(":id" , 3)}>Подробно <ArrowRightOutlined/></Link>
+                                    <Link to={PRODUCTION.replace(":id", 3)}>Подробно <ArrowRightOutlined/></Link>
                                 </div>
 
                             </div>
@@ -146,12 +160,17 @@ const Home = () => {
                                     <ArrowRightOutlined/>
                                 </div>
                                 <div className="home_section3_item_img">
-                                    <Image src={home_s3_4} alt="" style={{objectFit: "cover"}}/>
+                                    <Image src={home_s3_4} alt="ОБРАБОТКА И ОТДЕЛКА" style={{objectFit: "cover"}}
+                                           preview={{
+                                               mask: <div className={"preview_box"}><EyeOutlined/> <span>Открыть</span>
+                                               </div>
+                                           }}
+                                    />
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>ОБРАБОТКА И ОТДЕЛКА</h2>
 
-                                    <Link to={PRODUCTION.replace(":id" , 4)}>Подробно <ArrowRightOutlined/></Link>
+                                    <Link to={PRODUCTION.replace(":id", 4)}>Подробно <ArrowRightOutlined/></Link>
                                 </div>
 
                             </div>
@@ -162,11 +181,16 @@ const Home = () => {
                                     <ArrowRightOutlined/>
                                 </div>
                                 <div className="home_section3_item_img">
-                                    <Image src={home_s3_5} alt=""/>
+                                    <Image src={home_s3_5} alt="МЕХАНИЧЕСКАЯ ОБРАБОТКА"
+                                           preview={{
+                                               mask: <div className={"preview_box"}><EyeOutlined/> <span>Открыть</span>
+                                               </div>
+                                           }}
+                                    />
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>МЕХАНИЧЕСКАЯ ОБРАБОТКА</h2>
-                                    <Link to={PRODUCTION.replace(":id" , 5)}>Подробно <ArrowRightOutlined/></Link>
+                                    <Link to={PRODUCTION.replace(":id", 5)}>Подробно <ArrowRightOutlined/></Link>
                                 </div>
 
                             </div>
@@ -175,11 +199,16 @@ const Home = () => {
                                     <ArrowRightOutlined/>
                                 </div>
                                 <div className="home_section3_item_img">
-                                    <Image src={home_s3_6} alt="" style={{objectFit: "cover"}}/>
+                                    <Image src={home_s3_6} alt="КОНТРОЛЬ КАЧЕСТВА"
+                                           preview={{
+                                               mask: <div className={"preview_box"}><EyeOutlined/> <span>Открыть</span>
+                                               </div>
+                                           }}
+                                           style={{objectFit: "cover"}}/>
                                 </div>
                                 <div className="home_section3_item_text">
                                     <h2>КОНТРОЛЬ КАЧЕСТВА</h2>
-                                    <Link to={PRODUCTION.replace(":id" , 6)}>Подробно <ArrowRightOutlined/></Link>
+                                    <Link to={PRODUCTION.replace(":id", 6)}>Подробно <ArrowRightOutlined/></Link>
                                 </div>
 
                             </div>
@@ -190,7 +219,7 @@ const Home = () => {
 
             <div className="container d-flex justify-content-center align-items-center">
                 <section className={"home_section4"}>
-                <div className="home_section4_title" data-aos="fade-up">
+                    <div className="home_section4_title" data-aos="fade-up">
                         <h1>ПОЧЕМУ МЫ - ВАШ ЛУЧШИЙ ВЫБОР?</h1>
                         <span></span>
                     </div>
@@ -198,7 +227,7 @@ const Home = () => {
                         <div className="col-lg-4">
                             <div className="home_section4_item" data-aos="fade-up">
                                 <div className="home_section4_item_img">
-                                    <img src={home_s4_1} alt="" />
+                                    <img src={home_s4_1} alt=""/>
                                 </div>
                                 <h3>Высокое качество кожи</h3>
                                 <p>Кожа, которую мы производим, отличается долговечностью, эластичностью и
@@ -206,7 +235,7 @@ const Home = () => {
                             </div>
                             <div className="home_section4_item" data-aos="fade-up">
                                 <div className="home_section4_item_img">
-                                    <img src={home_s4_2} alt="" />
+                                    <img src={home_s4_2} alt=""/>
                                 </div>
                                 <h3>Широкий ассортимент</h3>
                                 <p>Мы производим продукцию для самых разных сфер: от роскошных кожаных аксессуаров до
@@ -217,7 +246,7 @@ const Home = () => {
                         <div className="col-lg-4">
                             <div className="home_section4_item" data-aos="fade-up">
                                 <div className="home_section4_item_img">
-                                    <img src={home_s4_3} alt="" />
+                                    <img src={home_s4_3} alt=""/>
                                 </div>
                                 <h3>Индивидуальный подход к каждому клиенту</h3>
                                 <p>Мы ценим уникальность каждого заказа. Наши специалисты готовы разработать решения,
@@ -226,7 +255,7 @@ const Home = () => {
                             </div>
                             <div className="home_section4_item" data-aos="fade-up">
                                 <div className="home_section4_item_img">
-                                    <img src={home_s4_4} alt="" />
+                                    <img src={home_s4_4} alt=""/>
                                 </div>
                                 <h3>Экологичность и безопасность</h3>
                                 <p>Все наши изделия соответствуют международным стандартам безопасности и охраны
@@ -236,7 +265,7 @@ const Home = () => {
                         <div className="col-lg-4">
                             <div className="home_section4_item" data-aos="fade-up">
                                 <div className="home_section4_item_img">
-                                    <img src={home_s4_5} alt="" />
+                                    <img src={home_s4_5} alt=""/>
                                 </div>
                                 <h3>Опыт и профессионализм</h3>
                                 <p>Более 18 лет на рынке кожевенного производства. За это время мы накопили опыт,
@@ -245,7 +274,7 @@ const Home = () => {
                             </div>
                             <div className="home_section4_item" data-aos="fade-up">
                                 <div className="home_section4_item_img">
-                                    <img src={home_s4_6} alt="" />
+                                    <img src={home_s4_6} alt=""/>
                                 </div>
                                 <h3>Безупречная репутация</h3>
                                 <p>Наши клиенты доверяют нам, потому что мы гарантируем качество на каждом этапе — от
@@ -260,7 +289,7 @@ const Home = () => {
             <section className="home_section5 overflow-hidden">
                 <div className="row justify-content-center align-items-center">
                     <div className="col-lg-6" data-aos="fade-right">
-                        <img src={home_s5} alt="" />
+                        <img src={home_s5} alt=""/>
                     </div>
                     <div className="col-lg-6" data-aos="fade-left">
                         <div className="home_section5_text">
@@ -286,7 +315,7 @@ const Home = () => {
                 <div className="home_section6">
                     <div className="row">
                         <div className="col-lg-4" data-aos="fade-right">
-                            <img src={home_s5_1} alt="" />
+                            <img src={home_s5_1} alt=""/>
                         </div>
                         <div className="col-lg-4" data-aos="fade-up">
                             <div className="home_section6_text">
@@ -303,7 +332,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="col-lg-4" data-aos="fade-left">
-                            <img src={home_s5_2} alt="" />
+                            <img src={home_s5_2} alt=""/>
                         </div>
                     </div>
                 </div>

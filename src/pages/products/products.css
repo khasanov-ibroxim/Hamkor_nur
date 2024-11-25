@@ -136,6 +136,7 @@
 .product_s3 {
     overflow: hidden;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .product_s3 .product_s3_text h1 {
@@ -144,7 +145,7 @@
     font-weight: bold;
     line-height: 1.5em;
     letter-spacing: 1px;
-    color: #393B3F;
+    color: #c89501;
 }
 
 .product_s3 .product_s3_text p {
