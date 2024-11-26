@@ -112,13 +112,13 @@
 }
 
 .product_s2_box_left_item .product_s2_box_text h3 {
-    font-size: 24px;
+    font-size: 14px;
 }
 
 .product_s2_box_text p {
     color: #fff;
     font-family: var(--note_sans), sans-serif;;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1.7em;
     text-align: center;
 }

@@ -174,24 +174,24 @@ const Products = () => {
                                     <img className="d-block w-100" src={product_slide_1} alt="First slide" />
                                     <span className="slide_opacity"></span>
                                     <div className="slide_text">
-                                        <h1>ДИЗАЙН И ДОЛГОВЕЧНОСТЬ</h1>
-                                        <p>Мы создаем стиль, который останется с вами надолго.</p>
+                                        {/*<h1>ДИЗАЙН И ДОЛГОВЕЧНОСТЬ</h1>*/}
+                                        {/*<p>Мы создаем стиль, который останется с вами надолго.</p>*/}
                                     </div>
                                 </div>
                                 <div className="carousel-item">
                                     <img className="d-block w-100" src={product_s2_2} alt="Second slide" />
                                     <span className="slide_opacity"></span>
                                     <div className="slide_text">
-                                        <h1>ИСКУССТВО КОЖИ</h1>
-                                        <p>Создаем будущее из традиций и натуральных материалов.</p>
+                                        {/*<h1>ИСКУССТВО КОЖИ</h1>*/}
+                                        {/*<p>Создаем будущее из традиций и натуральных материалов.</p>*/}
                                     </div>
                                 </div>
                                 <div className="carousel-item">
                                     <img className="d-block w-100" src={product_s2_3} alt="Third slide" />
                                     <span className="slide_opacity"></span>
                                     <div className="slide_text">
-                                        <h1>ЭКОЛОГИЧНОЕ ПРОИЗВОДСТВО</h1>
-                                        <p>Кожа в гармонии с природой.</p>
+                                        {/*<h1>ЭКОЛОГИЧНОЕ ПРОИЗВОДСТВО</h1>*/}
+                                        {/*<p>Кожа в гармонии с природой.</p>*/}
                                     </div>
                                 </div>
                             </div>
