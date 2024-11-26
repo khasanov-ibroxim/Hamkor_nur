@@ -8,7 +8,7 @@ export const HOME = "/"
 export const ABOUT = "/about"
 export const CONTACT = "/contact"
 export const PRODUCTS = "/products"
-export const PRODUCTION = "/production/:id"
+export const PRODUCTION = "/production"
 
 
 export const PublicRoutes =[

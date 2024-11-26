@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import { Link, useLocation } from "react-router-dom";
-import { ABOUT, CONTACT, HOME, PRODUCTS } from "../../utils/const.jsx";
+import {ABOUT, CONTACT, HOME, PRODUCTION, PRODUCTS} from "../../utils/const.jsx";
 import "./navbar.css";
 import {CloseOutlined, MenuOutlined} from "@ant-design/icons";
 import logo from "../../assets/logo.png"
@@ -40,6 +40,7 @@ const Navbar = () => {
                         <li className={isActive(HOME)}><Link to={HOME}>Главная</Link></li>
                         <li className={isActive(ABOUT)}><Link to={ABOUT}>О нас</Link></li>
                         <li className={isActive(PRODUCTS)}><Link to={PRODUCTS}>Продукция</Link></li>
+                        <li className={isActive(PRODUCTION)}><Link to={PRODUCTION}>Производство</Link></li>
                         <li className={isActive(CONTACT)}><Link to={CONTACT}>Контакты</Link></li>
                     </ul>
                 </div>
