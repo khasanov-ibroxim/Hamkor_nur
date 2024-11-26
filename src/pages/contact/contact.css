@@ -100,6 +100,7 @@
     color: #c89501;
     outline: none;
     margin-bottom: 2rem;
+    border-radius: 15px;
 }
 .contact_address_box select option{
     background: #151515;
