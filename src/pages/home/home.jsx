@@ -62,8 +62,8 @@ const Home = () => {
                     loop={true}
                     className="mySwiper"
                 >
-                    <SwiperSlide><img src={"https://wtmaproj2.imgix.net/assets/150A0745-7fXKV7lN.webp"} alt=""/></SwiperSlide>
-                    <SwiperSlide><img src={"https://wtmaproj2.imgix.net/assets/150A0882-CM7OFu7T.webp"} alt=""/></SwiperSlide>
+                    <SwiperSlide><img src={home_header_1} alt=""/></SwiperSlide>
+                    <SwiperSlide><img src={home_header_2} alt=""/></SwiperSlide>
                     <SwiperSlide><img src={home_header_3} alt=""/></SwiperSlide>
                 </Swiper>
             </div>
@@ -105,7 +105,7 @@ const Home = () => {
                                     <ArrowRightOutlined/>
                                 </div>
                                 <div className="home_section3_item_img">
-                                    <Image src={"https://wtmaproj2.imgix.net/assets/sigr-C-T1uhc6.webp"} alt="ДОБЫЧА И ПОДГОТОВКА СЫРЬЯ"
+                                    <Image src={home_s3_1} alt="ДОБЫЧА И ПОДГОТОВКА СЫРЬЯ"
                                            preview={{
                                                mask: <div className={"preview_box"}><EyeOutlined/> <span>Открыть</span>
                                                </div>
@@ -141,7 +141,7 @@ const Home = () => {
                                     <ArrowRightOutlined/>
                                 </div>
                                 <div className="home_section3_item_img">
-                                    <Image src={"https://wtmaproj2.imgix.net/assets/150A1789-CF4wXP40.webp"} alt="ДУБЛЕНИЕ"
+                                    <Image src={home_s3_3} alt="ДУБЛЕНИЕ"
                                            preview={{
                                                mask: <div className={"preview_box"}><EyeOutlined/> <span>Открыть</span>
                                                </div>
