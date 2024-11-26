@@ -1,16 +1,18 @@
 import React from 'react';
 import "./products.css"
 
-import product_s2_1 from "../../assets/products/product_s2_1.webp"
-import product_s2_2 from "../../assets/products/product_s2_2.webp"
-import product_s2_3 from "../../assets/products/product_s2_3.webp"
-import product_s2_4 from "../../assets/products/product_s2_4.webp"
-import product_s2_5 from "../../assets/products/product_s2_5.webp"
-import product_s2_6 from "../../assets/products/product_s2_6.webp"
-import product_s2_7 from "../../assets/products/product_s2_7.webp"
-import product_s2_8 from "../../assets/products/product_s2_8.webp"
-import product_s2_9 from "../../assets/products/product_s2_9.webp"
-import product_s2_10 from "../../assets/products/product_s2_10.webp"
+import product_s2_1 from "../../assets/img/DGH_232.webp"
+import product_s2_2 from "../../assets/img/DGH_48.webp"
+import product_s2_3 from "../../assets/img/DGH_8.webp"
+import product_s2_4 from "../../assets/img/DGH_77.webp"
+import product_s2_5 from "../../assets/img/DGH_59.webp"
+import product_s2_6 from "../../assets/img/DGH_52.webp"
+import product_s2_7 from "../../assets/img/DGH_152.webp"
+import product_s2_8 from "../../assets/img/DGH_166.webp"
+import product_s2_9 from "../../assets/img/DGH_70.webp"
+import product_s2_10 from "../../assets/img/DGH_227.webp"
+
+import product_slide_1 from "../../assets/img/DGH_138.webp"
 
 
 const Products = () => {
@@ -54,14 +56,14 @@ const Products = () => {
                 </section>
             </div>
 
-            <section className=" product_s2 ">
+            <section className=" product_s2  container">
                 <div className="product_s2_box container">
                     <div className="product_s2_box_right">
                         <img src={product_s2_1} alt="" />
                         <span className="product_s2_box_opacity"></span>
                         <div className="product_s2_box_text">
-                            <h3>Fashion Clothing</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur</p>
+                            <h3>КОЖЕВЕННОЕ ПРОИЗВОДСТВО</h3>
+                            <p>Вдохновляемся природой для создания долговечных изделий.</p>
                         </div>
                     </div>
                     <div className="product_s2_box_left">
@@ -70,16 +72,16 @@ const Products = () => {
                                 <img src={product_s2_2} alt="" />
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
-                                    <h3>Jewellery</h3>
-                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <h3>ИСКУССТВО КОЖИ</h3>
+                                    <p>Создаем будущее из традиций и натуральных материалов.</p>
                                 </div>
                             </div>
                             <div className="product_s2_box_left_item">
                                 <img src={product_s2_3} alt="" />
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
-                                    <h3>Ceramics</h3>
-                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <h3>ЭКОЛОГИЧНОЕ ПРОИЗВОДСТВО</h3>
+                                    <p>Кожа в гармонии с природой.</p>
                                 </div>
                             </div>
                         </div>
@@ -88,16 +90,16 @@ const Products = () => {
                                 <img src={product_s2_4} alt="" />
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
-                                    <h3>Furniture</h3>
-                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <h3>ТЕХНОЛОГИИ И ТРАДИЦИИ</h3>
+                                    <p>Соединяем инновации с ремеслом прошлого.</p>
                                 </div>
                             </div>
                             <div className="product_s2_box_left_item">
                                 <img src={product_s2_5} alt="" />
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
-                                    <h3>Home Decor</h3>
-                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <h3>НАТУРАЛЬНАЯ КОЖА-ВЫБОР НА ВЕКА</h3>
+                                    <p>Эстетика, прочность и индивидуальность в каждом изделии.</p>
                                 </div>
                             </div>
                         </div>
@@ -110,16 +112,16 @@ const Products = () => {
                                 <img src={product_s2_6} alt="" />
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
-                                    <h3>Leather Craft</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                                    <h3>КОЖА, КОТОРАЯ РАССКАЗЫВАЕТ ИСТОРИЮ</h3>
+                                    <p>Воплощение вашей уникальности.</p>
                                 </div>
                             </div>
                             <div className="product_s2_box_left_item">
                                 <img src={product_s2_7} alt="" />
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
-                                    <h3>Woven Craft</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                                    <h3>ВОПЛОЩЕНИЕ ВАШИХ ИДЕЙ</h3>
+                                    <p>Кожевенное производство на заказ</p>
                                 </div>
                             </div>
                         </div>
@@ -128,16 +130,16 @@ const Products = () => {
                                 <img src={product_s2_8} alt="" />
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
-                                    <h3>Sculpturing</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                                    <h3>ПУТЬ КОЖИ</h3>
+                                    <p>Кожа в движении</p>
                                 </div>
                             </div>
                             <div className="product_s2_box_left_item">
                                 <img src={product_s2_9} alt="" />
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
-                                    <h3>Clay Craft</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                                    <h3>КОЖА, КОТОРАЯ ВДОХНОВЛЯЕТ</h3>
+                                    <p>Тонкая работа мастеров для тех, кто ценит уникальность.</p>
                                 </div>
                             </div>
                         </div>
@@ -146,8 +148,8 @@ const Products = () => {
                         <img src={product_s2_10} alt="" />
                         <span className="product_s2_box_opacity"></span>
                         <div className="product_s2_box_text">
-                            <h3>Accesories</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur</p>
+                            <h3>ДИЗАЙН И ДОЛГОВЕЧНОСТЬ</h3>
+                            <p>Мы создаем стиль, который останется с вами надолго.</p>
                         </div>
                     </div>
 
@@ -169,27 +171,27 @@ const Products = () => {
                             </div>
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                    <img className="d-block w-100" src={product_s2_1} alt="First slide" />
+                                    <img className="d-block w-100" src={product_slide_1} alt="First slide" />
                                     <span className="slide_opacity"></span>
                                     <div className="slide_text">
-                                        <h1>Custom Painting</h1>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                                        <h1>ДИЗАЙН И ДОЛГОВЕЧНОСТЬ</h1>
+                                        <p>Мы создаем стиль, который останется с вами надолго.</p>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
                                     <img className="d-block w-100" src={product_s2_2} alt="Second slide" />
                                     <span className="slide_opacity"></span>
                                     <div className="slide_text">
-                                        <h1>Custom Painting</h1>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                                        <h1>ИСКУССТВО КОЖИ</h1>
+                                        <p>Создаем будущее из традиций и натуральных материалов.</p>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
                                     <img className="d-block w-100" src={product_s2_3} alt="Third slide" />
                                     <span className="slide_opacity"></span>
                                     <div className="slide_text">
-                                        <h1>Custom Painting</h1>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                                        <h1>ЭКОЛОГИЧНОЕ ПРОИЗВОДСТВО</h1>
+                                        <p>Кожа в гармонии с природой.</p>
                                     </div>
                                 </div>
                             </div>
