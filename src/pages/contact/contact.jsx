@@ -1,24 +1,67 @@
-import React from 'react';
-import './contact.css'
-import contact_form from '../../assets/img/150A0695.webp';
-import {Helmet} from "react-helmet-async";
-import {Swiper, SwiperSlide} from "swiper/react";
-import {Autoplay} from "swiper/modules";
-import contact_header_1 from "../../assets/img/150A0784.webp";
-import contact_header_2 from "../../assets/img/150A0785.webp";
+import React, { useState } from "react";
+import "./contact.css";
+import contactFormImage from "../../assets/img/150A0695.webp";
+import { Helmet } from "react-helmet-async";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import contactHeader1 from "../../assets/img/150A0784.webp";
+import contactHeader2 from "../../assets/img/150A0785.webp";
 
+const contactData = [
+    {
+        id: 1,
+        name: "Tashkent",
+        address_name: "Республика Узбекистан",
+        address: "Ташкентская область, г. Ахангаран, участок В6",
+        telephone: "+998 70 201 00 23",
+        index: "110300",
+        address_url: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2885.0402375058584!2d69.652333!3d40.925115000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDU1JzMwLjQiTiA2OcKwMzknMDguNCJF!5e1!3m2!1sru!2s!4v1732637783498!5m2!1sru!2s",
+    },
+    {
+        id: 2,
+        name: "Tashkent2",
+        address_name: "Республика Узбекистан",
+        address: "Ташкентская область, г. Ахангаран, участок В7",
+        telephone: "+998 70 202 00 23",
+        index: "110301",
+        address_url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22139.74623880226!2d69.64066322045998!3d40.91520270860319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae33613686d703%3A0xfffafcd0682a39a8!2sOHANGARON%20DEHQON%20BOZORI!5e1!3m2!1sru!2s!4v1732638806205!5m2!1sru!2s",
+    },
+    {
+        id: 3,
+        name: "Tashkent3",
+        address_name: "Республика Узбекистан",
+        address: "Ташкентская область, г. Ахангаран, участок В8",
+        telephone: "+998 70 203 00 23",
+        index: "110302",
+        address_url: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2885.0402375058584!2d69.652333!3d40.925115000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDU1JzMwLjQiTiA2OcKwMzknMDguNCJF!5e1!3m2!1sru!2s!4v1732637783498!5m2!1sru!2s",
+    },
+];
 
 const Contact = () => {
+    const [selectedContact, setSelectedContact] = useState(contactData[0]);
+
+    const handleSelectChange = (e) => {
+        const selectedId = e.target.value;
+        const contact = contactData.find((c) => c.name === selectedId);
+        setSelectedContact(contact);
+    };
+
     return (
         <>
             <Helmet>
                 <title>Связь с нами - Ваш путь к качеству</title>
-                <meta name="description"
-                      content="Свяжитесь с нами, чтобы обсудить идеи и решения для вашего бизнеса. Мы всегда готовы к диалогу и обмену идеями."/>
-                <meta name="keywords"
-                      content="контакт, форма связи, Ташкент, качественная продукция, обсуждение идей, кожа, кожевенное производство"/>
-                <meta name="robots" content="index, follow"/>
+                <meta
+                    name="description"
+                    content="Свяжитесь с нами, чтобы обсудить идеи и решения для вашего бизнеса. Мы всегда готовы к диалогу и обмену идеями."
+                />
+                <meta
+                    name="keywords"
+                    content="контакт, форма связи, Ташкент, качественная продукция, обсуждение идей, кожа, кожевенное производство"
+                />
+                <meta name="robots" content="index, follow" />
             </Helmet>
+
+            {/* Header Section */}
             <section className="contact_header">
                 <span className="opacity_about"></span>
                 <div className="about_header_text">
@@ -33,39 +76,47 @@ const Contact = () => {
                     loop={true}
                     className="mySwiper"
                 >
-                    <SwiperSlide><img src={contact_header_1} alt=""/></SwiperSlide>
-                    <SwiperSlide><img src={contact_header_2} alt=""/></SwiperSlide>
-
+                    <SwiperSlide>
+                        <img src={contactHeader1} alt="Contact Header 1" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={contactHeader2} alt="Contact Header 2" />
+                    </SwiperSlide>
                 </Swiper>
             </section>
 
+            {/* Contact Form */}
             <section className="contact_form">
                 <div className="container">
                     <div className="row d-flex justify-content-between">
                         <div className="col-lg-5">
-                            <img src={contact_form} alt="" style={{objectFit: "cover"}}/>
+                            <img
+                                src={contactFormImage}
+                                alt="Contact Form"
+                                style={{ objectFit: "cover" }}
+                            />
                         </div>
                         <div className="col-lg-7">
                             <form action="#">
                                 <div className="contact_form_title">
                                     <h1>ЕСТЬ ИДЕИ И ВОПРОСЫ? НАПИШИТЕ НАМ!</h1>
-                                    <p>Мы всегда готовы к диалогу и обмену идеями. Свяжитесь с нами — и мы обязательно
-                                        найдем для вас решение.</p>
+                                    <p>
+                                        Мы всегда готовы к диалогу и обмену идеями. Свяжитесь с нами
+                                        — и мы обязательно найдем для вас решение.
+                                    </p>
                                 </div>
-                                <input type="text" placeholder={"Имя"} required/>
-                                <input type="email" placeholder={"Электронная почта"} required/>
-                                <textarea rows={"5"} placeholder={"Сообщение"}/>
-                                <button type={"submit"}>
-                                    Отправить сообщение
-                                </button>
+                                <input type="text" placeholder="Имя" required />
+                                <input type="email" placeholder="Электронная почта" required />
+                                <textarea rows="5" placeholder="Сообщение" />
+                                <button type="submit">Отправить сообщение</button>
                             </form>
                         </div>
                     </div>
                 </div>
             </section>
 
-
-            <section className={"contact_address "}>
+            {/* Address Section */}
+            <section className="contact_address">
                 <div className="container">
                     <div className="row justify-content-between">
                         <div className="col-lg-4">
@@ -75,28 +126,47 @@ const Contact = () => {
                             </div>
                             <h1>АДРЕС ДЛЯ ТЕХ, КТО ЦЕНИТ КАЧЕСТВО</h1>
                             <p>
-                                Мы находимся по адресу, который открывает двери в уникальный мир кожы. Заходите и
-                                убедитесь
-                                в этом сами!
+                                Мы находимся по адресу, который открывает двери в уникальный мир
+                                кожы. Заходите и убедитесь в этом сами!
                             </p>
                         </div>
-                        <div className="col-lg-4">
-                            <h3>АДРЕС</h3>
-                            <h6 className="contact_address_address"><a href="">Ташкентская область
-                                город Ахангаран, участок В6</a></h6>
+                        <div className="col-lg-4 contact_address_box">
+                            <select
+                                value={selectedContact.name}
+                                onChange={handleSelectChange}
+                            >
+                                {contactData.map((contact) => (
+                                    <option key={contact.id} value={contact.name}>
+                                        {contact.name}
+                                    </option>
+                                ))}
+                            </select>
+                            <h6 className="contact_address_address">
+                                <a href={selectedContact.address_url}>
+                                    {selectedContact.address}
+                                </a>
+                            </h6>
+                            <h6 className="contact_address_address">
+                                Телефон: {selectedContact.telephone}
+                            </h6>
+                            <h6 className="contact_address_address">
+                                Индекс: {selectedContact.index}
+                            </h6>
                         </div>
-                        <div className="col-lg-4">
-                            <h3>КОНТАКТЫ</h3>
-                            <h6 className="contact_address_address"><a href=""></a></h6>
-                            <h6 className="contact_address_address"><a href="tel:+998702010023">телефон : +998 70
-                                201 00 23</a></h6>
-                            <h6 className={"contact_address_address"}>Индекс: 110300</h6>
+                        <div className="col-lg-4 contact_address_map">
+                            <iframe
+                                src={selectedContact.address_url}
+                                width="100%"
+                                height="300px"
+                                style={{ borderRadius: "20px" }}
+                                allowFullScreen=""
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"
+                            ></iframe>
                         </div>
                     </div>
                 </div>
-
             </section>
-
         </>
     );
 };

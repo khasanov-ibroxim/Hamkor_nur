@@ -40,7 +40,7 @@ const Navbar = () => {
                         <li className={isActive(HOME)}><Link to={HOME}>Главная</Link></li>
                         <li className={isActive(ABOUT)}><Link to={ABOUT}>О нас</Link></li>
                         <li className={isActive(PRODUCTS)}><Link to={PRODUCTS}>Продукция</Link></li>
-                        <li className={isActive(CONTACT)}><Link to={CONTACT}>Контакт</Link></li>
+                        <li className={isActive(CONTACT)}><Link to={CONTACT}>Контакты</Link></li>
                     </ul>
                 </div>
                 <div className="navburger" onClick={toggleMenu}>

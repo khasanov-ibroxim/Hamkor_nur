@@ -12,8 +12,11 @@ import product_s2_8 from "../../assets/img/DGH_166.webp"
 import product_s2_9 from "../../assets/img/DGH_70.webp"
 import product_s2_10 from "../../assets/img/DGH_227.webp"
 
-import product_slide_1 from "../../assets/img/DGH_138.webp"
+import product_slide_1 from "../../assets/img/150A0773.webp"
+import product_slide_2 from "../../assets/img/150A0791.webp"
+import product_slide_3 from "../../assets/img/150A0878.webp"
 
+import success from "../../assets/icon/success.png"
 
 const Products = () => {
 
@@ -38,13 +41,13 @@ const Products = () => {
                                 свойствам. Все эти термины относятся к разным этапам и разновидностям кожевенного
                                 производства:
                                 <ul>
-                                    <li>Вет-Блю — кожа, полученная от молодых животных, часто используется в
+                                    <li><img src={success} alt=""/> Вет-Блю — кожа, полученная от молодых животных, часто используется в
                                         производстве высококачественных изделий.
                                     </li>
-                                    <li>Краст — кожа, прошедшая начальную обработку дублением, но ещё не подвергшаяся
+                                    <li><img src={success} alt=""/>Краст — кожа, прошедшая начальную обработку дублением, но ещё не подвергшаяся
                                         финишной отделки
                                     </li>
-                                    <li>
+                                    <li><img src={success} alt=""/>
                                         Финишная обработка кожи — это заключительный этап обработки кожи после дубления
                                         (краст), в ходе которого ей придается окончательный вид, прочность и
                                         эстетические характеристики.
@@ -179,7 +182,7 @@ const Products = () => {
                                     </div>
                                 </div>
                                 <div className="carousel-item">
-                                    <img className="d-block w-100" src={product_s2_2} alt="Second slide" />
+                                    <img className="d-block w-100" src={product_slide_2} alt="Second slide" />
                                     <span className="slide_opacity"></span>
                                     <div className="slide_text">
                                         {/*<h1>ИСКУССТВО КОЖИ</h1>*/}
@@ -187,7 +190,7 @@ const Products = () => {
                                     </div>
                                 </div>
                                 <div className="carousel-item">
-                                    <img className="d-block w-100" src={product_s2_3} alt="Third slide" />
+                                    <img className="d-block w-100" src={product_slide_3} alt="Third slide" />
                                     <span className="slide_opacity"></span>
                                     <div className="slide_text">
                                         {/*<h1>ЭКОЛОГИЧНОЕ ПРОИЗВОДСТВО</h1>*/}
