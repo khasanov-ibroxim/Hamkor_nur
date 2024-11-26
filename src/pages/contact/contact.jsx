@@ -1,6 +1,6 @@
 import React from 'react';
 import './contact.css'
-import contact_form from '../../assets/img/150A0694.png';
+import contact_form from '../../assets/img/150A0695.webp';
 import {Helmet} from "react-helmet-async";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Autoplay} from "swiper/modules";
