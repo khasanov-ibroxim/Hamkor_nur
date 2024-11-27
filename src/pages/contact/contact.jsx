@@ -143,7 +143,7 @@ const Contact = () => {
                             </select>
                             <h6 className="contact_address_address">
                                 <a href={selectedContact.address_url}>
-                                    {selectedContact.address}
+                                    {selectedContact.address_name} , {selectedContact.address}
                                 </a>
                             </h6>
                             <h6 className="contact_address_address">
