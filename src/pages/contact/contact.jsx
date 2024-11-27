@@ -10,7 +10,7 @@ import contactHeader2 from "../../assets/img/150A0785.webp";
 const contactData = [
     {
         id: 1,
-        name: "Tashkent",
+        name: "Производство - Ахангаран",
         address_name: "Республика Узбекистан",
         address: "Ташкентская область, г. Ахангаран, участок В6",
         telephone: "+998 70 201 00 23",
@@ -19,12 +19,12 @@ const contactData = [
     },
     {
         id: 2,
-        name: "Tashkent2",
+        name: "Магазин - Шайхантахурский район",
         address_name: "Республика Узбекистан",
-        address: "Ташкентская область, г. Ахангаран, участок В7",
+        address: "г.Ташкент , Шайхантахурский район , улица Якуба Зияева",
         telephone: "+998 70 202 00 23",
         index: "110301",
-        address_url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22139.74623880226!2d69.64066322045998!3d40.91520270860319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae33613686d703%3A0xfffafcd0682a39a8!2sOHANGARON%20DEHQON%20BOZORI!5e1!3m2!1sru!2s!4v1732638806205!5m2!1sru!2s",
+        address_url: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2867.0368135724198!2d69.16743!3d41.335812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDIwJzA4LjkiTiA2OcKwMTAnMDIuOCJF!5e1!3m2!1sru!2s!4v1732721753219!5m2!1sru!2s",
     },
     {
         id: 3,
