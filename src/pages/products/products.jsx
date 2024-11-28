@@ -17,17 +17,33 @@ import product_slide_2 from "../../assets/img/150A0791.webp"
 import product_slide_3 from "../../assets/img/150A0878.webp"
 
 import success from "../../assets/icon/success.png"
+import {Swiper, SwiperSlide} from "swiper/react";
+import {Autoplay} from "swiper/modules";
+import home_header_1 from "../../assets/img/DGH_86.webp";
+import home_header_2 from "../../assets/img/DGH_138(1)(1).png";
 
 const Products = () => {
 
     return (
         <>
-            <section className="product_header">
-                <span className="opacity_about"></span>
-                <div className="about_header_text">
-                    <h1>ПРОДУКЦИЯ</h1>
+            <div className="Home">
+                <span className={"opacity_container"}></span>
+                <div className="home_box container">
+                    <h1 data-aos="fade-up">Продукция</h1>
                 </div>
-            </section>
+                <Swiper
+                    modules={[Autoplay]}
+                    autoplay={{
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    }}
+                    loop={true}
+                    className="mySwiper"
+                >
+                    <SwiperSlide><img src={home_header_1} alt=""/></SwiperSlide>
+                    <SwiperSlide><img src={home_header_2} alt=""/></SwiperSlide>
+                </Swiper>
+            </div>
 
             <div className="container">
                 <section className="about_s3 product_s1">
@@ -94,14 +110,14 @@ const Products = () => {
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
                                     <h3>ТЕХНОЛОГИИ И ТРАДИЦИИ</h3>
-                                    <p>Соединяем инновации с ремеслом прошлого.</p>
+                                    <p>Соединяем инновации <br/> с ремеслом прошлого.</p>
                                 </div>
                             </div>
                             <div className="product_s2_box_left_item">
                                 <img src={product_s2_5} alt="" />
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
-                                    <h3>НАТУРАЛЬНАЯ КОЖА-ВЫБОР НА ВЕКА</h3>
+                                    <h3>НАТУРАЛЬНАЯ <br/> КОЖА-ВЫБОР НА ВЕКА</h3>
                                     <p>Эстетика, прочность и индивидуальность в каждом изделии.</p>
                                 </div>
                             </div>
@@ -116,7 +132,7 @@ const Products = () => {
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
                                     <h3>КОЖА, КОТОРАЯ РАССКАЗЫВАЕТ ИСТОРИЮ</h3>
-                                    <p>Воплощение вашей уникальности.</p>
+                                    <p>Воплощение <br/> вашей уникальности.</p>
                                 </div>
                             </div>
                             <div className="product_s2_box_left_item">

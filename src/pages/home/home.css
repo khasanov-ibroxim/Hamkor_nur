@@ -126,9 +126,11 @@
     font-family: var(--note_sans), sans-serif;
     font-size: 15px;
 }
-.home_section2_right h3{
+
+.home_section2_right h3 {
     color: #c89501;
 }
+
 .home_section3 {
     background: #151515;
     padding-top: 100px;
@@ -214,7 +216,7 @@
     background: #c89501;
     color: #fff;
     width: max-content;
-    padding: 0 20px ;
+    padding: 0 20px;
 }
 
 .home_section3_item_text a svg {
@@ -230,15 +232,18 @@
 .home_section3_item_img:hover {
     transform: translateY(-10px);
 }
-.ant-image{
+
+.ant-image {
     position: unset;
     width: 100%;
     height: 100%;
 }
-.ant-image img{
+
+.ant-image img {
     width: 100%;
-    height: 100% !important ;
+    height: 100% !important;
 }
+
 .home_section3_item_img img {
     width: 100%;
     height: 100%;
@@ -452,6 +457,96 @@
     text-align: center;
 }
 
+
+.home_section_box_info {
+    padding: 100px 0;
+    width: 100%;
+}
+
+.home_section_box_info_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home_section_box_info_item {
+    width: 100%;
+    height: 200px;
+}
+
+.home_section_box_info_item h1 {
+    width: 48%;
+    height: 100%;
+    border: 2px solid #ffbc00;
+    float: left;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.home_section_box_info_item:nth-child(2n) h1 {
+    float: right;
+}
+
+.home_section_box_info_item div {
+    width: 50%;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+
+.home_section_box_info_item:nth-child(2n) div {
+    float: left;
+}
+
+.home_section_box_info_item .home_section_box_info_item_element_top{
+    position: absolute;
+    display: inline-block;
+    height: 2px;
+    width: 54%;
+    background: #ffbc00;
+    top: 50%;
+    left: -24px;
+}
+.home_section_box_info_item .home_section_box_info_item_element_bottom{
+    position: absolute;
+    display: inline-block;
+    height: 2px;
+    width: 15%;
+    background: #ffbc00;
+    top: 73%;
+    transform: rotate(90deg);
+    right: 42%;
+}
+.home_section_box_info_item:nth-child(2) .home_section_box_info_item_element_top{
+    position: absolute;
+    display: inline-block;
+    height: 2px;
+    width: 50%;
+    background: #ffbc00;
+    top: 50%;
+    right: -37%;
+    left: 54%;
+}
+.home_section_box_info_item:nth-child(2) .home_section_box_info_item_element_bottom{
+    position: absolute;
+    display: inline-block;
+    height: 2px;
+    width: 15%;
+    background: #ffbc00;
+    top: 74%;
+    left: 46.5%;
+}
+
+
+
 .home_section7 {
     background: url("../../assets/img/150A1936.webp") center center;
     height: 100vh;
@@ -524,6 +619,25 @@
     text-transform: uppercase;
 }
 
+.home_section8_button a:hover {
+    background: #ffbc00;
+}
+
+.footer_item_send a:hover {
+    background: #ffbc00;
+}
+
+.footer_item_social a:hover {
+    color: #ffbc00;
+}
+
+.product_s3 .product_s3_text a:hover {
+    background: #ffbc00;
+}
+
+.contact_form button:hover {
+    background: #ffbc00;
+}
 
 .home_section4_item_img {
     height: 30%;
@@ -545,10 +659,6 @@
 
     .home_section3_item {
         height: 559px;
-    }
-
-    .home_section3_item_img img {
-
     }
 }
 
@@ -593,6 +703,44 @@
     .home_section5 {
         margin-bottom: 0;
     }
+    .home_section_box_info_item .home_section_box_info_item_element_top {
+        position: absolute;
+        display: inline-block;
+        height: 2px;
+        width: 54%;
+        background: #ffbc00;
+        top: 50%;
+        left: -16px;
+    }
+    .home_section_box_info_item .home_section_box_info_item_element_bottom {
+        position: absolute;
+        display: inline-block;
+        height: 2px;
+        width: 29%;
+        background: #ffbc00;
+        top: 75%;
+        transform: rotate(90deg);
+        right: 36%;
+    }
+    .home_section_box_info_item:nth-child(2) .home_section_box_info_item_element_top{
+        position: absolute;
+        display: inline-block;
+        height: 2px;
+        width: 50%;
+        background: #ffbc00;
+        top: 50%;
+        right: -37%;
+        left: 54%;
+    }
+    .home_section_box_info_item:nth-child(2) .home_section_box_info_item_element_bottom{
+        position: absolute;
+        display: inline-block;
+        height: 2px;
+        width: 29%;
+        background: #ffbc00;
+        top: 75%;
+        left: 39.5%;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -627,5 +775,14 @@
 
     .home_section8_text h2 {
         font-size: 16px;
+    }
+    .home_section_box_info_item div{
+        display: none;
+    }
+    .home_section_box_info_item{
+        margin-bottom: 10px;
+    }
+    .home_section_box_info_item h1{
+        width: 100%;
     }
 }

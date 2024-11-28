@@ -28,12 +28,12 @@ const contactData = [
     },
     {
         id: 3,
-        name: "Tashkent3",
+        name: "Магазин - Андижан",
         address_name: "Республика Узбекистан",
-        address: "Ташкентская область, г. Ахангаран, участок В8",
+        address: "Андижанский область, улица Шахрихон , проспекть Бабура",
         telephone: "+998 70 203 00 23",
         index: "110302",
-        address_url: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2885.0402375058584!2d69.652333!3d40.925115000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDU1JzMwLjQiTiA2OcKwMzknMDguNCJF!5e1!3m2!1sru!2s!4v1732637783498!5m2!1sru!2s",
+        address_url: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2890.6947855265726!2d72.332715!3d40.795421000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDQ3JzQzLjUiTiA3MsKwMTknNTcuOCJF!5e1!3m2!1sru!2s!4v1732773121570!5m2!1sru!2s",
     },
 ];
 

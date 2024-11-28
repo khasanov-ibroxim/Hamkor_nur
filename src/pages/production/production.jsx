@@ -3,14 +3,10 @@ import "./production.css"
 import {useParams} from "react-router-dom";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Autoplay} from "swiper/modules";
-import home_header_1 from "../../assets/img/150A0745.webp";
-import home_header_2 from "../../assets/img/150A0882.webp";
-import home_header_3 from "../../assets/img/150A0704.webp";
+import home_header_1 from "../../assets/img/150A1914.webp";
+import home_header_2 from "../../assets/img/150A1967.webp";
 import home_s5_1 from "../../assets/img/150A0757.webp";
 import home_s5_2 from "../../assets/img/150A0765.webp";
-import home_s5 from "../../assets/img/150A1873.webp";
-import success from "../../assets/icon/success.png";
-
 
 import home_s3_1 from "../../assets/img/sigr.webp"
 import home_s3_2 from "../../assets/img/150A1861.webp"
@@ -39,7 +35,6 @@ const Production = () => {
                 >
                     <SwiperSlide><img src={home_header_1} alt=""/></SwiperSlide>
                     <SwiperSlide><img src={home_header_2} alt=""/></SwiperSlide>
-                    <SwiperSlide><img src={home_header_3} alt=""/></SwiperSlide>
                 </Swiper>
             </div>
 

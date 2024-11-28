@@ -14,7 +14,7 @@ import home_s4_4 from "../../assets/icon/eco.png"
 import home_s4_5 from "../../assets/icon/opit.png"
 import home_s4_6 from "../../assets/icon/reputatsiya.png"
 
-import home_s5 from "../../assets/img/150A1873.webp"
+import home_s5 from "../../assets/img/150A1795.webp"
 
 import home_s5_1 from "../../assets/img/150A0757.webp"
 import home_s5_2 from "../../assets/img/150A0765.webp"
@@ -87,7 +87,8 @@ const Home = () => {
                                 В 2012 году, став участником Ангренской экономической зоны, мы открыли
                                 новый производственный завод в Охангароне, что позволило значительно расширить
                                 производственные мощности.
-                                Основная производственная линия принадлежит брендам Италии: MEC MAN, MOSTARDINI, BARNINI и ROTACOAT.
+                                Основная производственная линия принадлежит брендам Италии: MEC MAN, MOSTARDINI, BARNINI
+                                и ROTACOAT.
                             </p>
                         </div>
                     </div>
@@ -312,32 +313,29 @@ const Home = () => {
                 </div>
             </section>
 
-            <div className="container d-flex justify-content-center align-items-center overflow-hidden">
-                <div className="home_section6">
-                    <div className="row">
-                        <div className="col-lg-4" data-aos="fade-right">
-                            <img src={home_s5_1} alt=""/>
-                        </div>
-                        <div className="col-lg-4" data-aos="fade-up">
-                            <div className="home_section6_text">
-                                <div
-                                    className="home_section5_text_title justify-content-center align-items-center text-center">
-                                    <h1>ИННОВАЦИОННЫЕ ПОДХОДЫ В КОЖАНОЙ ОБРАБОТКЕ</h1>
-                                    <span></span>
-                                </div>
-                                <p>В нашем производстве мы активно внедряем передовые технологии и инновационные методы
-                                    обработки кожи, что позволяет нам добиваться непревзойденного качества и уникальных
-                                    характеристик материалов. Мы постоянно изучаем новые способы улучшения текстуры,
-                                    прочности и долговечности кожи, а также оптимизируем производственные процессы для
-                                    снижения экологического воздействия. </p>
+            <section className={"home_section_box_info"}>
+                <div className="container">
+                    <div className="home_section_box_info_box">
+                        <div className="home_section_box_info_item">
+                            <h1 data-aos="fade-right">ИННОВАЦИОННЫЕ ПОДХОДЫ В КОЖАНОЙ ОБРАБОТКЕ</h1>
+                            <div>
+                                <span className="home_section_box_info_item_element_top"></span>
+                                <span className="home_section_box_info_item_element_bottom"></span>
                             </div>
                         </div>
-                        <div className="col-lg-4" data-aos="fade-left">
-                            <img src={home_s5_2} alt=""/>
+                        <div className="home_section_box_info_item">
+                            <h1 data-aos="fade-left">АКТИВНО ВНЕДРЯЕМ ПЕРЕДОВЫЕ ТЕХНОЛОГИИ И МЕТОДЫ</h1>
+                            <div>
+                                <span className="home_section_box_info_item_element_top"></span>
+                                <span className="home_section_box_info_item_element_bottom"></span>
+                            </div>
+                        </div>
+                        <div className="home_section_box_info_item">
+                            <h1 data-aos="fade-right">ИЗУЧАЕМ НОВЫЕ СПОСОБЫ УЛУЧШЕНИЯ ТЕКСТУРЫ, ПРОЧНОСТИ И ДОЛГОВЕЧНОСТИ</h1>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
             <section className="home_section7">
                 <span className="home_section7_opacity"></span>
