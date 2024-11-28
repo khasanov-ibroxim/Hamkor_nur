@@ -207,6 +207,7 @@ const About = () => {
                         <div className="col-lg-6 about_s3_left" data-aos="fade-up">
                             <h3><span></span> Наша работа</h3>
                             <h2>ПРЕВРАЩЕНИЕ КОЖИ В ИСКУССТВО</h2>
+                            <a href="#">Сертификат</a>
                         </div>
                         <div className="col-lg-6 about_s3_right" data-aos="fade-up">
                             <p> В нашем кожевенном производстве каждый процесс — это искусство, в котором сочетаются

@@ -216,8 +216,7 @@
     margin-bottom: 15px;
 }
 
-.about_s3_left a:hover {
-    transform: translateY(-10px);
+.about_s3_left a:hover {background: #ffbc00;
 }
 
 .about_s3_right p {
@@ -279,6 +278,7 @@ section.number p.last {
     align-items: center;
     height: 100%;
 }
+
 
 @media screen and (max-width: 1000px) {
     .number_box {
