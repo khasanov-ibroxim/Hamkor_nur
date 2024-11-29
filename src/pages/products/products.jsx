@@ -21,6 +21,8 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import {Autoplay} from "swiper/modules";
 import home_header_1 from "../../assets/img/DGH_86.webp";
 import home_header_2 from "../../assets/img/DGH_138(1)(1).png";
+import {CONTACT} from "../../utils/const.jsx";
+import {Link} from "react-router-dom";
 
 const Products = () => {
 
@@ -230,9 +232,10 @@ const Products = () => {
                     </div>
                     <div className="col-lg-6" data-aos="fade-right">
                         <div className="product_s3_text">
-                            <h1>Designed Experiences Made for Everybody’s Taste</h1>
-                            <p>Tell us what you need and we will come back to you with a quote.</p>
-                            <a href="#">Custom now</a>
+                            <h1>МЫ СТРЕМИМСЯ К СОВЕРШЕНСТВУ В КАЖДОМ ПРОЦЕССЕ</h1>
+                            <p>  Каждый наш продукт будет служить вам долгие годы
+                                Продукция</p>
+                            <Link to={CONTACT}>Свяжитесь с нами</Link>
                         </div>
                     </div>
                 </div>

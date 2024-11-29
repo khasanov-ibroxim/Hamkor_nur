@@ -31,7 +31,7 @@ import {Autoplay} from 'swiper/modules';
 import {Link} from "react-router-dom";
 import {ArrowRightOutlined, EyeOutlined} from "@ant-design/icons";
 import {Image} from "antd";
-import {PRODUCTION} from "../../utils/const.jsx";
+import {CONTACT, PRODUCTION} from "../../utils/const.jsx";
 
 const Home = () => {
     return (
@@ -51,7 +51,7 @@ const Home = () => {
                 <div className="home_box container">
                     <h1 data-aos="fade-up">ОТ СЫРЬЯ ДО СОВЕРШЕНСТВА</h1>
                     <p data-aos="fade-up">кожевенное производство для ценителей качества</p>
-                    <button data-aos="fade-up">Свяжитесь с нами</button>
+                    <Link to={CONTACT} data-aos="fade-up">Свяжитесь с нами</Link>
                 </div>
                 <Swiper
                     modules={[Autoplay]}
@@ -288,7 +288,7 @@ const Home = () => {
                 </section>
             </div>
 
-            <section className="home_section5 overflow-hidden">
+            <section className="home_section5 d-flex justify-content-center align-items-center overflow-hidden">
                 <div className="row justify-content-center align-items-center">
                     <div className="col-lg-6" data-aos="fade-right">
                         <img src={home_s5} alt=""/>
@@ -317,21 +317,21 @@ const Home = () => {
                 <div className="container">
                     <div className="home_section_box_info_box">
                         <div className="home_section_box_info_item">
-                            <h1 data-aos="fade-right">ИННОВАЦИОННЫЕ ПОДХОДЫ В КОЖАНОЙ ОБРАБОТКЕ</h1>
+                                <span className={"home_section_box_info_item_i"} data-aos="fade-right">ИННОВАЦИОННЫЕ ПОДХОДЫ В КОЖАНОЙ ОБРАБОТКЕ</span>
+                            <div>
+                            <span className="home_section_box_info_item_element_top"></span>
+                                <span className="home_section_box_info_item_element_bottom"></span>
+                            </div>
+                        </div>
+                        <div className="home_section_box_info_item">
+                            <span className={"home_section_box_info_item_i"} data-aos="fade-up">АКТИВНО ВНЕДРЯЕМ ПЕРЕДОВЫЕ ТЕХНОЛОГИИ И МЕТОДЫ</span>
                             <div>
                                 <span className="home_section_box_info_item_element_top"></span>
                                 <span className="home_section_box_info_item_element_bottom"></span>
                             </div>
                         </div>
                         <div className="home_section_box_info_item">
-                            <h1 data-aos="fade-left">АКТИВНО ВНЕДРЯЕМ ПЕРЕДОВЫЕ ТЕХНОЛОГИИ И МЕТОДЫ</h1>
-                            <div>
-                                <span className="home_section_box_info_item_element_top"></span>
-                                <span className="home_section_box_info_item_element_bottom"></span>
-                            </div>
-                        </div>
-                        <div className="home_section_box_info_item">
-                            <h1 data-aos="fade-right">ИЗУЧАЕМ НОВЫЕ СПОСОБЫ УЛУЧШЕНИЯ ТЕКСТУРЫ, ПРОЧНОСТИ И ДОЛГОВЕЧНОСТИ</h1>
+                            <span className={"home_section_box_info_item_i"} data-aos="fade-right">ИЗУЧАЕМ НОВЫЕ СПОСОБЫ УЛУЧШЕНИЯ ТЕКСТУРЫ, ПРОЧНОСТИ И ДОЛГОВЕЧНОСТИ</span>
                         </div>
                     </div>
                 </div>

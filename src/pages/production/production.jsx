@@ -48,14 +48,15 @@ const Production = () => {
                             <div className="home_section6_text">
                                 <div
                                     className="home_section5_text_title justify-content-center align-items-center text-center">
-                                    <h1>Recycle Rubbish becoming crafts</h1>
+                                    <h1>БУДУЩЕЕ КОЖИ НАЧИНАЕТСЯ ЗДЕСЬ</h1>
                                     <span></span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Lectus arcu ben dum at varius. Ut
-                                    porttitor leo a diam. Pe na tibus et magnis dis. Ut enim ad minim veniam, quis no
-                                    strud ex ercitation ullamco laboris nisi ut aliquip ex ea commodo con sequat.
-
+                                <p>Наше кожевенное производство использует инновационные технологии и современные
+                                    методы, чтобы производить продукцию высокого качества. Мы тщательно контролируем
+                                    каждый этап — от выбора материалов до изысканной отделки, оформления, стиля.
+                                    Применение передовых технологий позволяет нам эффективно работать с материалами,
+                                    совершенствовать производственные процессы и создавать уникальные продукты, которые
+                                    соответствуют самым строгим стандартам качества и помогают нашим клиентам.
                                 </p>
                             </div>
                         </div>
@@ -70,12 +71,11 @@ const Production = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
-                            <h1>We help you design the life you want.</h1>
+                            <h1>ОТКРОЙТЕ НОВЫЕ ГОРИЗОНТЫ В МИРЕ КОЖИ С HAMKOR NUR</h1>
                         </div>
                         <div className="col-lg-6 production_s3_item">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id ex nec urna ullamcorper
-                                pretium vitae id leo. Proin a est vestibulum, gravida nunc sed, sagittis leo. Fusce
-                                ornare ipsum quis tellus varius, et lacinia elit viverra. Proin at ante lorem.
+                            <p>
+                                Будьте на шаг впереди инноваций и качества
                             </p>
                         </div>
                     </div>

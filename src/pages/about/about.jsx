@@ -8,6 +8,7 @@ import {Autoplay} from "swiper/modules";
 import about_header_1 from "../../assets/img/150A1934.png";
 import about_header_2 from "../../assets/img/150A1957.webp";
 import about_header_3 from "../../assets/img/150A1976.webp";
+import Globe from "../../component/globe/index.tsx";
 
 const About = () => {
     const [count1, setCount1] = useState(0);
@@ -96,6 +97,7 @@ const About = () => {
             startCounting();
         }
     }, [isVisible, startCounting]);
+
     return (
         <>
             <Helmet>
@@ -125,9 +127,9 @@ const About = () => {
                     loop={true}
                     className="mySwiper"
                 >
-                    <SwiperSlide><img src={about_header_1} alt="" /></SwiperSlide>
-                    <SwiperSlide><img src={about_header_2} alt="" /></SwiperSlide>
-                    <SwiperSlide><img src={about_header_3} alt="" /></SwiperSlide>
+                    <SwiperSlide><img src={about_header_1} alt=""/></SwiperSlide>
+                    <SwiperSlide><img src={about_header_2} alt=""/></SwiperSlide>
+                    <SwiperSlide><img src={about_header_3} alt=""/></SwiperSlide>
                 </Swiper>
             </section>
 
@@ -172,7 +174,7 @@ const About = () => {
                 <div className="row justify-content-center align-items-center">
 
                     <div className="col-lg-6" data-aos="fade-right">
-                        <img src={about_s2_1} alt="" />
+                        <img src={about_s2_1} alt=""/>
                     </div>
                     <div className="col-lg-6" data-aos="fade-left">
                         <div className="about_s2_text">
@@ -197,7 +199,7 @@ const About = () => {
 
                     </div>
                     <div className="col-lg-6" data-aos="fade-left">
-                        <img src={about_s2_2} alt="" />
+                        <img src={about_s2_2} alt=""/>
                     </div>
                 </div>
             </section>
@@ -210,8 +212,8 @@ const About = () => {
                             <a href="#">Сертификат</a>
                         </div>
                         <div className="col-lg-6 about_s3_right" data-aos="fade-up">
-                            <p> В нашем кожевенном производстве каждый процесс — это искусство, в котором сочетаются
-                                традиции ремесленного мастерства и новейшие технологии. Мы тщательно подбираем сырьё и с
+                            <p>Каждый этап нашего производства — от выбора кожи до изысканной отделки — выполнен с
+                                особым вниманием к деталям. Мы тщательно подбираем сырьё и с
                                 максимальным вниманием подходим к каждому этапу обработки кожи. От дубления до финишной
                                 отделки — каждый этап нашей работы направлен на создание продукции, которая сочетает в
                                 себе эстетическую красоту и исключительную прочность.</p>
@@ -220,6 +222,11 @@ const About = () => {
                     </div>
                 </section>
             </div>
+
+
+            <section className={"globs"}>
+                <Globe/>
+            </section>
 
             <section className='number' ref={sectionRef}>
                 <span className="number_opacity"></span>

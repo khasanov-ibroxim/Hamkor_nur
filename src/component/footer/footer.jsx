@@ -1,6 +1,7 @@
 import React from 'react';
 import './footer.css'
-import {useLocation} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
+import {CONTACT} from "../../utils/const.jsx";
 
 
 const Footer = () => {
@@ -17,7 +18,7 @@ const Footer = () => {
                                 <p>Мы готовы предложить вам решения.</p>
                             </div>
                             <div className="col-lg-4 home_section8_button" data-aos="fade-left">
-                                <a href="#">КОНТАКТЫ</a>
+                                <Link to={CONTACT}>КОНТАКТЫ</Link>
                             </div>
                         </div>
                     </div>
