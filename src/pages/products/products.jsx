@@ -36,7 +36,7 @@ const Products = () => {
                 <Swiper
                     modules={[Autoplay]}
                     autoplay={{
-                        delay: 3000,
+                        delay: 7000,
                         disableOnInteraction: false,
                     }}
                     loop={true}
@@ -233,8 +233,7 @@ const Products = () => {
                     <div className="col-lg-6" data-aos="fade-right">
                         <div className="product_s3_text">
                             <h1>МЫ СТРЕМИМСЯ К СОВЕРШЕНСТВУ В КАЖДОМ ПРОЦЕССЕ</h1>
-                            <p>  Каждый наш продукт будет служить вам долгие годы
-                                Продукция</p>
+                            <p>  Каждый наш продукт будет служить вам долгие годы</p>
                             <Link to={CONTACT}>Свяжитесь с нами</Link>
                         </div>
                     </div>

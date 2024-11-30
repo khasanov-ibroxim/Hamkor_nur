@@ -478,7 +478,7 @@ z-index: 2;
 .home_section_box_info_item {
     width: 100%;
     height: 200px;
-
+    font-weight: 700;
 }
 
 .home_section_box_info_item .home_section_box_info_item_i {

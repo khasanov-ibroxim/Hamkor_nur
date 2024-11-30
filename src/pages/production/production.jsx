@@ -27,7 +27,7 @@ const Production = () => {
                 <Swiper
                     modules={[Autoplay]}
                     autoplay={{
-                        delay: 3000,
+                        delay: 7000,
                         disableOnInteraction: false,
                     }}
                     loop={true}
