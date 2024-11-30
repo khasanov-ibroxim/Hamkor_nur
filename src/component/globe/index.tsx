@@ -111,7 +111,6 @@ const Globe: ComponentType<PropsWithChildren<Properties>> = () => {
 
                 reference.current.controls().enableZoom = false
                 reference.current.pointOfView(countriesWithAlt[0])
-
                 let index = 0
 
                  setInterval(() => {
@@ -139,13 +138,7 @@ const Globe: ComponentType<PropsWithChildren<Properties>> = () => {
 
     return (
         <div
-            style={{
-                width: '100%',
-                height: '100%',
-                display:"flex",
-                justifyContent:"center",
-                alignItems:"center"
-            }}
+            className={"glob_container"}
             ref={wrapperReference}
         >
             <WrappedGlDyn
