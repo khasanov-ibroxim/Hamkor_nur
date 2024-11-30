@@ -101,6 +101,7 @@
     outline: none;
     margin-bottom: 2rem;
     border-radius: 15px;
+    cursor: pointer;
 }
 .contact_address_box select option{
     background: #151515;
@@ -175,6 +176,7 @@
     line-height: 1.6em;
     cursor: pointer;
     text-decoration: none;
+
 }
 
 @media screen and (max-width: 1000px) {
