@@ -87,13 +87,13 @@ const wait = async (cond: () => boolean, function_: () => void) => {
 }
 
 const color = {
-    globe: '#ffffff',
-    main: '#cecece',
-    sub: '#eeeeee',
-    line: '#aaaaaa',
-    active: '#aaaaaa',
-    text: '#555555',
-    transparent: '#00000000',
+    globe: '#000',
+    main: '#151515',
+    sub: '#151515',
+    line: '#c89501',
+    active: '#ffbc00',
+    text: '#000',
+    transparent: '#151515',
 }
 
 const Globe: ComponentType<PropsWithChildren<Properties>> = () => {
@@ -141,6 +141,9 @@ const Globe: ComponentType<PropsWithChildren<Properties>> = () => {
             className={"glob_container"}
             ref={wrapperReference}
         >
+            <div className="glob_text">
+                <h1>География экспорта</h1>
+            </div>
             <WrappedGlDyn
                 // @ts-ignore
                 htmlElement={(properties: { text: string; active: boolean }) => {

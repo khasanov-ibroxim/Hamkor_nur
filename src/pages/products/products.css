@@ -18,7 +18,7 @@
     margin-top: 100px;
 }
 .product_s1 p{
-    font-size: 18px !important;
+    font-size: 15px !important;
 }
 
 .product_s1 ul{
@@ -28,7 +28,7 @@
 .product_s1 ul li{
     margin-bottom: 10px;
     gap: 10px;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 25px;
     display: flex;
     justify-content: flex-start;
