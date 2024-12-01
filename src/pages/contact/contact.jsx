@@ -153,10 +153,10 @@ const Contact = () => {
                             <h6 className="contact_address_address" style={{
                                 lineHeight: "30px"
                             }}>
-                                Телефон: <a href={`tel:${selectedContact.telephone}`}>{selectedContact.telephone}</a>
+                                Телефон: <br/> <a href={`tel:${selectedContact.telephone}`}>{selectedContact.telephone}</a>
                                 <br/>
                                 {selectedContact.telephone2 && (
-                                    <>Телефон: <a
+                                    <><a
                                         href={`tel:${selectedContact.telephone2}`}>{selectedContact.telephone2}</a></>
                                 )}
                             </h6>

@@ -322,8 +322,8 @@ const Home = () => {
                                    <h1> ИННОВАЦИОННЫЕ ПОДХОДЫ В КОЖАНОЙ ОБРАБОТКЕ</h1>
                                 </span>
                             <div>
-                                <span className="home_section_box_info_item_element_top"></span>
-                                <span className="home_section_box_info_item_element_bottom"></span>
+                                <span className="home_section_box_info_item_element_top" data-aos="fade-right"></span>
+                                <span className="home_section_box_info_item_element_bottom" ></span>
                             </div>
                         </div>
                         <div className="home_section_box_info_item">
@@ -333,7 +333,7 @@ const Home = () => {
 
                             </span>
                             <div>
-                                <span className="home_section_box_info_item_element_top"></span>
+                                <span className="home_section_box_info_item_element_top" data-aos="fade-up"></span>
                                 <span className="home_section_box_info_item_element_bottom"></span>
                             </div>
                         </div>
@@ -341,7 +341,6 @@ const Home = () => {
                             <span className={"home_section_box_info_item_i"} data-aos="fade-right">
                                 <span className="home_section_box_info_item_opacity"></span>
                                 <h1>ИЗУЧАЕМ НОВЫЕ СПОСОБЫ УЛУЧШЕНИЯ ТЕКСТУРЫ, ПРОЧНОСТИ И ДОЛГОВЕЧНОСТИ</h1>
-
                             </span>
                         </div>
                     </div>
