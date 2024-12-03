@@ -1,11 +1,11 @@
 import React from 'react';
 import "./home.css";
-import home_s3_1 from "../../assets/img/sigr.webp"
-import home_s3_2 from "../../assets/img/150A1861.webp"
-import home_s3_3 from "../../assets/img/150A1789.webp"
-import home_s3_4 from "../../assets/img/150A1786.webp"
-import home_s3_5 from "../../assets/img/150A1942.webp"
-import home_s3_6 from "../../assets/img/150A1873.webp"
+import home_s3_1 from "../../assets/img/sigr.jpg"
+import home_s3_2 from "../../assets/img/150A1861.jpg"
+import home_s3_3 from "../../assets/img/150A1789.jpg"
+import home_s3_4 from "../../assets/img/150A1786.jpg"
+import home_s3_5 from "../../assets/img/150A1942.jpg"
+import home_s3_6 from "../../assets/img/150A1873.jpg"
 
 import home_s4_1 from "../../assets/icon/koja.png"
 import home_s4_2 from "../../assets/icon/assartiment.png"
@@ -14,14 +14,14 @@ import home_s4_4 from "../../assets/icon/eco.png"
 import home_s4_5 from "../../assets/icon/opit.png"
 import home_s4_6 from "../../assets/icon/reputatsiya.png"
 
-import home_s5 from "../../assets/img/150A1795.webp"
+import home_s5 from "../../assets/img/150A1795.jpg"
 
-import home_s5_1 from "../../assets/img/150A0757.webp"
-import home_s5_2 from "../../assets/img/150A0765.webp"
+import home_s5_1 from "../../assets/img/150A0757.jpg"
+import home_s5_2 from "../../assets/img/150A0765.jpg"
 
-import home_header_1 from "../../assets/img/150A0745.webp"
-import home_header_2 from "../../assets/img/150A0882.webp"
-import home_header_3 from "../../assets/img/150A0704.webp"
+import home_header_1 from "../../assets/img/150A0745.jpg"
+import home_header_2 from "../../assets/img/150A0882.jpg"
+import home_header_3 from "../../assets/img/150A0704.jpg"
 
 import success from "../../assets/icon/success.png"
 

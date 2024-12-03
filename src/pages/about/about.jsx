@@ -1,13 +1,13 @@
 import React, {useCallback, useEffect, useRef, useState} from 'react';
 import "./about.css"
-import about_s2_1 from "../../assets/img/150A1986.webp"
-import about_s2_2 from "../../assets/img/150A1934.png"
+import about_s2_1 from "../../assets/img/150A1986.jpg"
+import about_s2_2 from "../../assets/img/150A1934.jpg"
 import {Helmet} from "react-helmet-async";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Autoplay} from "swiper/modules";
-import about_header_1 from "../../assets/img/150A1934.png";
-import about_header_2 from "../../assets/img/150A1957.webp";
-import about_header_3 from "../../assets/img/150A1976.webp";
+import about_header_1 from "../../assets/img/150A1934.jpg";
+import about_header_2 from "../../assets/img/150A1957.jpg";
+import about_header_3 from "../../assets/img/150A1976.jpg";
 import Globe from "../../component/globe/index.tsx";
 
 const About = () => {

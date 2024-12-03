@@ -1,11 +1,11 @@
 import React, {useState} from "react";
 import "./contact.css";
-import contactFormImage from "../../assets/img/150A0695.webp";
+import contactFormImage from "../../assets/img/150A0695.jpg";
 import {Helmet} from "react-helmet-async";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Autoplay} from "swiper/modules";
-import contactHeader1 from "../../assets/img/150A0784.webp";
-import contactHeader2 from "../../assets/img/150A0785.webp";
+import contactHeader1 from "../../assets/img/150A0784.jpg";
+import contactHeader2 from "../../assets/img/150A0785.jpg";
 
 const contactData = [
     {

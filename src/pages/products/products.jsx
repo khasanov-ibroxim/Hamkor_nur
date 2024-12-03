@@ -1,26 +1,26 @@
 import React from 'react';
 import "./products.css"
 
-import product_s2_1 from "../../assets/img/DGH_232.webp"
-import product_s2_2 from "../../assets/img/DGH_48.webp"
-import product_s2_3 from "../../assets/img/DGH_8.webp"
-import product_s2_4 from "../../assets/img/DGH_77.webp"
-import product_s2_5 from "../../assets/img/DGH_59.webp"
-import product_s2_6 from "../../assets/img/DGH_52.webp"
-import product_s2_7 from "../../assets/img/DGH_152.webp"
-import product_s2_8 from "../../assets/img/DGH_166.webp"
-import product_s2_9 from "../../assets/img/DGH_70.webp"
-import product_s2_10 from "../../assets/img/DGH_227.webp"
+import product_s2_1 from "../../assets/img/DGH_232.jpg"
+import product_s2_2 from "../../assets/img/DGH_48.jpg"
+import product_s2_3 from "../../assets/img/DGH_8.jpg"
+import product_s2_4 from "../../assets/img/DGH_77.jpg"
+import product_s2_5 from "../../assets/img/DGH_59.jpg"
+import product_s2_6 from "../../assets/img/DGH_52.jpg"
+import product_s2_7 from "../../assets/img/DGH_152.jpg"
+import product_s2_8 from "../../assets/img/DGH_166.jpg"
+import product_s2_9 from "../../assets/img/DGH_70.jpg"
+import product_s2_10 from "../../assets/img/DGH_227.jpg"
 
-import product_slide_1 from "../../assets/img/150A0773.webp"
-import product_slide_2 from "../../assets/img/150A0791.webp"
-import product_slide_3 from "../../assets/img/150A0878.webp"
+import product_slide_1 from "../../assets/img/150A0773.jpg"
+import product_slide_2 from "../../assets/img/150A0791.jpg"
+import product_slide_3 from "../../assets/img/150A0878.jpg"
 
 import success from "../../assets/icon/success.png"
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Autoplay} from "swiper/modules";
-import home_header_1 from "../../assets/img/DGH_86.webp";
-import home_header_2 from "../../assets/img/DGH_138(1)(1).png";
+import home_header_1 from "../../assets/img/DGH_86.jpg";
+import home_header_2 from "../../assets/img/DGH_138.jpg";
 import {CONTACT} from "../../utils/const.jsx";
 import {Link} from "react-router-dom";
 
