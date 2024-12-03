@@ -120,7 +120,7 @@ const Products = () => {
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
                                     <h3>НАТУРАЛЬНАЯ <br/> КОЖА-ВЫБОР НА ВЕКА</h3>
-                                    <p>Эстетика, прочность и индивидуальность в каждом изделии.</p>
+                                    <p>Эстетика, прочность и <br/> индивидуальность <br/> в каждом изделии.</p>
                                 </div>
                             </div>
                         </div>

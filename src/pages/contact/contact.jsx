@@ -22,7 +22,7 @@ const contactData = [
         id: 2,
         name: "Магазин - г.Ташкент",
         address_name: "Республика Узбекистан",
-        address: "г.Ташкент , Шайхантахурский район , м.Ибн Сино - 1 , 21 дом",
+        address: "г.Ташкент , <br/> Шайхантахурский район , <br/> м.Ибн Сино - 1, 21 дом",
         telephone: "+998 90 022 60 00",
         telephone2: "+998 97 975 08 54",
         index: "110300",
@@ -33,7 +33,7 @@ const contactData = [
         id: 3,
         name: "Магазин - Андижан",
         address_name: "Республика Узбекистан",
-        address: "Андижанский область, улица Бобиршох  145 дом , Ориентир напротив ХБК",
+        address: "Андижанский область, <br/> улица Бобиршох  145 дом , <br/> Ориентир напротив ХБК",
         telephone: "+998 97 273 10 03",
         index: "110300",
         address_url: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2890.6947855265726!2d72.332715!3d40.795421000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDQ3JzQzLjUiTiA3MsKwMTknNTcuOCJF!5e1!3m2!1sru!2s!4v1732773121570!5m2!1sru!2s",
@@ -146,8 +146,9 @@ const Contact = () => {
                                 ))}
                             </select>
                             <h6 className="contact_address_address">
-                                <a href={selectedContact.map_url}>
-                                    {selectedContact.address_name} , {selectedContact.address}
+                                <a href={selectedContact.map_url}
+                                   dangerouslySetInnerHTML={{ __html: selectedContact.address_name + ' , ' + selectedContact.address }}
+                                >
                                 </a>
                             </h6>
                             <h6 className="contact_address_address" style={{
