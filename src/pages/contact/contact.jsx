@@ -24,7 +24,7 @@ const contactData = [
         address_name: "Республика Узбекистан",
         address: "г.Ташкент , <br/> Шайхантахурский район , <br/> м.Ибн Сино - 1, 21 дом",
         telephone: "+998 90 022 60 00",
-        telephone2: "+998 97 975 08 54",
+        telephone2: "+998 90 975 08 54",
         index: "110300",
         address_url: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2867.0368135724198!2d69.16743!3d41.335812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDIwJzA4LjkiTiA2OcKwMTAnMDIuOCJF!5e1!3m2!1sru!2s!4v1732721753219!5m2!1sru!2s",
         map_url:"https://maps.google.com/maps?q=41.335813,69.167431&ll=41.335813,69.167431&z=16"
