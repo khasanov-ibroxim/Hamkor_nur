@@ -321,10 +321,7 @@ const Home = () => {
                                     <span className="home_section_box_info_item_opacity"></span>
                                    <h1> ИННОВАЦИОННЫЕ ПОДХОДЫ В КОЖАНОЙ ОБРАБОТКЕ</h1>
                                 </span>
-                            <div>
-                                <span className="home_section_box_info_item_element_top" data-aos="fade-right"></span>
-                                <span className="home_section_box_info_item_element_bottom" ></span>
-                            </div>
+
                         </div>
                         <div className="home_section_box_info_item">
                             <span className={"home_section_box_info_item_i"} data-aos="fade-up">
@@ -332,10 +329,7 @@ const Home = () => {
                                 <h1>АКТИВНО ВНЕДРЯЕМ ПЕРЕДОВЫЕ ТЕХНОЛОГИИ И МЕТОДЫ</h1>
 
                             </span>
-                            <div>
-                                <span className="home_section_box_info_item_element_top" data-aos="fade-up"></span>
-                                <span className="home_section_box_info_item_element_bottom"></span>
-                            </div>
+
                         </div>
                         <div className="home_section_box_info_item">
                             <span className={"home_section_box_info_item_i"} data-aos="fade-right">
