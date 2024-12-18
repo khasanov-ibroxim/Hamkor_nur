@@ -1,7 +1,7 @@
 import React, {useCallback, useEffect, useRef, useState} from 'react';
 import "./about.css"
-import about_s2_1 from "../../assets/img/150A1986.jpg"
-import about_s2_2 from "../../assets/img/150A1934.jpg"
+import about_s2_1 from "../../assets/img/150A1873.jpg"
+import about_s2_2 from "../../assets/img/150A1914.jpg"
 import {Helmet} from "react-helmet-async";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Autoplay} from "swiper/modules";
@@ -22,7 +22,7 @@ const About = () => {
     const startCounting = useCallback(() => {
         const timer1 = setInterval(() => {
             setCount1((prevCount) => {
-                if (prevCount < 250) {
+                if (prevCount < 5) {
                     return prevCount + 1;
                 } else {
                     clearInterval(timer1);
@@ -234,18 +234,18 @@ const About = () => {
                     <div className="row " data-aos="fade-right" style={{width: "100%"}}>
                         <div className="col-lg-3">
                             <p className='count'>{count1}</p>
-                            <p className="last"> Виды кожи</p>
+                            <p className="last">Количество стран </p>
                         </div>
                         <div className="col-lg-3">
                             <p className='count'>{count2}</p>
-                            <p className="last">Партнёры</p>
+                            <p className="last">Объём финишной</p>
                         </div>
                         <div className="col-lg-3">
                             <p className='count'>{count3}</p>
-                            <p className="last">Довольные клиенты</p>
+                            <p className="last">Краст</p>
                         </div>
                         <div className="col-lg-3">
-                            <p className='count'>2</p>
+                            <p className='count'>4</p>
                             <p className="last">Филиалы</p>
                         </div>
                     </div>

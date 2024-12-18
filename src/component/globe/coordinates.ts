@@ -38,4 +38,13 @@ export const countryCoordinates = [
     lat: 35.8617,
     lng: 104.1954,
   },
+  {
+    text: {
+      en: 'India',
+      ru: 'Индия',
+    },
+    alpha2: 'IN',
+    lat: 21.7679,
+    lng: 78.8718,
+  },
 ]

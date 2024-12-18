@@ -59,15 +59,18 @@ const Products = () => {
                                 свойствам. Все эти термины относятся к разным этапам и разновидностям кожевенного
                                 производства:
                                 <ul>
-                                    <li><img src={success} alt=""/> Вет-Блю — кожа, полученная от молодых животных, часто используется в
-                                        производстве высококачественных изделий.
+                                    <li><img src={success} alt=""/> Вет блю- в кожевенном производстве представляет
+                                        собой специализированный полуфабрикат, используемый для обработки и производства
+                                        изделий из кожи. Этот материал, как правило, проходит определенные этапы
+                                        обработки, включая дубление и выделку, что обеспечивает ему высокую прочность и
+                                        стойкость.
                                     </li>
-                                    <li><img src={success} alt=""/>Краст — кожа, прошедшая начальную обработку дублением, но ещё не подвергшаяся
+                                    <li><img src={success} alt=""/>Краст — кожа, прошедшая начальную обработку
+                                        дублением, но ещё не подвергшаяся
                                         финишной отделки
                                     </li>
                                     <li><img src={success} alt=""/>
-                                        Финишная обработка кожи — это заключительный этап обработки кожи после дубления
-                                        (краст), в ходе которого ей придается окончательный вид, прочность и
+                                        Финишная обработка кожи — это заключительный этап обработки кожи после краст, в ходе которого ей придается окончательный вид, прочность и
                                         эстетические характеристики.
                                     </li>
                                 </ul>
@@ -80,7 +83,7 @@ const Products = () => {
             <section className=" product_s2  container">
                 <div className="product_s2_box container">
                     <div className="product_s2_box_right">
-                        <img src={product_s2_1} alt="" />
+                        <img src={product_s2_1} alt=""/>
                         <span className="product_s2_box_opacity"></span>
                         <div className="product_s2_box_text">
                             <h3>КОЖЕВЕННОЕ ПРОИЗВОДСТВО</h3>
@@ -90,7 +93,7 @@ const Products = () => {
                     <div className="product_s2_box_left">
                         <div className="product_s2_box_left_top">
                             <div className="product_s2_box_left_item">
-                                <img src={product_s2_2} alt="" />
+                                <img src={product_s2_2} alt=""/>
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
                                     <h3>ИСКУССТВО КОЖИ</h3>
@@ -98,7 +101,7 @@ const Products = () => {
                                 </div>
                             </div>
                             <div className="product_s2_box_left_item">
-                                <img src={product_s2_3} alt="" />
+                                <img src={product_s2_3} alt=""/>
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
                                     <h3>ЭКОЛОГИЧНОЕ ПРОИЗВОДСТВО</h3>
@@ -108,7 +111,7 @@ const Products = () => {
                         </div>
                         <div className="product_s2_box_left_bottom">
                             <div className="product_s2_box_left_item">
-                                <img src={product_s2_4} alt="" />
+                                <img src={product_s2_4} alt=""/>
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
                                     <h3>ТЕХНОЛОГИИ И ТРАДИЦИИ</h3>
@@ -116,7 +119,7 @@ const Products = () => {
                                 </div>
                             </div>
                             <div className="product_s2_box_left_item">
-                                <img src={product_s2_5} alt="" />
+                                <img src={product_s2_5} alt=""/>
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
                                     <h3>НАТУРАЛЬНАЯ <br/> КОЖА-ВЫБОР НА ВЕКА</h3>
@@ -130,7 +133,7 @@ const Products = () => {
                     <div className="product_s2_box_left">
                         <div className="product_s2_box_left_top">
                             <div className="product_s2_box_left_item">
-                                <img src={product_s2_6} alt="" />
+                                <img src={product_s2_6} alt=""/>
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
                                     <h3>КОЖА, КОТОРАЯ РАССКАЗЫВАЕТ ИСТОРИЮ</h3>
@@ -138,7 +141,7 @@ const Products = () => {
                                 </div>
                             </div>
                             <div className="product_s2_box_left_item">
-                                <img src={product_s2_7} alt="" />
+                                <img src={product_s2_7} alt=""/>
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
                                     <h3>ВОПЛОЩЕНИЕ ВАШИХ ИДЕЙ</h3>
@@ -148,7 +151,7 @@ const Products = () => {
                         </div>
                         <div className="product_s2_box_left_bottom">
                             <div className="product_s2_box_left_item">
-                                <img src={product_s2_8} alt="" />
+                                <img src={product_s2_8} alt=""/>
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
                                     <h3>ПУТЬ КОЖИ</h3>
@@ -156,7 +159,7 @@ const Products = () => {
                                 </div>
                             </div>
                             <div className="product_s2_box_left_item">
-                                <img src={product_s2_9} alt="" />
+                                <img src={product_s2_9} alt=""/>
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
                                     <h3>КОЖА, КОТОРАЯ ВДОХНОВЛЯЕТ</h3>
@@ -166,7 +169,7 @@ const Products = () => {
                         </div>
                     </div>
                     <div className="product_s2_box_right">
-                        <img src={product_s2_10} alt="" />
+                        <img src={product_s2_10} alt=""/>
                         <span className="product_s2_box_opacity"></span>
                         <div className="product_s2_box_text">
                             <h3>ДИЗАЙН И ДОЛГОВЕЧНОСТЬ</h3>
@@ -192,7 +195,7 @@ const Products = () => {
                             </div>
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                    <img className="d-block w-100" src={product_slide_1} alt="First slide" />
+                                    <img className="d-block w-100" src={product_slide_1} alt="First slide"/>
                                     <span className="slide_opacity"></span>
                                     <div className="slide_text">
                                         {/*<h1>ДИЗАЙН И ДОЛГОВЕЧНОСТЬ</h1>*/}
@@ -200,7 +203,7 @@ const Products = () => {
                                     </div>
                                 </div>
                                 <div className="carousel-item">
-                                    <img className="d-block w-100" src={product_slide_2} alt="Second slide" />
+                                    <img className="d-block w-100" src={product_slide_2} alt="Second slide"/>
                                     <span className="slide_opacity"></span>
                                     <div className="slide_text">
                                         {/*<h1>ИСКУССТВО КОЖИ</h1>*/}
@@ -208,7 +211,7 @@ const Products = () => {
                                     </div>
                                 </div>
                                 <div className="carousel-item">
-                                    <img className="d-block w-100" src={product_slide_3} alt="Third slide" />
+                                    <img className="d-block w-100" src={product_slide_3} alt="Third slide"/>
                                     <span className="slide_opacity"></span>
                                     <div className="slide_text">
                                         {/*<h1>ЭКОЛОГИЧНОЕ ПРОИЗВОДСТВО</h1>*/}
@@ -233,7 +236,7 @@ const Products = () => {
                     <div className="col-lg-6" data-aos="fade-right">
                         <div className="product_s3_text">
                             <h1>МЫ СТРЕМИМСЯ К СОВЕРШЕНСТВУ В КАЖДОМ ПРОЦЕССЕ</h1>
-                            <p>  Каждый наш продукт будет служить вам долгие годы</p>
+                            <p> Каждый наш продукт будет служить вам долгие годы</p>
                             <Link to={CONTACT}>Свяжитесь с нами</Link>
                         </div>
                     </div>

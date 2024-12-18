@@ -14,7 +14,7 @@ const Footer = () => {
                     <div className="container">
                         <div className="row d-flex justify-content-between">
                             <div className="col-lg-8 home_section8_text" data-aos="fade-right">
-                                <h2>КАК ВЫБРАТЬ ПРАВИЛЬНУЮ КОЖУ ДЛЯ КОНКРЕТНОГО ИЗДЕЛИЯ?</h2>
+                                <h2>Не упустите возможность создать нечто особенное – ваш идеальный продукт ждет вас!</h2>
                                 <p>Мы готовы предложить вам решения.</p>
                             </div>
                             <div className="col-lg-4 home_section8_button" data-aos="fade-left">

@@ -1,11 +1,11 @@
 import React from 'react';
 import "./home.css";
-import home_s3_1 from "../../assets/img/sigr.jpg"
+import home_s3_1 from "../../assets/img/natural-leather-animal-fur-texture.jpg"
 import home_s3_2 from "../../assets/img/150A1861.jpg"
-import home_s3_3 from "../../assets/img/150A1789.jpg"
+import home_s3_3 from "../../assets/img/150A1967.jpg"
 import home_s3_4 from "../../assets/img/150A1786.jpg"
 import home_s3_5 from "../../assets/img/150A1942.jpg"
-import home_s3_6 from "../../assets/img/150A1873.jpg"
+import home_s3_6 from "../../assets/img/150A1934.jpg"
 
 import home_s4_1 from "../../assets/icon/koja.png"
 import home_s4_2 from "../../assets/icon/assartiment.png"
@@ -19,8 +19,8 @@ import home_s5 from "../../assets/img/150A1795.jpg"
 import home_s5_1 from "../../assets/img/150A0757.jpg"
 import home_s5_2 from "../../assets/img/150A0765.jpg"
 
-import home_header_1 from "../../assets/img/150A0745.jpg"
-import home_header_2 from "../../assets/img/150A0882.jpg"
+import home_header_1 from "../../assets/img/DGH_86.jpg"
+import home_header_2 from "../../assets/img/DGH_232.jpg"
 import home_header_3 from "../../assets/img/150A0704.jpg"
 
 import success from "../../assets/icon/success.png"
@@ -56,7 +56,7 @@ const Home = () => {
                 <Swiper
                     modules={[Autoplay]}
                     autoplay={{
-                        delay: 7000,
+                        delay: 2000,
                         disableOnInteraction: false,
                     }}
                     loop={true}
@@ -81,14 +81,14 @@ const Home = () => {
                                 как надежный производитель и поставщик высококачественной кожи. Деятельность предприятия
                                 заключается в переработке крупного рогатого скота. Мы не только удовлетворяем
                                 потребности внутреннего рынка, но и активно экспортируем нашу продукцию в Китай, Турцию,
-                                Россию и Италию.
+                                Россию , Италию и Индиыю.
                             </p>
                             <p>
                                 В 2012 году, став участником Ангренской экономической зоны, мы открыли
                                 новый производственный завод в Охангароне, что позволило значительно расширить
                                 производственные мощности.
-                                Основная производственная линия принадлежит брендам Италии: MEC MAN, MOSTARDINI, BARNINI
-                                и ROTACOAT.
+                                Основная производственная линия принадлежит брендам Италии: RIZZI, MOSTARDINI, BARNINI
+                                ,PAJUSCO, ESCOMAR и BERGI.
                             </p>
                         </div>
                     </div>
@@ -240,9 +240,7 @@ const Home = () => {
                                     <img src={home_s4_2} alt=""/>
                                 </div>
                                 <h3>Широкий ассортимент</h3>
-                                <p>Мы производим продукцию для самых разных сфер: от роскошных кожаных аксессуаров до
-                                    промышленного применения. Наш ассортимент включает как классические, так и
-                                    эксклюзивные решения.</p>
+                                <p>Мы производим продукцию для самых разных сфер: от роскошной обуви и  кожгалантерии.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
