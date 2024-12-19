@@ -9,11 +9,11 @@ import home_s5_1 from "../../assets/img/150A0757.jpg";
 import home_s5_2 from "../../assets/img/150A0765.jpg";
 
 import home_s3_1 from "../../assets/img/natural-leather-animal-fur-texture.jpg"
-import home_s3_2 from "../../assets/img/150A1786.jpg"
-import home_s3_3 from "../../assets/img/150A1789.jpg"
-import home_s3_4 from "../../assets/img/150A1861.jpg"
+import home_s3_2 from "../../assets/img/150A1861.jpg"
+import home_s3_3 from "../../assets/img/150A1967.jpg"
+import home_s3_4 from "../../assets/img/150A1786.jpg"
 import home_s3_5 from "../../assets/img/150A1942.jpg"
-import home_s3_6 from "../../assets/img/150A1873.jpg"
+import home_s3_6 from "../../assets/img/150A1934.jpg"
 
 const Production = () => {
     const {id} = useParams();
@@ -111,7 +111,7 @@ const Production = () => {
                                     <h1>ДУБЛЕНИЕ</h1>
                                     <span></span>
                                 </div>
-                                <p>На этом этапе кожа обрабатывается с помощью различных химических веществ барабанах </p>
+                                <p>На этом этапе кожа обрабатывается с помощью различных химических вещест в барабанах </p>
                             </div>
                         </div>
                         <div className="col-lg-6" data-aos="fade-right">

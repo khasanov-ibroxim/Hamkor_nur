@@ -20,7 +20,7 @@ const contactData = [
     },
     {
         id: 2,
-        name: "Магазин - г.Ташкент",
+        name: "шоу рум - г.Ташкент",
         address_name: "Республика Узбекистан",
         address: "г.Ташкент , <br/> Шайхантахурский район , <br/> м.Ибн Сино - 1, 21 дом",
         telephone: "+998 90 022 60 00",
@@ -38,6 +38,16 @@ const contactData = [
         index: "110300",
         address_url: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2890.6947855265726!2d72.332715!3d40.795421000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDQ3JzQzLjUiTiA3MsKwMTknNTcuOCJF!5e1!3m2!1sru!2s!4v1732773121570!5m2!1sru!2s",
         map_url: "https://maps.google.com/maps?q=40.795422,72.332715&ll=40.795422,72.332715&z=16"
+    },
+    {
+        id: 3,
+        name: "Шоу рум - Наманган",
+        address_name: "Республика Узбекистан",
+        address: "Наманганский область, <br/> улица Маргилан  136 дом ",
+        telephone: "+998 91 366 66 19",
+        index: "110300",
+        address_url: "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d5764.949939867095!2d71.677349!3d40.983841!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDU5JzAxLjgiTiA3McKwNDAnMzguNSJF!5e1!3m2!1sru!2s!4v1734643914454!5m2!1sru!2s",
+        map_url: "https://maps.google.com/maps?q=40.983841,71.677349&ll=40.983841,71.677349&z=16"
     },
     {
         id: 4,
