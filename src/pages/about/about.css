@@ -264,7 +264,9 @@ section.number p.count {
     line-height: 1;
 
 }
-
+section.number p.count span{
+    font-size: 15px;
+}
 section.number p.last {
     color: #FFFFFF;
     font-family: var(--montserrat), sans-serif;

@@ -237,11 +237,11 @@ const About = () => {
                             <p className="last">Количество стран </p>
                         </div>
                         <div className="col-lg-3">
-                            <p className='count'>{count2}</p>
-                            <p className="last">Объём финишной</p>
+                            <p className='count'>5 <span>млн дц²</span></p>
+                            <p className="last">месяц</p>
                         </div>
                         <div className="col-lg-3">
-                            <p className='count'>{count3}</p>
+                            <p className='count'> 7 <span>млн дц²</span></p>
                             <p className="last">Краст</p>
                         </div>
                         <div className="col-lg-3">
