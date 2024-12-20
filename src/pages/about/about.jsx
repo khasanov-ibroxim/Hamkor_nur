@@ -33,7 +33,7 @@ const About = () => {
 
         const timer2 = setInterval(() => {
             setCount2((prevCount) => {
-                if (prevCount < 18) {
+                if (prevCount < 5) {
                     return prevCount + 1;
                 } else {
                     clearInterval(timer2);
@@ -44,7 +44,7 @@ const About = () => {
 
         const timer3 = setInterval(() => {
             setCount3((prevCount) => {
-                if (prevCount < 173) {
+                if (prevCount < 7) {
                     return prevCount + 1;
                 } else {
                     clearInterval(timer3);
@@ -237,12 +237,12 @@ const About = () => {
                             <p className="last">Количество стран </p>
                         </div>
                         <div className="col-lg-3">
-                            <p className='count'>5 <span>млн дц²</span></p>
-                            <p className="last">месяц</p>
+                            <p className='count'>{count2} <span>млн дц² <br/>месяц</span></p>
+                            <p className="last">Объём финишной</p>
                         </div>
                         <div className="col-lg-3">
-                            <p className='count'> 7 <span>млн дц²</span></p>
-                            <p className="last">Краст</p>
+                            <p className='count'>{count3} <span>млн дц² <br/>месяц</span></p>
+                            <p className="last">Краст объём</p>
                         </div>
                         <div className="col-lg-3">
                             <p className='count'>4</p>

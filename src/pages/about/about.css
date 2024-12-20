@@ -262,7 +262,9 @@ section.number p.count {
     font-size: 85px;
     font-weight: bold;
     line-height: 1;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 section.number p.count span{
     font-size: 15px;
