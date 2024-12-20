@@ -272,7 +272,7 @@ section.number p.count span{
 section.number p.last {
     color: #FFFFFF;
     font-family: var(--montserrat), sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 5px;
