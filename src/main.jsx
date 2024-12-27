@@ -8,12 +8,14 @@ import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'bootstrap/dist/js/bootstrap.bundle.js'
 import {HelmetProvider} from "react-helmet-async";
+import {LanguageProvider} from "./utils/lang/LangContext.jsx";
 const helmetContext = {};
 createRoot(document.getElementById('root')).render(
     <StrictMode>
-        <HelmetProvider context={helmetContext}>
-            <App/>
-        </HelmetProvider>
-
+        <LanguageProvider>
+            <HelmetProvider context={helmetContext}>
+                <App/>
+            </HelmetProvider>
+        </LanguageProvider>
     </StrictMode>,
 )

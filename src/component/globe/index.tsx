@@ -15,6 +15,7 @@ import {GlobeMethods, GlobeProps} from 'react-globe.gl'
 import {MeshBasicMaterial} from 'three'
 import {countryCoordinates} from './coordinates'
 import {landTopo} from './polygon'
+import {useTranslation} from "react-i18next";
 
 type ExtractReferenceType<T extends ElementType> =
     ComponentPropsWithRef<T>['ref'] extends MutableRefObject<infer U> | undefined
@@ -98,7 +99,8 @@ const color = {
 
 const Globe: ComponentType<PropsWithChildren<Properties>> = () => {
     const reference = useRef<GlobeMethods>()
-
+    const langStorage = window.localStorage.getItem('i18nextLng');
+    const {t} = useTranslation()
     const [selected, setSelected] = useState(0)
 
     useEffect(() => {
@@ -142,7 +144,7 @@ const Globe: ComponentType<PropsWithChildren<Properties>> = () => {
             ref={wrapperReference}
         >
             <div className="glob_text">
-                <h1>География экспорта</h1>
+                <h1>{t("about.globe")}</h1>
             </div>
             <WrappedGlDyn
                 // @ts-ignore
@@ -157,7 +159,7 @@ const Globe: ComponentType<PropsWithChildren<Properties>> = () => {
                     ({lat, lng, text}, index) => ({
                         lat: lat - 5,
                         lng: lng + 15,
-                        text: text?.ru || 'No Name',
+                        text: langStorage === "ru" || langStorage === "ru-RU" ? text.ru : text.en,
                         active: selected === index,
                     }),
                 )}

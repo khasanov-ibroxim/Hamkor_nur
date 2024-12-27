@@ -23,15 +23,16 @@ import home_header_1 from "../../assets/img/DGH_86.jpg";
 import home_header_2 from "../../assets/img/DGH_138.jpg";
 import {CONTACT} from "../../utils/const.jsx";
 import {Link} from "react-router-dom";
+import {useTranslation} from "react-i18next";
 
 const Products = () => {
-
+    const {t} = useTranslation()
     return (
         <>
             <div className="Home">
                 <span className={"opacity_container"}></span>
                 <div className="home_box container">
-                    <h1 data-aos="fade-up">Продукция</h1>
+                    <h1 data-aos="fade-up">{t("products.products_header_title")}</h1>
                 </div>
                 <Swiper
                     modules={[Autoplay]}
@@ -51,28 +52,15 @@ const Products = () => {
                 <section className="about_s3 product_s1">
                     <div className="row justify-content-between ">
                         <div className="col-lg-6 about_s3_left" data-aos="fade-up">
-                            <h3><span></span> Превосходство в качестве и эстетике</h3>
-                            <h2>ВЕТ-БЛЮ КРАСТ ФИНИШНАЯ КОЖА</h2>
+                            <h3><span></span> {t("products.product_s1.subtitle")}</h3>
+                            <h2>{t("products.product_s1.title")}</h2>
                         </div>
                         <div className="col-lg-6 about_s3_right" data-aos="fade-up">
-                            <p> Это типы кожи или виды кожаной продукции, которые различаются по методам обработки и
-                                свойствам. Все эти термины относятся к разным этапам и разновидностям кожевенного
-                                производства:
+                            <p> {t("products.product_s1.description")}
                                 <ul>
-                                    <li><img src={success} alt=""/> Вет блю- в кожевенном производстве представляет
-                                        собой специализированный полуфабрикат, используемый для обработки и производства
-                                        изделий из кожи. Этот материал, как правило, проходит определенные этапы
-                                        обработки, включая дубление и выделку, что обеспечивает ему высокую прочность и
-                                        стойкость.
-                                    </li>
-                                    <li><img src={success} alt=""/>Краст — кожа, прошедшая начальную обработку
-                                        дублением, но ещё не подвергшаяся
-                                        финишной отделки
-                                    </li>
-                                    <li><img src={success} alt=""/>
-                                        Финишная обработка кожи — это заключительный этап обработки кожи после краст, в ходе которого ей придается окончательный вид, прочность и
-                                        эстетические характеристики.
-                                    </li>
+                                    <li><img src={success} alt=""/> {t("products.product_s1.desc_item_1")}</li>
+                                    <li><img src={success} alt=""/>{t("products.product_s1.desc_item_2")} </li>
+                                    <li><img src={success} alt=""/>{t("products.product_s1.desc_item_3")}</li>
                                 </ul>
                             </p>
                         </div>
@@ -86,8 +74,8 @@ const Products = () => {
                         <img src={product_s2_1} alt=""/>
                         <span className="product_s2_box_opacity"></span>
                         <div className="product_s2_box_text">
-                            <h3>КОЖЕВЕННОЕ ПРОИЗВОДСТВО</h3>
-                            <p>Вдохновляемся природой для создания долговечных изделий.</p>
+                            <h3 dangerouslySetInnerHTML={{__html:t("products.product_s2.item_1.title")}}></h3>
+                            <p dangerouslySetInnerHTML={{__html:t("products.product_s2.item_1.desc")}}></p>
                         </div>
                     </div>
                     <div className="product_s2_box_left">
@@ -96,16 +84,16 @@ const Products = () => {
                                 <img src={product_s2_2} alt=""/>
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
-                                    <h3>ИСКУССТВО КОЖИ</h3>
-                                    <p>Создаем будущее из традиций и натуральных материалов.</p>
+                                    <h3 dangerouslySetInnerHTML={{__html:t("products.product_s2.item_2.title")}}></h3>
+                                    <p dangerouslySetInnerHTML={{__html:t("products.product_s2.item_2.desc")}}></p>
                                 </div>
                             </div>
                             <div className="product_s2_box_left_item">
                                 <img src={product_s2_3} alt=""/>
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
-                                    <h3>ЭКОЛОГИЧНОЕ ПРОИЗВОДСТВО</h3>
-                                    <p>Кожа в гармонии с природой.</p>
+                                    <h3 dangerouslySetInnerHTML={{__html:t("products.product_s2.item_3.title")}}></h3>
+                                    <p dangerouslySetInnerHTML={{__html:t("products.product_s2.item_3.desc")}}></p>
                                 </div>
                             </div>
                         </div>
@@ -114,16 +102,16 @@ const Products = () => {
                                 <img src={product_s2_4} alt=""/>
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
-                                    <h3>ТЕХНОЛОГИИ И ТРАДИЦИИ</h3>
-                                    <p>Соединяем инновации <br/> с ремеслом прошлого.</p>
+                                    <h3 dangerouslySetInnerHTML={{__html:t("products.product_s2.item_4.title")}}></h3>
+                                    <p dangerouslySetInnerHTML={{__html:t("products.product_s2.item_4.desc")}}></p>
                                 </div>
                             </div>
                             <div className="product_s2_box_left_item">
                                 <img src={product_s2_5} alt=""/>
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
-                                    <h3>НАТУРАЛЬНАЯ <br/> КОЖА-ВЫБОР НА ВЕКА</h3>
-                                    <p>Эстетика, прочность и <br/> индивидуальность <br/> в каждом изделии.</p>
+                                    <h3 dangerouslySetInnerHTML={{__html:t("products.product_s2.item_5.title")}}></h3>
+                                    <p dangerouslySetInnerHTML={{__html:t("products.product_s2.item_5.desc")}}></p>
                                 </div>
                             </div>
                         </div>
@@ -136,16 +124,16 @@ const Products = () => {
                                 <img src={product_s2_6} alt=""/>
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
-                                    <h3>КОЖА, КОТОРАЯ РАССКАЗЫВАЕТ ИСТОРИЮ</h3>
-                                    <p>Воплощение <br/> вашей уникальности.</p>
+                                    <h3 dangerouslySetInnerHTML={{__html:t("products.product_s2.item_6.title")}}></h3>
+                                    <p dangerouslySetInnerHTML={{__html:t("products.product_s2.item_6.desc")}}></p>
                                 </div>
                             </div>
                             <div className="product_s2_box_left_item">
                                 <img src={product_s2_7} alt=""/>
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
-                                    <h3>ВОПЛОЩЕНИЕ ВАШИХ ИДЕЙ</h3>
-                                    <p>Кожевенное производство на заказ</p>
+                                    <h3 dangerouslySetInnerHTML={{__html:t("products.product_s2.item_7.title")}}></h3>
+                                    <p dangerouslySetInnerHTML={{__html:t("products.product_s2.item_7.desc")}}></p>
                                 </div>
                             </div>
                         </div>
@@ -154,16 +142,16 @@ const Products = () => {
                                 <img src={product_s2_8} alt=""/>
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
-                                    <h3>ПУТЬ КОЖИ</h3>
-                                    <p>Кожа в движении</p>
+                                    <h3 dangerouslySetInnerHTML={{__html:t("products.product_s2.item_8.title")}}></h3>
+                                    <p dangerouslySetInnerHTML={{__html:t("products.product_s2.item_8.desc")}}></p>
                                 </div>
                             </div>
                             <div className="product_s2_box_left_item">
                                 <img src={product_s2_9} alt=""/>
                                 <span className="product_s2_box_opacity"></span>
                                 <div className="product_s2_box_text">
-                                    <h3>КОЖА, КОТОРАЯ ВДОХНОВЛЯЕТ</h3>
-                                    <p>Тонкая работа мастеров для тех, кто ценит уникальность.</p>
+                                    <h3 dangerouslySetInnerHTML={{__html:t("products.product_s2.item_9.title")}}></h3>
+                                    <p dangerouslySetInnerHTML={{__html:t("products.product_s2.item_9.desc")}}></p>
                                 </div>
                             </div>
                         </div>
@@ -172,8 +160,8 @@ const Products = () => {
                         <img src={product_s2_10} alt=""/>
                         <span className="product_s2_box_opacity"></span>
                         <div className="product_s2_box_text">
-                            <h3>ДИЗАЙН И ДОЛГОВЕЧНОСТЬ</h3>
-                            <p>Мы создаем стиль, который останется с вами надолго.</p>
+                            <h3 dangerouslySetInnerHTML={{__html:t("products.product_s2.item_10.title")}}></h3>
+                            <p dangerouslySetInnerHTML={{__html:t("products.product_s2.item_10.desc")}}></p>
                         </div>
                     </div>
 
@@ -197,26 +185,15 @@ const Products = () => {
                                 <div className="carousel-item active">
                                     <img className="d-block w-100" src={product_slide_1} alt="First slide"/>
                                     <span className="slide_opacity"></span>
-                                    <div className="slide_text">
-                                        {/*<h1>ДИЗАЙН И ДОЛГОВЕЧНОСТЬ</h1>*/}
-                                        {/*<p>Мы создаем стиль, который останется с вами надолго.</p>*/}
-                                    </div>
                                 </div>
                                 <div className="carousel-item">
                                     <img className="d-block w-100" src={product_slide_2} alt="Second slide"/>
                                     <span className="slide_opacity"></span>
-                                    <div className="slide_text">
-                                        {/*<h1>ИСКУССТВО КОЖИ</h1>*/}
-                                        {/*<p>Создаем будущее из традиций и натуральных материалов.</p>*/}
-                                    </div>
+
                                 </div>
                                 <div className="carousel-item">
                                     <img className="d-block w-100" src={product_slide_3} alt="Third slide"/>
                                     <span className="slide_opacity"></span>
-                                    <div className="slide_text">
-                                        {/*<h1>ЭКОЛОГИЧНОЕ ПРОИЗВОДСТВО</h1>*/}
-                                        {/*<p>Кожа в гармонии с природой.</p>*/}
-                                    </div>
                                 </div>
                             </div>
 
@@ -235,9 +212,9 @@ const Products = () => {
                     </div>
                     <div className="col-lg-6" data-aos="fade-right">
                         <div className="product_s3_text">
-                            <h1>МЫ СТРЕМИМСЯ К СОВЕРШЕНСТВУ В КАЖДОМ ПРОЦЕССЕ</h1>
-                            <p> Каждый наш продукт будет служить вам долгие годы</p>
-                            <Link to={CONTACT}>Свяжитесь с нами</Link>
+                            <h1>{t("products.product_s3.title")}</h1>
+                            <p>{t("products.product_s3.subtitle")}</p>
+                            <Link to={CONTACT}>{t("products.product_s3.btn")}</Link>
                         </div>
                     </div>
                 </div>

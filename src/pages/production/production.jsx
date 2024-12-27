@@ -4,30 +4,32 @@ import {useParams} from "react-router-dom";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Autoplay} from "swiper/modules";
 import home_header_1 from "../../assets/img/150A1914.jpg";
-import home_header_2 from "../../assets/img/150A1967.jpg";
+import home_header_2 from "../../assets/img/home_s3_3.jpg";
 import home_s5_1 from "../../assets/img/150A0757.jpg";
 import home_s5_2 from "../../assets/img/150A0765.jpg";
 
 import home_s3_1 from "../../assets/img/natural-leather-animal-fur-texture.jpg"
 import home_s3_2 from "../../assets/img/150A1861.jpg"
-import home_s3_3 from "../../assets/img/150A1967.jpg"
+import home_s3_3 from "../../assets/img/home_s3_3.jpg"
 import home_s3_4 from "../../assets/img/150A1786.jpg"
 import home_s3_5 from "../../assets/img/150A1942.jpg"
 import home_s3_6 from "../../assets/img/150A1934.jpg"
+import {useTranslation} from "react-i18next";
 
 const Production = () => {
     const {id} = useParams();
+    const {t} = useTranslation();
     return (
         <div>
             <div className="Home">
                 <span className={"opacity_container"}></span>
                 <div className="home_box container">
-                    <h1 data-aos="fade-up">Производство</h1>
+                    <h1 data-aos="fade-up">{t("production.production_header_title")}</h1>
                 </div>
                 <Swiper
                     modules={[Autoplay]}
                     autoplay={{
-                        delay: 7000,
+                        delay: 2000,
                         disableOnInteraction: false,
                     }}
                     loop={true}
@@ -48,16 +50,10 @@ const Production = () => {
                             <div className="home_section6_text">
                                 <div
                                     className="home_section5_text_title justify-content-center align-items-center text-center">
-                                    <h1>БУДУЩЕЕ КОЖИ НАЧИНАЕТСЯ ЗДЕСЬ</h1>
+                                    <h1>{t("production.production_s2.title")}</h1>
                                     <span></span>
                                 </div>
-                                <p>Наше кожевенное производство использует инновационные технологии и современные
-                                    методы, чтобы производить продукцию высокого качества. Мы тщательно контролируем
-                                    каждый этап — от выбора материалов до изысканной отделки, оформления, стиля.
-                                    Применение передовых технологий позволяет нам эффективно работать с материалами,
-                                    совершенствовать производственные процессы и создавать уникальные продукты, которые
-                                    соответствуют самым строгим стандартам качества и помогают нашим клиентам.
-                                </p>
+                                <p>{t("production.production_s2.description")}</p>
                             </div>
                         </div>
                         <div className="col-lg-4" data-aos="fade-left">
@@ -71,12 +67,10 @@ const Production = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
-                            <h1>ОТКРОЙТЕ НОВЫЕ ГОРИЗОНТЫ В МИРЕ КОЖИ С HAMKOR NUR</h1>
+                            <h1>{t("production.production_s3.left")}</h1>
                         </div>
                         <div className="col-lg-6 production_s3_item">
-                            <p>
-                                Будьте на шаг впереди инноваций и качества
-                            </p>
+                            <p>{t("production.production_s3.right")}</p>
                         </div>
                     </div>
                 </div>
@@ -91,14 +85,10 @@ const Production = () => {
                         <div className="col-lg-6" data-aos="fade-left">
                             <div className="home_section5_text">
                                 <div className="home_section5_text_title">
-                                    <h1>ДОБЫЧА И ПОДГОТОВКА СЫРЬЯ</h1>
+                                    <h1>{t("production.production_s4.item_1.title")}</h1>
                                     <span></span>
                                 </div>
-                                <p>
-                                    Мы используем — шкуры крупного рогатого скота. Сначала шкура подвергается очистке и
-                                    удалению ненужных тканей и загрязнений, что является первым шагом в получении
-                                    качественного материала для дальнейшей обработки.
-                                </p>
+                                <p>{t("production.production_s4.item_1.info")}</p>
                             </div>
                         </div>
                     </div>
@@ -108,10 +98,10 @@ const Production = () => {
                         <div className="col-lg-6" data-aos="fade-left">
                             <div className="home_section5_text">
                                 <div className="home_section5_text_title">
-                                    <h1>ДУБЛЕНИЕ</h1>
+                                    <h1>{t("production.production_s4.item_2.title")}</h1>
                                     <span></span>
                                 </div>
-                                <p>На этом этапе кожа обрабатывается с помощью различных химических вещест в барабанах </p>
+                                <p>{t("production.production_s4.item_2.info")}</p>
                             </div>
                         </div>
                         <div className="col-lg-6" data-aos="fade-right">
@@ -127,12 +117,10 @@ const Production = () => {
                         <div className="col-lg-6" data-aos="fade-left">
                             <div className="home_section5_text">
                                 <div className="home_section5_text_title">
-                                    <h1>МЕХАНИЧЕСКАЯ ОБРАБОТКА</h1>
+                                    <h1>{t("production.production_s4.item_3.title")}</h1>
                                     <span></span>
                                 </div>
-                                <p>После дубления кожа подвергается механической обработке, включая растяжку,
-                                    выравнивание и прессование. Эти процедуры помогают улучшить текстуру кожи, придавая
-                                    ей необходимую мягкость, эластичность и прочность.</p>
+                                <p>{t("production.production_s4.item_3.info")}</p>
                             </div>
                         </div>
                     </div>
@@ -142,11 +130,10 @@ const Production = () => {
                         <div className="col-lg-6" data-aos="fade-left">
                             <div className="home_section5_text">
                                 <div className="home_section5_text_title">
-                                    <h1>КРАСКА </h1>
+                                    <h1>{t("production.production_s4.item_4.title")} </h1>
                                     <span></span>
                                 </div>
-                                <p>Для улучшения внешнего вида и долговечности кожи используются различные технологии
-                                    окрашивания. В зависимости от пожелания клиента.</p>
+                                <p>{t("production.production_s4.item_4.info")}</p>
                             </div>
                         </div>
                         <div className="col-lg-6" data-aos="fade-right">
@@ -162,13 +149,10 @@ const Production = () => {
                         <div className="col-lg-6" data-aos="fade-left">
                             <div className="home_section5_text">
                                 <div className="home_section5_text_title">
-                                    <h1>ОБРАБОТКА И ОТДЕЛКА</h1>
+                                    <h1>{t("production.production_s4.item_5.title")}</h1>
                                     <span></span>
                                 </div>
-                                <p>На этом этапе кожа проходит финишную обработку, которая может включать различные виды
-                                    отделки в зависимости от назначения и желаемых характеристик конечного продукта. Это
-                                    может быть тиснение, нанесение лакового покрытия, создание текстурных эффектов или
-                                    добавление защитных слоёв.</p>
+                                <p>{t("production.production_s4.item_5.info")}</p>
                             </div>
                         </div>
                     </div>
@@ -178,13 +162,10 @@ const Production = () => {
                         <div className="col-lg-6" data-aos="fade-left">
                             <div className="home_section5_text">
                                 <div className="home_section5_text_title">
-                                    <h1>КОНТРОЛЬ КАЧЕСТВА</h1>
+                                    <h1>{t("production.production_s4.item_6.title")}</h1>
                                     <span></span>
                                 </div>
-                                <p>Важной частью кожевенного производства является строгий контроль на каждом этапе. Мы
-                                    внимательно следим за качеством сырья, точностью выполнения всех технологических
-                                    операций и окончательной отделкой продукции, чтобы каждый клиент получил идеальный
-                                    продукт.</p>
+                                <p>{t("production.production_s4.item_6.info")}</p>
                             </div>
                         </div>
                         <div className="col-lg-6" data-aos="fade-right">

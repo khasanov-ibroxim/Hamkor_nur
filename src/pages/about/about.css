@@ -203,7 +203,9 @@
     font-weight: 700;
 }
 
-.about_s3_left a {
+.about_s3_left button {
+    outline: none;
+    border: none;
     color: #fff;
     background: #c89501;
     height: 40px;
@@ -220,7 +222,7 @@
     margin-bottom: 15px;
 }
 
-.about_s3_left a:hover {background: #ffbc00;
+.about_s3_left button:hover {background: #ffbc00;
 }
 
 .about_s3_right p {
