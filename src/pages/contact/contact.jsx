@@ -6,6 +6,8 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import {Autoplay} from "swiper/modules";
 import contactHeader1 from "../../assets/img/150A0784.jpg";
 import contactHeader2 from "../../assets/img/150A0785.jpg";
+import contactHeader3 from "../../assets/header/black-fine-leather-textured-background.jpg";
+import contactHeader4 from "../../assets/header/blue-creased-leather-textured-background.jpg";
 import {useTranslation} from "react-i18next";
 
 
@@ -109,6 +111,12 @@ const Contact = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <img src={contactHeader2} alt="Contact Header 2"/>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={contactHeader3} alt="Contact Header 2"/>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={contactHeader4} alt="Contact Header 2"/>
                     </SwiperSlide>
                 </Swiper>
             </section>

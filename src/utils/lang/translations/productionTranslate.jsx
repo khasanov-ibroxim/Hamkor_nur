@@ -18,15 +18,15 @@ const productionTranslate ={
           } ,
           item_2:{
               title:"ДУБЛЕНИЕ",
-              info:"На этом этапе кожа обрабатывается с помощью различных химических вещест в барабанах"
+              info:"Дубле́ние — технологический процесс,заключающийся в обработке голья дубящими веществами для придания ему пластичности, прочности, износоустойчивости и других свойств, необходимых при выработке кожаных изделий. Основной вид  дубления — хромовое."
           } ,
           item_3:{
               title:"МЕХАНИЧЕСКАЯ ОБРАБОТКА",
-              info:"После дубления кожа подвергается механической обработке, включая растяжку, выравнивание и прессование. Эти процедуры помогают улучшить текстуру кожи, придавая ей необходимую мягкость, эластичность и прочность."
+              info:"Для придания коже эластичности,мягкости и для получения некоторых видов кожи полуфабрикат подвергается механической обработке.Для этого в цехах установлены оборудования Итальянских производителей."
           } ,
           item_4:{
               title:"КРАСКА",
-              info:"Для улучшения внешнего вида и долговечности кожи используются различные технологии окрашивания. В зависимости от пожелания клиента."
+              info:"Кра́шение придача коже окраски, которая с практической точки зрения устойчива к воздействию света, трения и другим воздействиям.Процесс крашения производиться в технологических барабанах PAJUSCO."
           } ,
           item_5:{
               title:"ОБРАБОТКА И ОТДЕЛКА",
@@ -55,15 +55,15 @@ const productionTranslate ={
             } ,
             item_2:{
                 title:"TANNING",
-                info:"At this stage the leather is treated with various chemicals in drums."
+                info:"Tanning is a technological process that involves treating hides with tanning agents to give them plasticity, strength, wear resistance and other properties necessary for the production of leather goods.The main type of tanning is chrome."
             } ,
             item_3:{
                 title:"MECHANICAL PROCESSING",
-                info:"After tanning, the leather undergoes mechanical processing, including stretching, leveling and pressing. These procedures help improve the texture of the leather, giving it the necessary softness, elasticity and strength."
+                info:"To give the leather elasticity, softness and to obtain certain types of leather, the semi-finished product is subjected to mechanical processing. For this purpose, the workshops are equipped with equipment from Italian manufacturers."
             } ,
             item_4:{
                 title:"DYEING",
-                info:"To improve the appearance and durability of leather, various dyeing technologies are used. Depending on the client's wishes."
+                info:"Dyeing is the process of giving leather a colour that is practically resistant to light, friction and other influences. The dyeing process is carried out in PAJUSCO technological drums."
             } ,
             item_5:{
                 title:"PROCESSING AND FINISHING",

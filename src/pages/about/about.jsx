@@ -7,6 +7,8 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import {Autoplay} from "swiper/modules";
 import about_header_2 from "../../assets/img/150A1957.jpg";
 import about_header_3 from "../../assets/img/150A1976.jpg";
+import about_header_4 from "../../assets/header/150A1880.jpg";
+import about_header_5 from "../../assets/header/150A1927.jpg";
 import Globe from "../../component/globe/index.tsx";
 import {useTranslation} from "react-i18next";
 import {Image} from "antd";
@@ -51,6 +53,8 @@ const About = () => {
                 >
                     <SwiperSlide><img src={about_header_2} alt=""/></SwiperSlide>
                     <SwiperSlide><img src={about_header_3} alt=""/></SwiperSlide>
+                    <SwiperSlide><img src={about_header_4} alt=""/></SwiperSlide>
+                    <SwiperSlide><img src={about_header_5} alt=""/></SwiperSlide>
                 </Swiper>
             </section>
 

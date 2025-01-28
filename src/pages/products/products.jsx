@@ -19,8 +19,12 @@ import product_slide_3 from "../../assets/img/150A0878.jpg"
 import success from "../../assets/icon/success.png"
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Autoplay} from "swiper/modules";
+
 import home_header_1 from "../../assets/img/DGH_86.jpg";
-import home_header_2 from "../../assets/img/DGH_138.jpg";
+import home_header_2 from "../../assets/header/DGH_145.jpg";
+import home_header_3 from "../../assets/header/150A0757.jpg";
+import home_header_4 from "../../assets/header/150A0765.jpg";
+
 import {CONTACT} from "../../utils/const.jsx";
 import {Link} from "react-router-dom";
 import {useTranslation} from "react-i18next";
@@ -37,7 +41,7 @@ const Products = () => {
                 <Swiper
                     modules={[Autoplay]}
                     autoplay={{
-                        delay: 7000,
+                        delay: 2000,
                         disableOnInteraction: false,
                     }}
                     loop={true}
@@ -45,6 +49,8 @@ const Products = () => {
                 >
                     <SwiperSlide><img src={home_header_1} alt=""/></SwiperSlide>
                     <SwiperSlide><img src={home_header_2} alt=""/></SwiperSlide>
+                    <SwiperSlide><img src={home_header_3} alt=""/></SwiperSlide>
+                    <SwiperSlide><img src={home_header_4} alt=""/></SwiperSlide>
                 </Swiper>
             </div>
 
