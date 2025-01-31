@@ -3,8 +3,8 @@ import "./home.css";
 import home_s3_1 from "../../assets/img/natural-leather-animal-fur-texture.jpg"
 import home_s3_2 from "../../assets/img/150A1861.jpg"
 import home_s3_3 from "../../assets/img/home_s3_3.jpg"
-import home_s3_4 from "../../assets/img/150A1786.jpg"
-import home_s3_5 from "../../assets/img/150A1942.jpg"
+import home_s3_4 from "../../assets/update/150A7036.jpg"
+import home_s3_5 from "../../assets/update/photo_2025-01-25_11-32-35.jpg"
 import home_s3_6 from "../../assets/img/150A1934.jpg"
 
 import home_s4_1 from "../../assets/icon/koja.png"

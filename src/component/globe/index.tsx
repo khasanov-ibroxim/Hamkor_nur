@@ -112,6 +112,7 @@ const Globe: ComponentType<PropsWithChildren<Properties>> = () => {
                 if (!reference.current) return
 
                 reference.current.controls().enableZoom = false
+                reference.current.controls().enableRotate = false
                 reference.current.pointOfView(countriesWithAlt[0])
                 let index = 0
 

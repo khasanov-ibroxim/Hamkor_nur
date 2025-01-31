@@ -13,8 +13,8 @@ const productionTranslate ={
         },
         production_s4:{
           item_1:{
-              title:"ДОБЫЧА И ПОДГОТОВКА СЫРЬЯ",
-              info:"Мы используем — шкуры крупного рогатого скота. Сначала шкура подвергается очистке и удалению ненужных тканей и загрязнений, что является первым шагом в получении качественного материала для дальнейшей обработки."
+              title:"ПОДГОТОВКА СЫРЬЯ",
+              info:"Для получения высококачественной кожи мы используем шкуры крупнорогатого скота,которые поставляют наши надежные и многолетные партнеры."
           } ,
           item_2:{
               title:"ДУБЛЕНИЕ",
@@ -50,8 +50,8 @@ const productionTranslate ={
         },
         production_s4:{
             item_1:{
-                title:"RAW MATERIAL PRODUCTION AND PREPARATION",
-                info:"We use — cattle hides. First, the hide is cleaned and unnecessary tissues and dirt are removed, which is the first step in obtaining high-quality material for further processing."
+                title:"Preparation of raw materials",
+                info:"To obtain high-quality leather, we use cattle hides supplied by our reliable and long-term partners."
             } ,
             item_2:{
                 title:"TANNING",

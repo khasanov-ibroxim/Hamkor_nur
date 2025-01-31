@@ -19,7 +19,7 @@ const homeTranslations = {
         home_s3: {
             title: "Производство",
             btn: "Подробно",
-            item_title_1: "ДОБЫЧА И ПОДГОТОВКА СЫРЬЯ",
+            item_title_1: "ПОДГОТОВКА СЫРЬЯ",
             item_title_2: "КРАСКА",
             item_title_3: "ДУБЛЕНИЕ",
             item_title_4: "ОБРАБОТКА И ОТДЕЛКА",
@@ -85,7 +85,7 @@ const homeTranslations = {
         home_s3: {
             title: "Production",
             btn: "Learn more",
-            item_title_1: "EXTRACTION AND PREPARATION OF RAW MATERIALS",
+            item_title_1: "PREPARATION OF RAW MATERIALS",
             item_title_2: "Dyeing",
             item_title_3: "TANNING",
             item_title_4: "Processing and finishing",
