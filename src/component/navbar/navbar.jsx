@@ -44,11 +44,11 @@ const Navbar = ({onlyIcon = true  }) => {
                 </Link>
                 <div className={`nav_menu ${isMenuOpen ? 'open' : ''}`}>
                     <ul>
-                        <li className={isActive(HOME)}><Link to={HOME}>{t("navbar.home")}</Link></li>
-                        <li className={isActive(ABOUT)}><Link to={ABOUT}>{t("navbar.about")}</Link></li>
-                        <li className={isActive(PRODUCTS)}><Link to={PRODUCTS}>{t("navbar.products")}</Link></li>
-                        <li className={isActive(PRODUCTION)}><Link to={PRODUCTION}>{t("navbar.production")}</Link></li>
-                        <li className={isActive(CONTACT)}><Link to={CONTACT}>{t("navbar.contact")}</Link></li>
+                        <li className={isActive(HOME)} onClick={toggleMenu}><Link to={HOME}>{t("navbar.home")}</Link></li>
+                        <li className={isActive(ABOUT)} onClick={toggleMenu}><Link to={ABOUT}>{t("navbar.about")}</Link></li>
+                        <li className={isActive(PRODUCTS)} onClick={toggleMenu}><Link to={PRODUCTS}>{t("navbar.products")}</Link></li>
+                        <li className={isActive(PRODUCTION)} onClick={toggleMenu}><Link to={PRODUCTION}>{t("navbar.production")}</Link></li>
+                        <li className={isActive(CONTACT)} onClick={toggleMenu}><Link to={CONTACT}>{t("navbar.contact")}</Link></li>
 
                         <li className={"nav_dropdown"}>
                             <Dropdown

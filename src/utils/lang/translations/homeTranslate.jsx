@@ -20,7 +20,7 @@ const homeTranslations = {
             title: "Производство",
             btn: "Подробно",
             item_title_1: "ПОДГОТОВКА СЫРЬЯ",
-            item_title_2: "КРАСКА",
+            item_title_2: "Крашение",
             item_title_3: "ДУБЛЕНИЕ",
             item_title_4: "ОБРАБОТКА И ОТДЕЛКА",
             item_title_5: "МЕХАНИЧЕСКАЯ ОБРАБОТКА",

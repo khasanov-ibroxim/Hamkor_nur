@@ -126,6 +126,7 @@ nav {
 .navburger {
     display: none;
     font-size: 23px;
+    cursor: pointer;
 }
 
 .nav_shape {

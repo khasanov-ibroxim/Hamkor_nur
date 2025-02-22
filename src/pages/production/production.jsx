@@ -11,7 +11,7 @@ import home_s5_1 from "../../assets/img/150A0757.jpg";
 import home_s5_2 from "../../assets/img/150A0765.jpg";
 
 import home_s3_1 from "../../assets/img/natural-leather-animal-fur-texture.jpg"
-import home_s3_2 from "../../assets/img/150A1861.jpg"
+import home_s3_2 from "../../assets/update/IMG_20250204_162023_023.jpg"
 import home_s3_3 from "../../assets/img/home_s3_3.jpg"
 import home_s3_4 from "../../assets/update/150A7036.jpg"
 import home_s3_5 from "../../assets/update/photo_2025-01-25_11-32-35.jpg"
@@ -115,22 +115,6 @@ const Production = () => {
                 </section>
                 <section className="home_section5 overflow-hidden production_s4_item">
                     <div className="row justify-content-center align-items-center">
-                        <div className="col-lg-6" data-aos="fade-right">
-                            <img src={home_s3_5} alt=""/>
-                        </div>
-                        <div className="col-lg-6" data-aos="fade-left">
-                            <div className="home_section5_text">
-                                <div className="home_section5_text_title">
-                                    <h1>{t("production.production_s4.item_3.title")}</h1>
-                                    <span></span>
-                                </div>
-                                <p>{t("production.production_s4.item_3.info")}</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section className="home_section5 overflow-hidden production_s4_item">
-                    <div className="row justify-content-center align-items-center">
                         <div className="col-lg-6" data-aos="fade-left">
                             <div className="home_section5_text">
                                 <div className="home_section5_text_title">
@@ -145,6 +129,23 @@ const Production = () => {
                         </div>
                     </div>
                 </section>
+                <section className="home_section5 overflow-hidden production_s4_item">
+                    <div className="row justify-content-center align-items-center">
+                        <div className="col-lg-6" data-aos="fade-right">
+                            <img src={home_s3_5} alt=""/>
+                        </div>
+                        <div className="col-lg-6" data-aos="fade-left">
+                            <div className="home_section5_text">
+                                <div className="home_section5_text_title">
+                                    <h1>{t("production.production_s4.item_3.title")}</h1>
+                                    <span></span>
+                                </div>
+                                <p>{t("production.production_s4.item_3.info")}</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 <section className="home_section5 overflow-hidden production_s4_item">
                     <div className="row justify-content-center align-items-center">
                         <div className="col-lg-6" data-aos="fade-right">

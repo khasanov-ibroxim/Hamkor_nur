@@ -25,8 +25,8 @@ const productionTranslate ={
               info:"Для придания коже эластичности,мягкости и для получения некоторых видов кожи полуфабрикат подвергается механической обработке.Для этого в цехах установлены оборудования Итальянских производителей."
           } ,
           item_4:{
-              title:"КРАСКА",
-              info:"Кра́шение придача коже окраски, которая с практической точки зрения устойчива к воздействию света, трения и другим воздействиям.Процесс крашения производиться в технологических барабанах PAJUSCO."
+              title:"Крашение",
+              info:"Крашение придача коже окраски, которая с практической точки зрения устойчива к воздействию света, трения и другим воздействиям.Процесс крашения производиться в технологических барабанах."
           } ,
           item_5:{
               title:"ОБРАБОТКА И ОТДЕЛКА",
@@ -63,7 +63,7 @@ const productionTranslate ={
             } ,
             item_4:{
                 title:"DYEING",
-                info:"Dyeing is the process of giving leather a colour that is practically resistant to light, friction and other influences. The dyeing process is carried out in PAJUSCO technological drums."
+                info:"Dyeing is the process of giving leather a colour that is practically resistant to light, friction and other influences. The dyeing process is carried out in technological drums."
             } ,
             item_5:{
                 title:"PROCESSING AND FINISHING",

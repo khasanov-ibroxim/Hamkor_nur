@@ -20,7 +20,11 @@ const Contact = () => {
             name: t("contact.footer.oxangaron.name"),
             address_name: t("contact.footer.oxangaron.address_name"),
             address: t("contact.footer.oxangaron.address"),
-            telephone: "+998 70 201 00 23",
+            telephone: "+998 94 051 65 99",
+            social:{
+                telegram:"https://t.me/+998940516599",
+                whatsapp:"https://wa.me/998940516599"
+            },
             index: "110300",
             address_url: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2885.0402375058584!2d69.652333!3d40.925115000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDU1JzMwLjQiTiA2OcKwMzknMDguNCJF!5e1!3m2!1sru!2s!4v1732637783498!5m2!1sru!2s",
             map_url: "https://maps.google.com/maps?q=40.925115,69.652334&ll=40.925115,69.652334&z=16"
@@ -55,17 +59,6 @@ const Contact = () => {
             index: "110300",
             address_url: "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d5764.949939867095!2d71.677349!3d40.983841!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDU5JzAxLjgiTiA3McKwNDAnMzguNSJF!5e1!3m2!1sru!2s!4v1734643914454!5m2!1sru!2s",
             map_url: "https://maps.google.com/maps?q=40.983841,71.677349&ll=40.983841,71.677349&z=16"
-        },
-        {
-            id: 4,
-            name: t("contact.footer.rassiya.name"),
-            address_name: t("contact.footer.rassiya.address_name"),
-            telephone: "+7 918 554 60 46",
-            telephone2: "+7 961 425 05 65",
-            email: "hamkor.nur.russia@yandex.ru",
-            address: t("contact.footer.rassiya.address"),
-            address_url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2593.629692103994!2d39.693573799999996!3d47.2150488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e3b93d70c7a3d9%3A0x1c58014831b2f8b3!2z0YPQuy4g0JLQsNCz0YPQu9C10LLRgdC60L7Qs9C-LCA5LCDQoNC-0YHRgtC-0LIt0L3QsC3QlNC-0L3Rgywg0KDQvtGB0YLQvtCy0YHQutCw0Y8g0L7QsdC7Liwg0KDQvtGB0YHQuNGPLCAzNDQwMDE!5e1!3m2!1sru!2s!4v1733586083387!5m2!1sru!2s",
-            map_url: "https://maps.app.goo.gl/5jM5AcJn4pWrzqGA6"
         },
     ];
 
@@ -189,20 +182,32 @@ const Contact = () => {
                                 )}
                             </h6>
                             {selectedContact.index &&
-                            <h6 className="contact_address_address">
+                                <h6 className="contact_address_address">
 
-                                {t("contact.footer.index")}: {selectedContact.index}
+                                    {t("contact.footer.index")}: {selectedContact.index}
 
-                            </h6>}
+                                </h6>}
+
+
                             {selectedContact.email &&
-                            <a href={`mailto:${selectedContact.email}`} style={{
-                                textDecoration: "none",
-                                color:"white"
-                            }} className="contact_address_address">
+                                <a href={`mailto:${selectedContact.email}`} style={{
+                                    textDecoration: "none",
+                                    color: "white"
+                                }} className="contact_address_address">
 
-                                {t("contact.footer.email")}: {selectedContact.email}
+                                    {t("contact.footer.email")}: {selectedContact.email}
 
-                            </a>}
+                                </a>}
+
+                            {selectedContact.social &&
+                                <div className="footer_item_social mt-5">
+                                    {selectedContact.social.telegram && <a href={selectedContact.social.telegram}><i
+                                        className="fa-brands fa-telegram"></i></a>}
+                                    {selectedContact.social.whatsapp && <a href={selectedContact.social.whatsapp}><i
+                                        className="fa-brands fa-whatsapp"></i></a>}
+
+                                </div>
+                            }
                         </div>
                         <div className="col-lg-4 contact_address_map">
                             <iframe
